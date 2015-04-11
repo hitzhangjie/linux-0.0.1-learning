@@ -1,0 +1,736 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+$	tags	/^$0	keyboard.s	\/^	movl $0,(%ecx)$\/;"	v$/;"	m	struct:hd_struct	file:
+$	tags	/^a	console.c	\/^	register unsigned char a;$\/;"	l$/;"	m	struct:hd_struct	file:
+$	tags	/^bad_rw_intr	hd.c	\/^static void bad_rw_intr(void)$\/;"	f	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^bh	hd.c	\/^	struct buffer_head * bh;$\/;"	m	struct:hd_request	typeref:struct:hd_request::buffer_head	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^block	hd.c	\/^	unsigned int block,dev;$\/;"	l$/;"	m	struct:hd_struct	file:
+$	tags	/^bottom	console.c	\/^static unsigned long top=0,bottom=LINES;$\/;"	v	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^c	console.c	\/^	char c;$\/;"	l$/;"	m	struct:hd_struct	file:
+$	tags	/^callable	hd.c	\/^	static int callable = 1;$\/;"	l	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^cmd	hd.c	\/^	int cmd;$\/;"	m	struct:hd_request	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^columns	console.c	\/^static unsigned long lines=LINES,columns=COLUMNS;$\/;"	v	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^csi_at	console.c	\/^static void csi_at(int nr)$\/;"	f	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^cyl	hd.c	\/^	unsigned int sec,head,cyl;$\/;"	l$/;"	m	struct:hd_struct	file:
+$	tags	/^delete_char	console.c	\/^static void delete_char(void)$\/;"	f	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^do_hd	hd.c	\/^void (*do_hd)(void) = NULL;$\/;"	v$/;"	m	struct:hd_struct	file:
+$	tags	/^do_request	hd.c	\/^static void do_request(void);$\/;"	p	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^drive	hd.c	\/^	int i,drive;$\/;"	l$/;"	m	struct:hd_struct	file:
+$	tags	/^ecx	keyboard.s	\/^2:	movl %ecx,head(%edx)$\/;"	v$/;"	m	struct:hd_struct	file:
+$	tags	/^hd_interrupt	hd.c	\/^extern void hd_interrupt(void);$\/;"	p	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^hd_struct	hd.c	\/^static struct hd_struct {$\/;"	s	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^head	hd.c	\/^	int head;$\/;"	m	struct:hd_request	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^i	console.c	\/^	int i;$\/;"	l$/;"	m	struct:hd_struct	file:
+$	tags	/^i	hd.c	\/^	int i;$\/;"	l$/;"	m	struct:hd_struct	file:
+$	tags	/^i	hd.c	\/^	int i=inb(HD_STATUS);$\/;"	l$/;"	m	struct:hd_struct	file:
+$	tags	/^insert_char	console.c	\/^static void insert_char(void)$\/;"	f	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^npar	console.c	\/^static unsigned long npar,par[NPAR];$\/;"	v	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^nr_sects	hd.c	\/^	long nr_sects;$\/;"	m	struct:hd_struct	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^nsector	hd.c	\/^	int nsector;$\/;"	m	struct:hd_request	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^oldtop	console.c	\/^	int oldtop,oldbottom;$\/;"	l$/;"	m	struct:hd_struct	file:
+$	tags	/^origin	console.c	\/^static unsigned long origin=SCREEN_START;$\/;"	v	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^p	console.c	\/^	unsigned short * p = (unsigned short *) pos;$\/;"	l$/;"	m	struct:hd_struct	file:
+$	tags	/^pos	console.c	\/^static unsigned long pos;$\/;"	v	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^ques	console.c	\/^static unsigned long ques=0;$\/;"	v	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^r	hd.c	\/^	int i,r;$\/;"	l$/;"	m	struct:hd_struct	file:
+$	tags	/^read_intr	hd.c	\/^static void read_intr(void)$\/;"	f	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^req	hd.c	\/^	struct hd_request * req;$\/;"	l$/;"	m	struct:hd_struct	file:
+$	tags	/^request	hd.c	\/^} request[NR_REQUEST];$\/;"	v	typeref:struct:hd_request	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^reset_controller	hd.c	\/^static void reset_controller(void)$\/;"	f	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^reset_hd	hd.c	\/^static void reset_hd(int nr)$\/;"	f	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^retries	hd.c	\/^	int retries=1000;$\/;"	l$/;"	m	struct:hd_struct	file:
+$	tags	/^rs1_interrupt	serial.c	\/^extern void rs1_interrupt(void);$\/;"	p	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^rw_abs_hd	hd.c	\/^static void rw_abs_hd(int rw,unsigned int nr,unsigned int sec,unsigned int head,$\/;"	p	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^saved_x	console.c	\/^static int saved_x=0;$\/;"	v	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^sec	hd.c	\/^	unsigned int sec,head,cyl;$\/;"	l$/;"	m	struct:hd_struct	file:
+$	tags	/^this_request	hd.c	\/^static struct hd_request * this_request = NULL;$\/;"	v	typeref:struct:hd_request	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^tmp	console.c	\/^	unsigned short tmp,old=0x0720;$\/;"	l$/;"	m	struct:hd_struct	file:
+$	tags	/^tmp	hd.c	\/^	struct hd_request * tmp;$\/;"	l$/;"	m	struct:hd_struct	file:
+$	tags	/^y	console.c	\/^static unsigned long x,y;$\/;"	v	file:$/;"	m	struct:hd_struct	file:
+$	tags	/^year	mktime.c	\/^	int year;$\/;"	l$/;"	m	struct:hd_struct	file:
+$0	keyboard.s	/^	movb $0,e0$/;"	v
+$0	keyboard.s	/^	movl $0,(%ecx)$/;"	v
+$0	keyboard.s	/^1:	cmpb $0,e0$/;"	v
+$0	rs_io.s	/^	movl $0,(%ebx)$/;"	v
+$0	system_call.s	/^	cmpl $0,counter(%eax)		# counter$/;"	v
+$0	system_call.s	/^	cmpl $0,state(%eax)		# state$/;"	v
+$0x01	keyboard.s	/^	orb $0x01,mode$/;"	v
+$0x01	keyboard.s	/^cur2:	cmpb $0x01,e0		\/* e0 forces cursor movement *\/$/;"	v
+$0x02	keyboard.s	/^	orb $0x02,mode$/;"	v
+$0x02	keyboard.s	/^	testb $0x02,%al$/;"	v
+$0x02	keyboard.s	/^	testb $0x02,leds	\/* not num-lock forces cursor *\/$/;"	v
+$0x03	keyboard.s	/^	testb $0x03,mode	\/* shift forces cursor *\/$/;"	v
+$0x03	keyboard.s	/^	testb $0x03,mode$/;"	v
+$0x04	keyboard.s	/^ctrl:	movb $0x04,%al$/;"	v
+$0x04	keyboard.s	/^unctrl:	movb $0x04,%al$/;"	v
+$0x0c	keyboard.s	/^	testb $0x0c,mode$/;"	v
+$0x0c	keyboard.s	/^2:	testb $0x0c,mode		\/* ctrl *\/$/;"	v
+$0x10	asm.s	/^	movl $0x10,%eax$/;"	v
+$0x10	asm.s	/^	movl $0x10,%edx$/;"	v
+$0x10	keyboard.s	/^3:	testb $0x10,mode		\/* left alt *\/$/;"	v
+$0x10	keyboard.s	/^alt:	movb $0x10,%al$/;"	v
+$0x10	keyboard.s	/^unalt:	movb $0x10,%al$/;"	v
+$0x10	system_call.s	/^	movl $0x10,%edx		# set up ds,es to kernel space$/;"	v
+$0x1234	keyboard.s	/^	movw $0x1234,0x472	\/* don't do memory check *\/$/;"	v
+$0x17	system_call.s	/^	movl $0x17,%edx		# fs points to local data space$/;"	v
+$0x20	keyboard.s	/^	movb $0x20,%al$/;"	v
+$0x20	keyboard.s	/^	testb $0x20,mode		\/* alt-gr *\/$/;"	v
+$0x20	rs_io.s	/^end:	movb $0x20,%al$/;"	v
+$0x20$	tags	/^al	keyboard.s	\/^	outb %al,$0x20$\/;"	v$/;"	m	struct:hd_struct	file:
+$0x30	keyboard.s	/^	testb $0x30,mode$/;"	v
+$0x40	keyboard.s	/^	xorb $0x40,mode$/;"	v
+$0x47	keyboard.s	/^	subb $0x47,%al$/;"	v
+$0x4c	keyboard.s	/^	testb $0x4c,mode		\/* ctrl or caps *\/$/;"	v
+$0x5b1b	keyboard.s	/^	movw $0x5b1b,%ax$/;"	v
+$0x60	keyboard.s	/^	inb $0x60,%al$/;"	v
+$0x60$	tags	/^al	keyboard.s	\/^	outb %al,$0x60$\/;"	v$/;"	m	struct:hd_struct	file:
+$0x61	keyboard.s	/^e0_e1:	inb $0x61,%al$/;"	v
+$0x61$	tags	/^al	keyboard.s	\/^	outb %al,$0x61$\/;"	v$/;"	m	struct:hd_struct	file:
+$0x61$	tags	/^al	keyboard.s	\/^1:	outb %al,$0x61$\/;"	v$/;"	m	struct:hd_struct	file:
+$0x64	keyboard.s	/^1:	inb $0x64,%al$/;"	v
+$0x7F	keyboard.s	/^1:	andb $0x7F,%al$/;"	v
+$0x7f	keyboard.s	/^uncaps:	andb $0x7f,mode$/;"	v
+$0x80	keyboard.s	/^	orb $0x80,%al$/;"	v
+$0x80	keyboard.s	/^	orb $0x80,mode$/;"	v
+$0x80	keyboard.s	/^1:	orb $0x80,%al$/;"	v
+$0x80	keyboard.s	/^caps:	testb $0x80,mode$/;"	v
+$0xd	rs_io.s	/^1:	andb $0xd,%al		\/* disable transmit interrupt *\/$/;"	v
+$0xe0	keyboard.s	/^	cmpb $0xe0,%al$/;"	v
+$0xe1	keyboard.s	/^	cmpb $0xe1,%al$/;"	v
+$0xed	keyboard.s	/^	movb $0xed,%al		\/* set leds command *\/$/;"	v
+$0xfc	keyboard.s	/^	movb $0xfc,%al		\/* pulse reset and A20 low *\/$/;"	v
+$0xfd	keyboard.s	/^	andb $0xfd,mode$/;"	v
+$0xfe	keyboard.s	/^	andb $0xfe,mode$/;"	v
+$0xff	keyboard.s	/^4:	andl $0xff,%eax$/;"	v
+$1	keyboard.s	/^	xorb $1,leds$/;"	v
+$1	keyboard.s	/^minus:	cmpb $1,e0$/;"	v
+$1	keyboard.s	/^set_e0:	movb $1,e0$/;"	v
+$1	rs_io.s	/^	testb $1,%al$/;"	v
+$10	keyboard.s	/^	cmpb $10,%al$/;"	v
+$11	keyboard.s	/^	cmpb $11,%al$/;"	v
+$12	keyboard.s	/^	cmpb $12,%al$/;"	v
+$16	keyboard.s	/^ok_cur:	shll $16,%eax$/;"	v
+$18	keyboard.s	/^	subb $18,%al$/;"	v
+$2	asm.s	/^	bt $2,%eax			# EM (math emulation bit)$/;"	v
+$2	keyboard.s	/^num:	xorb $2,leds$/;"	v
+$2	keyboard.s	/^set_e1:	movb $2,e0$/;"	v
+$2	rs_io.s	/^	addl $2,%edx		\/* interrupt ident. reg *\/$/;"	v
+$2	rs_io.s	/^	subl $2,%edx$/;"	v
+$3	rs_io.s	/^	shrl $3,%edx$/;"	v
+$3	system_call.s	/^	testl $3,%ebx			# mode? If so - don't check signals$/;"	v
+$32	keyboard.s	/^	subb $32,%al$/;"	v
+$4	keyboard.s	/^	addl $4,%esp$/;"	v
+$4	keyboard.s	/^	cmpl $4,%ecx		\/* check that there is enough room *\/$/;"	v
+$4	keyboard.s	/^	xorb $4,leds$/;"	v
+$4	rs_io.s	/^	addl $4,%esp		# jump over _table_list entry$/;"	v
+$4	rs_io.s	/^	addl $4,%esp$/;"	v
+$6	rs_io.s	/^	cmpb $6,%al		\/* this shouldn't happen, but ... *\/$/;"	v
+$64	keyboard.s	/^	cmpb $64+32,%al$/;"	v
+$64	keyboard.s	/^	cmpb $64,%al$/;"	v
+$64	keyboard.s	/^	subb $64,%al$/;"	v
+$8	asm.s	/^	addl $8,%esp$/;"	v
+$8	keyboard.s	/^	shrl $8,%ebx$/;"	v
+$9	keyboard.s	/^	cmpb $9,%al$/;"	v
+$_table_list	rs_io.s	/^	subl $_table_list,%edx$/;"	v
+$startup	rs_io.s	/^	cmpl $startup,%ebx$/;"	v
+ALRMMASK	tty_io.c	10;"	d	file:
+COLUMNS	console.c	26;"	d	file:
+DAY	mktime.c	16;"	d	file:
+HOUR	mktime.c	15;"	d	file:
+IN_ORDER	hd.c	52;"	d	file:
+I_CRNL	tty_io.c	31;"	d	file:
+I_NLCR	tty_io.c	30;"	d	file:
+I_NOCR	tty_io.c	32;"	d	file:
+I_UCLC	tty_io.c	29;"	d	file:
+LATCH	sched.c	15;"	d	file:
+LEFT	vsprintf.c	32;"	d	file:
+LINES	console.c	25;"	d	file:
+L_CANON	tty_io.c	21;"	d	file:
+L_ECHO	tty_io.c	23;"	d	file:
+L_ECHOCTL	tty_io.c	26;"	d	file:
+L_ECHOE	tty_io.c	24;"	d	file:
+L_ECHOK	tty_io.c	25;"	d	file:
+L_ECHOKE	tty_io.c	27;"	d	file:
+L_ISIG	tty_io.c	22;"	d	file:
+MAX_ERRORS	hd.c	20;"	d	file:
+MAX_HD	hd.c	21;"	d	file:
+MINUTE	mktime.c	14;"	d	file:
+NPAR	console.c	27;"	d	file:
+NR_HD	hd.c	33;"	d	file:
+NR_REQUEST	hd.c	22;"	d	file:
+O_CRNL	tty_io.c	36;"	d	file:
+O_LCUC	tty_io.c	38;"	d	file:
+O_NLCR	tty_io.c	35;"	d	file:
+O_NLRET	tty_io.c	37;"	d	file:
+O_POST	tty_io.c	34;"	d	file:
+PLUS	vsprintf.c	30;"	d	file:
+RESPONSE	console.c	46;"	d	file:
+SCREEN_END	console.c	24;"	d	file:
+SCREEN_START	console.c	23;"	d	file:
+SIGN	vsprintf.c	29;"	d	file:
+SMALL	vsprintf.c	34;"	d	file:
+SPACE	vsprintf.c	31;"	d	file:
+SPECIAL	vsprintf.c	33;"	d	file:
+WAKEUP_CHARS	serial.c	22;"	d	file:
+YEAR	mktime.c	17;"	d	file:
+ZEROPAD	vsprintf.c	28;"	d	file:
+_I_FLAG	tty_io.c	18;"	d	file:
+_L_FLAG	tty_io.c	17;"	d	file:
+_O_FLAG	tty_io.c	19;"	d	file:
+_bounds	asm.s	/^.globl _divide_error,_debug,_nmi,_int3,_overflow,_bounds,_invalid_op$/;"	v
+_coprocessor_error	asm.s	/^.globl _general_protection,_coprocessor_error,_reserved$/;"	v
+_current	asm.s	/^	movl _current,%eax$/;"	v
+_current	system_call.s	/^	movl _current,%eax		# task[0] cannot have signals$/;"	v
+_current	system_call.s	/^	movl _current,%eax$/;"	v
+_debug	asm.s	/^.globl _divide_error,_debug,_nmi,_int3,_overflow,_bounds,_invalid_op$/;"	v
+_double_fault	asm.s	/^.globl _device_not_available,_double_fault,_coprocessor_segment_overrun$/;"	v
+_fs	traps.c	27;"	d	file:
+_int3	asm.s	/^.globl _divide_error,_debug,_nmi,_int3,_overflow,_bounds,_invalid_op$/;"	v
+_last_task_used_math	asm.s	/^	cmpl _last_task_used_math,%eax$/;"	v
+_nmi	asm.s	/^.globl _divide_error,_debug,_nmi,_int3,_overflow,_bounds,_invalid_op$/;"	v
+_overflow	asm.s	/^.globl _divide_error,_debug,_nmi,_int3,_overflow,_bounds,_invalid_op$/;"	v
+_segment_not_present	asm.s	/^.globl _invalid_TSS,_segment_not_present,_stack_segment$/;"	v
+_table_list	keyboard.s	/^	movl _table_list,%edx		# read-queue for console$/;"	v
+_task	system_call.s	/^	cmpl _task,%eax$/;"	v
+a	console.c	/^	register unsigned char a;$/;"	l
+a	sched.c	/^	long * a;$/;"	m	struct:__anon1	file:
+add_request	hd.c	/^static void add_request(struct hd_request * req)$/;"	f	file:
+al	keyboard.s	/^	addb %al,%al$/;"	v
+al	keyboard.s	/^	andb %al,mode$/;"	v
+al	keyboard.s	/^	orb %al,%al$/;"	v
+al	keyboard.s	/^	outb %al,$0x20$/;"	v
+al	keyboard.s	/^	outb %al,$0x60$/;"	v
+al	keyboard.s	/^	outb %al,$0x61$/;"	v
+al	keyboard.s	/^	outb %al,$0x64$/;"	v
+al	keyboard.s	/^	xorl %al,%al		\/* %eax is scan code *\/$/;"	v
+al	keyboard.s	/^1:	movb %al,buf(%edx,%ecx)$/;"	v
+al	keyboard.s	/^1:	outb %al,$0x61$/;"	v
+al	keyboard.s	/^2:	orb %al,mode$/;"	v
+al	rs_io.s	/^	movb %al,buf(%ecx,%ebx)$/;"	v
+al	rs_io.s	/^	outb %al,$0x20		\/* EOI *\/$/;"	v
+al	rs_io.s	/^	outb %al,%dx$/;"	v
+al$	tags	/^$0x04	keyboard.s	\/^unctrl:	movb $0x04,%al$\/;"	v$/;"	m	struct:hd_struct	file:
+al$	tags	/^$0x10	keyboard.s	\/^alt:	movb $0x10,%al$\/;"	v$/;"	m	struct:hd_struct	file:
+al$	tags	/^$0x47	keyboard.s	\/^	subb $0x47,%al$\/;"	v$/;"	m	struct:hd_struct	file:
+al$	tags	/^$0x60	keyboard.s	\/^	inb $0x60,%al$\/;"	v$/;"	m	struct:hd_struct	file:
+al$	tags	/^$0x61	keyboard.s	\/^e0_e1:	inb $0x61,%al$\/;"	v$/;"	m	struct:hd_struct	file:
+al$	tags	/^$0xe1	keyboard.s	\/^	cmpb $0xe1,%al$\/;"	v$/;"	m	struct:hd_struct	file:
+al$	tags	/^al	keyboard.s	\/^	addb %al,%al$\/;"	v$/;"	m	struct:hd_struct	file:
+alt_map	keyboard.s	/^	lea alt_map,%ebx$/;"	v
+args	printk.c	/^	va_list args;$/;"	l
+attr	console.c	/^static unsigned char attr=0x07;$/;"	v	file:
+ax	asm.s	/^	mov %ax,%ds$/;"	v
+ax	asm.s	/^	mov %ax,%es$/;"	v
+ax	asm.s	/^	mov %ax,%fs$/;"	v
+ax	keyboard.s	/^	mov %ax,%ds$/;"	v
+ax	keyboard.s	/^	mov %ax,%es$/;"	v
+b	sched.c	/^	short b;$/;"	m	struct:__anon1	file:
+b	tty_io.c	/^	char c, * b=buf;$/;"	l
+b	tty_io.c	/^	char c, *b=buf;$/;"	l
+bad_rw_intr	hd.c	/^static void bad_rw_intr(void)$/;"	f	file:
+bh	hd.c	/^	struct buffer_head * bh;$/;"	m	struct:hd_request	typeref:struct:hd_request::buffer_head	file:
+block	hd.c	/^	unsigned int block,dev;$/;"	l
+bottom	console.c	/^static unsigned long top=0,bottom=LINES;$/;"	v	file:
+bottom	tags	/^bottom	console.c	\/^static unsigned long top=0,bottom=LINES;$\/;"	v	file:$/;"	m	struct:hd_struct	file:
+bounds	traps.c	/^void bounds(void);$/;"	p	file:
+buf	printk.c	/^static char buf[1024];$/;"	v	file:
+c	console.c	/^	char c;$/;"	l
+c	sched.c	/^	int i,next,c;$/;"	l
+c	tty_io.c	/^	char c, * b=buf;$/;"	l
+c	tty_io.c	/^	char c, *b=buf;$/;"	l
+c	tty_io.c	/^	signed char c;$/;"	l
+c	vsprintf.c	/^	char c,sign,tmp[36];$/;"	l
+callable	hd.c	/^	static int callable = 1;$/;"	l	file:
+callable	tags	/^callable	hd.c	\/^	static int callable = 1;$\/;"	l	file:$/;"	m	struct:hd_struct	file:
+caps	keyboard.s	/^	.long alt,do_self,caps,func		\/* 38-3B alt sp caps f1 *\/$/;"	v
+cmd	hd.c	/^	int cmd;$/;"	m	struct:hd_request	file:
+code_limit	fork.c	/^	unsigned long old_code_base,new_code_base,code_limit;$/;"	l
+columns	console.c	/^static unsigned long lines=LINES,columns=COLUMNS;$/;"	v	file:
+columns	tags	/^columns	console.c	\/^static unsigned long lines=LINES,columns=COLUMNS;$\/;"	v	file:$/;"	m	struct:hd_struct	file:
+con_init	console.c	/^void con_init(void)$/;"	f
+con_write	console.c	/^void con_write(struct tty_struct * tty)$/;"	f
+controller_ready	hd.c	/^static int controller_ready(void)$/;"	f	file:
+coprocessor_error	traps.c	/^void coprocessor_error(void);$/;"	p	file:
+coprocessor_segment_overrun	traps.c	/^void coprocessor_segment_overrun(void);$/;"	p	file:
+copy_mem	fork.c	/^int copy_mem(int nr,struct task_struct * p)$/;"	f
+copy_process	fork.c	/^int copy_process(int nr,long ebp,long edi,long esi,long gs,long none,$/;"	f
+copy_to_cooked	tty_io.c	/^void copy_to_cooked(struct tty_struct * tty)$/;"	f
+cr	console.c	/^static void cr(void)$/;"	f	file:
+cr0	asm.s	/^	movl %cr0,%eax$/;"	v
+cr_flag	tty_io.c	/^	static cr_flag=0;$/;"	l	file:
+csi_J	console.c	/^static void csi_J(int par)$/;"	f	file:
+csi_K	console.c	/^static void csi_K(int par)$/;"	f	file:
+csi_L	console.c	/^static void csi_L(int nr)$/;"	f	file:
+csi_M	console.c	/^static void csi_M(int nr)$/;"	f	file:
+csi_P	console.c	/^static void csi_P(int nr)$/;"	f	file:
+csi_at	console.c	/^static void csi_at(int nr)$/;"	f	file:
+csi_m	console.c	/^void csi_m(void)$/;"	f
+ctl	hd.c	/^	int head,sect,cyl,wpcom,lzone,ctl;$/;"	m	struct:hd_i_struct	file:
+ctrl	keyboard.s	/^	.long do_self,ctrl,do_self,do_self	\/* 1C-1F enter ctrl a s *\/$/;"	v
+current	sched.c	/^struct task_struct *current = &(init_task.task), *last_task_used_math = NULL;$/;"	v	typeref:struct:task_struct
+cursor	keyboard.s	/^	.long cursor,cursor,cursor,cursor	\/* 50-53 dn pgdn ins del *\/$/;"	v
+cursor	keyboard.s	/^	.long cursor,cursor,do_self,cursor	\/* 48-4B up pgup - left *\/$/;"	v
+cursor	keyboard.s	/^	.long cursor,cursor,do_self,cursor	\/* 4C-4F n5 right + end *\/$/;"	v
+cyl	hd.c	/^	int cyl;$/;"	m	struct:hd_request	file:
+cyl	hd.c	/^	int head,sect,cyl,wpcom,lzone,ctl;$/;"	m	struct:hd_i_struct	file:
+cyl	hd.c	/^	unsigned int sec,head,cyl;$/;"	l
+cyl	tags	/^cyl	hd.c	\/^	unsigned int sec,head,cyl;$\/;"	l$/;"	m	struct:hd_struct	file:
+cyl	tags	/^sec	hd.c	\/^	unsigned int sec,head,cyl;$\/;"	l$/;"	m	struct:hd_struct	file:
+data_limit	fork.c	/^	unsigned long old_data_base,new_data_base,data_limit;$/;"	l
+debug	traps.c	/^void debug(void);$/;"	p	file:
+del	console.c	/^static void del(void)$/;"	f	file:
+delete_char	console.c	/^static void delete_char(void)$/;"	f	file:
+delete_line	console.c	/^static void delete_line(void)$/;"	f	file:
+dev	hd.c	/^	unsigned int block,dev;$/;"	l
+dev	tags	/^block	hd.c	\/^	unsigned int block,dev;$\/;"	l$/;"	m	struct:hd_struct	file:
+device_not_available	traps.c	/^void device_not_available(void);$/;"	p	file:
+die	traps.c	/^static void die(char * str,long esp_ptr,long nr)$/;"	f	file:
+digits	vsprintf.c	/^	const char *digits="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";$/;"	l
+divide_error	traps.c	/^void divide_error(void);$/;"	p	file:
+do_bounds	traps.c	/^void do_bounds(long esp, long error_code)$/;"	f
+do_coprocessor_error	traps.c	/^void do_coprocessor_error(long esp, long error_code)$/;"	f
+do_coprocessor_segment_overrun	traps.c	/^void do_coprocessor_segment_overrun(long esp, long error_code)$/;"	f
+do_debug	traps.c	/^void do_debug(long esp, long error_code)$/;"	f
+do_device_not_available	traps.c	/^void do_device_not_available(long esp, long error_code)$/;"	f
+do_div	vsprintf.c	36;"	d	file:
+do_divide_error	traps.c	/^void do_divide_error(long esp, long error_code)$/;"	f
+do_double_fault	traps.c	/^void do_double_fault(long esp, long error_code)$/;"	f
+do_exit	exit.c	/^int do_exit(long code)$/;"	f
+do_exit	traps.c	/^int do_exit(long code);$/;"	p	file:
+do_general_protection	traps.c	/^void do_general_protection(long esp, long error_code)$/;"	f
+do_hd	hd.c	/^void (*do_hd)(void) = NULL;$/;"	v
+do_int3	traps.c	/^void do_int3(long * esp, long error_code,$/;"	f
+do_invalid_TSS	traps.c	/^void do_invalid_TSS(long esp,long error_code)$/;"	f
+do_invalid_op	traps.c	/^void do_invalid_op(long esp, long error_code)$/;"	f
+do_kill	exit.c	/^void do_kill(long pid,long sig,int priv)$/;"	f
+do_nmi	traps.c	/^void do_nmi(long esp, long error_code)$/;"	f
+do_overflow	traps.c	/^void do_overflow(long esp, long error_code)$/;"	f
+do_request	hd.c	/^static void do_request(void)$/;"	f	file:
+do_request	hd.c	/^static void do_request(void);$/;"	p	file:
+do_reserved	traps.c	/^void do_reserved(long esp, long error_code)$/;"	f
+do_segment_not_present	traps.c	/^void do_segment_not_present(long esp,long error_code)$/;"	f
+do_self	keyboard.s	/^	.long alt,do_self,caps,func		\/* 38-3B alt sp caps f1 *\/$/;"	v
+do_self	keyboard.s	/^	.long cursor,cursor,do_self,cursor	\/* 48-4B up pgup - left *\/$/;"	v
+do_self	keyboard.s	/^	.long cursor,cursor,do_self,cursor	\/* 4C-4F n5 right + end *\/$/;"	v
+do_self	keyboard.s	/^	.long do_self,ctrl,do_self,do_self	\/* 1C-1F enter ctrl a s *\/$/;"	v
+do_self	keyboard.s	/^	.long do_self,do_self,do_self,do_self	\/* 04-07 3 4 5 6 *\/$/;"	v
+do_self	keyboard.s	/^	.long do_self,do_self,do_self,do_self	\/* 08-0B 7 8 9 0 *\/$/;"	v
+do_self	keyboard.s	/^	.long do_self,do_self,do_self,do_self	\/* 0C-0F + ' bs tab *\/$/;"	v
+do_self	keyboard.s	/^	.long do_self,do_self,do_self,do_self	\/* 10-13 q w e r *\/$/;"	v
+do_self	keyboard.s	/^	.long do_self,do_self,do_self,do_self	\/* 14-17 t y u i *\/$/;"	v
+do_self	keyboard.s	/^	.long do_self,do_self,do_self,do_self	\/* 18-1B o p } ^ *\/$/;"	v
+do_self	keyboard.s	/^	.long do_self,do_self,do_self,do_self	\/* 20-23 d f g h *\/$/;"	v
+do_self	keyboard.s	/^	.long do_self,do_self,do_self,do_self	\/* 24-27 j k l | *\/$/;"	v
+do_self	keyboard.s	/^	.long do_self,do_self,do_self,do_self	\/* 2C-2F z x c v *\/$/;"	v
+do_self	keyboard.s	/^	.long do_self,do_self,do_self,do_self	\/* 30-33 b n m , *\/$/;"	v
+do_self	keyboard.s	/^	.long do_self,do_self,lshift,do_self	\/* 28-2B { para lshift , *\/$/;"	v
+do_self	keyboard.s	/^	.long none,do_self,do_self,do_self	\/* 00-03 s0 esc 1 2 *\/$/;"	v
+do_self	keyboard.s	/^	.long none,none,do_self,func		\/* 54-57 sysreq ? < f11 *\/$/;"	v
+do_stack_segment	traps.c	/^void do_stack_segment(long esp,long error_code)$/;"	f
+do_timer	sched.c	/^void do_timer(long cpl)$/;"	f
+do_tty_interrupt	tty_io.c	/^void do_tty_interrupt(int tty)$/;"	f
+double_fault	traps.c	/^void double_fault(void);$/;"	p	file:
+drive	hd.c	/^	int i,drive;$/;"	l
+drive	tags	/^drive	hd.c	\/^	int i,drive;$\/;"	l$/;"	m	struct:hd_struct	file:
+drive_busy	hd.c	/^static int drive_busy(void)$/;"	f	file:
+ds	system_call.s	/^	movl $0x10,%edx		# set up ds,es to kernel space$/;"	v
+dx	asm.s	/^	mov %dx,%ds$/;"	v
+dx	asm.s	/^	mov %dx,%es$/;"	v
+dx	asm.s	/^	mov %dx,%fs$/;"	v
+dx	rs_io.s	/^	inb %dx,%al$/;"	v
+dx	system_call.s	/^	mov %dx,%ds$/;"	v
+dx	system_call.s	/^	mov %dx,%es$/;"	v
+dx	system_call.s	/^	mov %dx,%fs$/;"	v
+e0$	tags	/^$0	keyboard.s	\/^1:	cmpb $0,e0$\/;"	v$/;"	m	struct:hd_struct	file:
+e0$	tags	/^$1	keyboard.s	\/^set_e0:	movb $1,e0$\/;"	v$/;"	m	struct:hd_struct	file:
+eax	asm.s	/^	xchgl %eax,(%esp)$/;"	v
+eax	asm.s	/^	xchgl %eax,4(%esp)		# error code <-> %eax$/;"	v
+eax	rs_io.s	/^	xorl %eax,%eax$/;"	v
+eax$	tags	/^ebx	keyboard.s	\/^	shrdl $8,%ebx,%eax$\/;"	v$/;"	m	struct:hd_struct	file:
+ebx	keyboard.s	/^	shrdl $8,%ebx,%eax$/;"	v
+ebx	keyboard.s	/^	xorl %ebx,%ebx$/;"	v
+ebx	rs_io.s	/^	movl %ebx,head(%ecx)$/;"	v
+ebx	rs_io.s	/^	movl %ebx,tail(%ecx)$/;"	v
+ebx	rs_io.s	/^	testl %ebx,%ebx			# is there any?$/;"	v
+ebx	system_call.s	/^	bsfl %ebx,%ecx			# %ecx is signal nr, return if none$/;"	v
+ebx	system_call.s	/^	pushl %ecx		# push %ebx,%ecx,%edx as parameters$/;"	v
+ebx	tags	/^ebx	keyboard.s	\/^	shrdl $8,%ebx,%eax$\/;"	v$/;"	m	struct:hd_struct	file:
+ecx	keyboard.s	/^	testl %ecx,%ecx$/;"	v
+ecx	keyboard.s	/^2:	movl %ecx,head(%edx)$/;"	v
+ecx	rs_io.s	/^	movl %ecx,%edx$/;"	v
+ecx	system_call.s	/^	pushl %ecx		# push %ebx,%ecx,%edx as parameters$/;"	v
+errors	hd.c	/^	int errors;$/;"	m	struct:hd_request	file:
+es$	tags	/^ax	keyboard.s	\/^	mov %ax,%es$\/;"	v$/;"	m	struct:hd_struct	file:
+esp	traps.c	/^	long * esp = (long *) esp_ptr;$/;"	l
+f	fork.c	/^	struct file *f;$/;"	l
+field_width	vsprintf.c	/^	int field_width;	\/* width of output field *\/$/;"	l
+file	tags	/^COLUMNS	console.c	26;"	d	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^DAY	mktime.c	16;"	d	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^IN_ORDER	hd.c	52;"	d	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^MINUTE	mktime.c	14;"	d	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^SCREEN_END	console.c	24;"	d	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^WAKEUP_CHARS	serial.c	22;"	d	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^add_request	hd.c	\/^static void add_request(struct hd_request * req)$\/;"	f	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^attr	console.c	\/^static unsigned char attr=0x07;$\/;"	v	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^controller_ready	hd.c	\/^static int controller_ready(void)$\/;"	f	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^cr	console.c	\/^static void cr(void)$\/;"	f	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^csi_J	console.c	\/^static void csi_J(int par)$\/;"	f	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^csi_L	console.c	\/^static void csi_L(int nr)$\/;"	f	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^csi_M	console.c	\/^static void csi_M(int nr)$\/;"	f	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^delete_line	console.c	\/^static void delete_line(void)$\/;"	f	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^gotoxy	console.c	\/^static inline void gotoxy(unsigned int new_x,unsigned int new_y)$\/;"	f	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^hd_init	hd.c	\/^void hd_init(void);$\/;"	p	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^hd_out	hd.c	\/^static void hd_out(unsigned int drive,unsigned int nsect,unsigned int sect,$\/;"	f	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^inb	serial.c	\/^	(void)inb(port);	\\\/* read data port to reset things (?) *\\\/$\/;"	p	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^insert_line	console.c	\/^static void insert_line(void)$\/;"	f	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^keyboard_interrupt	console.c	\/^extern void keyboard_interrupt(void);$\/;"	p	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^lf	console.c	\/^static void lf(void)$\/;"	f	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^lines	console.c	\/^static unsigned long lines=LINES,columns=COLUMNS;$\/;"	v	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^month	mktime.c	\/^static int month[12] = {$\/;"	v	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^par	console.c	\/^static unsigned long npar,par[NPAR];$\/;"	v	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^port_write	hd.c	71;"	d	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^reset_controller	hd.c	\/^static void reset_controller(void);$\/;"	p	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^restore_cur	console.c	\/^static void restore_cur(void)$\/;"	f	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^rs2_interrupt	serial.c	\/^extern void rs2_interrupt(void);$\/;"	p	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^saved_y	console.c	\/^static int saved_y=0;$\/;"	v	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^scr_end	console.c	\/^static unsigned long scr_end=SCREEN_START+LINES*COLUMNS*2;$\/;"	v	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^scrup	console.c	\/^static void scrup(void)$\/;"	f	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^set_cursor	console.c	\/^static inline void set_cursor(void)$\/;"	f	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^sorting	hd.c	\/^static int sorting=0;$\/;"	v	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^state	console.c	\/^static unsigned long state=0;$\/;"	v	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^top	console.c	\/^static unsigned long top=0,bottom=LINES;$\/;"	v	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^unlock_buffer	hd.c	\/^static inline void unlock_buffer(struct buffer_head * bh)$\/;"	f	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^win_result	hd.c	\/^static int win_result(void)$\/;"	f	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^write_intr	hd.c	\/^static void write_intr(void)$\/;"	f	file:$/;"	m	struct:hd_struct	file:
+file	tags	/^x	console.c	\/^static unsigned long x,y;$\/;"	v	file:$/;"	m	struct:hd_struct	file:
+find_empty_process	fork.c	/^int find_empty_process(void)$/;"	f
+flag	exit.c	/^	int flag=0;$/;"	l
+flag	tty_io.c	/^	int minimum,time,flag=0;$/;"	l
+flags	vsprintf.c	/^	int flags;		\/* flags to number() *\/$/;"	l
+format	tags	/^!_TAG_FILE_FORMAT	2	\/extended format; --format=1 will not append ;" to lines\/$/;"	v
+func	keyboard.s	/^	.long func,func,func,func		\/* 3C-3F f2 f3 f4 f5 *\/$/;"	v
+func	keyboard.s	/^	.long func,func,func,func		\/* 40-43 f6 f7 f8 f9 *\/$/;"	v
+general_protection	traps.c	/^void general_protection(void);$/;"	p	file:
+get_seg_byte	traps.c	15;"	d	file:
+get_seg_long	traps.c	21;"	d	file:
+gotoxy	console.c	/^static inline void gotoxy(unsigned int new_x,unsigned int new_y)$/;"	f	file:
+hd	hd.c	/^	int hd;		\/* -1 if no request *\/$/;"	m	struct:hd_request	file:
+hd	hd.c	/^} hd[5*MAX_HD]={{0,0},};$/;"	v	typeref:struct:hd_struct	file:
+hd_i_struct	hd.c	/^static struct hd_i_struct{$/;"	s	file:
+hd_info	hd.c	/^	} hd_info[]= { HD_TYPE };$/;"	v	typeref:struct:hd_i_struct	file:
+hd_init	hd.c	/^void hd_init(void)$/;"	f
+hd_init	hd.c	/^void hd_init(void);$/;"	p	file:
+hd_interrupt	hd.c	/^extern void hd_interrupt(void);$/;"	p	file:
+hd_out	hd.c	/^static void hd_out(unsigned int drive,unsigned int nsect,unsigned int sect,$/;"	f	file:
+hd_request	hd.c	/^static struct hd_request {$/;"	s	file:
+hd_struct	hd.c	/^static struct hd_struct {$/;"	s	file:
+hd_struct	tags	/^hd_struct	hd.c	\/^static struct hd_struct {$\/;"	s	file:$/;"	s	file:
+head	hd.c	/^	int head,sect,cyl,wpcom,lzone,ctl;$/;"	m	struct:hd_i_struct	file:
+head	hd.c	/^	int head;$/;"	m	struct:hd_request	file:
+head	hd.c	/^	unsigned int sec,head,cyl;$/;"	l
+head	tags	/^cyl	hd.c	\/^	unsigned int sec,head,cyl;$\/;"	l$/;"	m	struct:hd_struct	file:
+head	tags	/^rw_abs_hd	hd.c	\/^static void rw_abs_hd(int rw,unsigned int nr,unsigned int sec,unsigned int head,$\/;"	p	file:$/;"	m	struct:hd_struct	file:
+head	tags	/^sec	hd.c	\/^	unsigned int sec,head,cyl;$\/;"	l$/;"	m	struct:hd_struct	file:
+i	console.c	/^	int i;$/;"	l
+i	console.c	/^	int i=x;$/;"	l
+i	exit.c	/^	int i;$/;"	l
+i	fork.c	/^	int i;$/;"	l
+i	hd.c	/^	int	i;$/;"	l
+i	hd.c	/^	int i = this_request->hd;$/;"	l
+i	hd.c	/^	int i,drive;$/;"	l
+i	hd.c	/^	int i,r;$/;"	l
+i	hd.c	/^	int i;$/;"	l
+i	hd.c	/^	int i=inb(HD_STATUS);$/;"	l
+i	hd.c	/^	unsigned int i;$/;"	l
+i	printk.c	/^	int i;$/;"	l
+i	sched.c	/^	int i,next,c;$/;"	l
+i	sched.c	/^	int i;$/;"	l
+i	sched.c	/^	long i;$/;"	l
+i	sys.c	/^	int i;$/;"	l
+i	traps.c	/^	int i;$/;"	l
+i	tty_io.c	/^	int i;$/;"	l
+i	vsprintf.c	/^	int i;$/;"	l
+i	vsprintf.c	/^	int i=0;$/;"	l
+inb	serial.c	/^	(void)inb(port);	\/* read data port to reset things (?) *\/$/;"	p	file:
+init	serial.c	/^static void init(int port)$/;"	f	file:
+init_task	sched.c	/^static union task_union init_task = {INIT_TASK,};$/;"	v	typeref:union:task_union	file:
+insert_char	console.c	/^static void insert_char(void)$/;"	f	file:
+insert_line	console.c	/^static void insert_line(void)$/;"	f	file:
+int3	traps.c	/^void int3(void);$/;"	p	file:
+interruptible_sleep_on	sched.c	/^void interruptible_sleep_on(struct task_struct **p)$/;"	f
+invalid_TSS	traps.c	/^void invalid_TSS(void);$/;"	p	file:
+invalid_op	traps.c	/^void invalid_op(void);$/;"	p	file:
+ip	vsprintf.c	/^	int *ip;$/;"	l
+is_digit	vsprintf.c	10;"	d	file:
+jiffies	sched.c	/^long volatile jiffies=0;$/;"	v
+kernel_mktime	mktime.c	/^long kernel_mktime(struct tm * tm)$/;"	f
+key_map	keyboard.s	/^	lea key_map,%ebx$/;"	v
+keyboard_interrupt	console.c	/^extern void keyboard_interrupt(void);$/;"	p	file:
+last_pid	fork.c	/^long last_pid=0;$/;"	v
+last_task_used_math	sched.c	/^struct task_struct *current = &(init_task.task), *last_task_used_math = NULL;$/;"	v	typeref:struct:
+leds	keyboard.s	/^	movb leds,%al$/;"	v
+leds$	tags	/^$1	keyboard.s	\/^	xorb $1,leds$\/;"	v$/;"	m	struct:hd_struct	file:
+leds$	tags	/^$4	keyboard.s	\/^	xorb $4,leds$\/;"	v$/;"	m	struct:hd_struct	file:
+len	vsprintf.c	/^	int len;$/;"	l
+lf	console.c	/^static void lf(void)$/;"	f	file:
+lines	console.c	/^static unsigned long lines=LINES,columns=COLUMNS;$/;"	v	file:
+lock_buffer	hd.c	/^static inline void lock_buffer(struct buffer_head * bh)$/;"	f	file:
+lshift	keyboard.s	/^	.long do_self,do_self,lshift,do_self	\/* 28-2B { para lshift , *\/$/;"	v
+lzone	hd.c	/^	int head,sect,cyl,wpcom,lzone,ctl;$/;"	m	struct:hd_i_struct	file:
+math_state_restore	sched.c	/^void math_state_restore()$/;"	f
+mem_use	sched.c	/^extern void mem_use(void);$/;"	p	file:
+minimum	tty_io.c	/^	int minimum,time,flag=0;$/;"	l
+minus	keyboard.s	/^	.long do_self,minus,rshift,do_self	\/* 34-37 . - rshift * *\/$/;"	v
+mode$	tags	/^$0x0c	keyboard.s	\/^	testb $0x0c,mode$\/;"	v$/;"	m	struct:hd_struct	file:
+mode$	tags	/^$0x80	keyboard.s	\/^	orb $0x80,mode$\/;"	v$/;"	m	struct:hd_struct	file:
+mode$	tags	/^$0xfd	keyboard.s	\/^	andb $0xfd,mode$\/;"	v$/;"	m	struct:hd_struct	file:
+mode$	tags	/^$0xfe	keyboard.s	\/^	andb $0xfe,mode$\/;"	v$/;"	m	struct:hd_struct	file:
+mode$	tags	/^al	keyboard.s	\/^	andb %al,mode$\/;"	v$/;"	m	struct:hd_struct	file:
+month	mktime.c	/^static int month[12] = {$/;"	v	file:
+new_code_base	fork.c	/^	unsigned long old_code_base,new_code_base,code_limit;$/;"	l
+new_data_base	fork.c	/^	unsigned long old_data_base,new_data_base,data_limit;$/;"	l
+next	hd.c	/^	struct hd_request * next;$/;"	m	struct:hd_request	typeref:struct:hd_request::hd_request	file:
+next	sched.c	/^	int i,next,c;$/;"	l
+nmi	traps.c	/^void nmi(void);$/;"	p	file:
+none	keyboard.s	/^	.long func,none,none,none		\/* 58-5B f12 ? ? ? *\/$/;"	v
+none	keyboard.s	/^	.long none,none,do_self,func		\/* 54-57 sysreq ? < f11 *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* 5C-5F ? ? ? ? *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* 60-63 ? ? ? ? *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* 64-67 ? ? ? ? *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* 68-6B ? ? ? ? *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* 6C-6F ? ? ? ? *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* 70-73 ? ? ? ? *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* 74-77 ? ? ? ? *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* 78-7B ? ? ? ? *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* 7C-7F ? ? ? ? *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* 80-83 ? br br br *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* 84-87 br br br br *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* 88-8B br br br br *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* 8C-8F br br br br *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* 90-93 br br br br *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* 94-97 br br br br *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* 98-9B br br br br *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* A0-A3 br br br br *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* A4-A7 br br br br *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* AC-AF br br br br *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* B0-B3 br br br br *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* BC-BF br br br br *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* C0-C3 br br br br *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* C4-C7 br br br br *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* C8-CB br br br br *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* CC-CF br br br br *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* D0-D3 br br br br *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* D4-D7 br br br br *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* D8-DB br ? ? ? *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* DC-DF ? ? ? ? *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* E0-E3 e0 e1 ? ? *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* E4-E7 ? ? ? ? *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* E8-EB ? ? ? ? *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* EC-EF ? ? ? ? *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* F0-F3 ? ? ? ? *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* F4-F7 ? ? ? ? *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* F8-FB ? ? ? ? *\/$/;"	v
+none	keyboard.s	/^	.long none,none,none,none		\/* FC-FF ? ? ? ? *\/$/;"	v
+none	keyboard.s	/^	.long none,none,unlshift,none		\/* A8-AB br br unlshift br *\/$/;"	v
+none	keyboard.s	/^	.long none,none,unrshift,none		\/* B4-B7 br br unrshift br *\/$/;"	v
+none	keyboard.s	/^	.long none,unctrl,none,none		\/* 9C-9F br unctrl br br *\/$/;"	v
+none	keyboard.s	/^	.long unalt,none,uncaps,none		\/* B8-BB unalt br uncaps br *\/$/;"	v
+npar	console.c	/^static unsigned long npar,par[NPAR];$/;"	v	file:
+nr	console.c	/^	int nr;$/;"	l
+nr	system_call.s	/^	bsfl %ebx,%ecx			# %ecx is signal nr, return if none$/;"	v
+nr	tags	/^rw_abs_hd	hd.c	\/^static void rw_abs_hd(int rw,unsigned int nr,unsigned int sec,unsigned int head,$\/;"	p	file:$/;"	m	struct:hd_struct	file:
+nr_sects	hd.c	/^	long nr_sects;$/;"	m	struct:hd_struct	file:
+nsector	hd.c	/^	int nsector;$/;"	m	struct:hd_request	file:
+num	keyboard.s	/^	.long func,num,scroll,cursor		\/* 44-47 f10 num scr home *\/$/;"	v
+number	vsprintf.c	/^static char * number(char * str, int num, int base, int size, int precision$/;"	f	file:
+old	console.c	/^	unsigned short tmp,old=0x0720;$/;"	l
+old	sys.c	/^	int old = current->umask;$/;"	l
+old	tags	/^tmp	console.c	\/^	unsigned short tmp,old=0x0720;$\/;"	l$/;"	m	struct:hd_struct	file:
+old_code_base	fork.c	/^	unsigned long old_code_base,new_code_base,code_limit;$/;"	l
+old_data_base	fork.c	/^	unsigned long old_data_base,new_data_base,data_limit;$/;"	l
+oldalarm	tty_io.c	/^	long oldalarm;$/;"	l
+oldbottom	console.c	/^	int oldtop,oldbottom;$/;"	l
+oldbottom	tags	/^oldtop	console.c	\/^	int oldtop,oldbottom;$\/;"	l$/;"	m	struct:hd_struct	file:
+oldtop	console.c	/^	int oldtop,oldbottom;$/;"	l
+origin	console.c	/^static unsigned long origin=SCREEN_START;$/;"	v	file:
+overflow	traps.c	/^void overflow(void);$/;"	p	file:
+p	console.c	/^	char * p = RESPONSE;$/;"	l
+p	console.c	/^	unsigned short * p = (unsigned short *) pos;$/;"	l
+p	exit.c	/^	struct task_struct ** p;$/;"	l
+p	exit.c	/^	struct task_struct **p = NR_TASKS + task;$/;"	l
+p	fork.c	/^	struct task_struct *p;$/;"	l
+p	hd.c	/^	struct partition *p;$/;"	l
+p	sched.c	/^	struct desc_struct * p;$/;"	l
+p	sched.c	/^	struct task_struct ** p;$/;"	l
+page_exception	traps.c	/^void page_exception(void);$/;"	p	file:
+page_fault	traps.c	/^void page_fault(void);$/;"	p	file:
+panic	panic.c	/^volatile void panic(const char * s)$/;"	f
+par	console.c	/^static unsigned long npar,par[NPAR];$/;"	v	file:
+par	tags	/^npar	console.c	\/^static unsigned long npar,par[NPAR];$\/;"	v	file:$/;"	m	struct:hd_struct	file:
+port_read	hd.c	68;"	d	file:
+port_write	hd.c	71;"	d	file:
+pos	console.c	/^static unsigned long pos;$/;"	v	file:
+precision	vsprintf.c	/^	int precision;		\/* min. # of digits for integers; max$/;"	l
+printk	printk.c	/^int printk(const char *fmt, ...)$/;"	f
+qualifier	vsprintf.c	/^	int qualifier;		\/* 'h', 'l', or 'L' for integer fields *\/$/;"	l
+ques	console.c	/^static unsigned long ques=0;$/;"	v	file:
+r	hd.c	/^	int i,r;$/;"	l
+r	tags	/^r	hd.c	\/^	int i,r;$\/;"	l$/;"	m	struct:hd_struct	file:
+read_char	rs_io.s	/^	.long modem_status,write_char,read_char,line_status$/;"	v
+read_intr	hd.c	/^static void read_intr(void)$/;"	f	file:
+release	exit.c	/^void release(struct task_struct * p)$/;"	f
+req	hd.c	/^	struct hd_request * req;$/;"	l
+request	hd.c	/^} request[NR_REQUEST];$/;"	v	typeref:struct:hd_request	file:
+res	mktime.c	/^	long res;$/;"	l
+reserved	traps.c	/^void reserved(void);$/;"	p	file:
+reset_controller	hd.c	/^static void reset_controller(void)$/;"	f	file:
+reset_controller	hd.c	/^static void reset_controller(void);$/;"	p	file:
+reset_hd	hd.c	/^static void reset_hd(int nr)$/;"	f	file:
+respond	console.c	/^static void respond(struct tty_struct * tty)$/;"	f	file:
+restore_cur	console.c	/^static void restore_cur(void)$/;"	f	file:
+retries	hd.c	/^	int retries=1000;$/;"	l
+ri	console.c	/^static void ri(void)$/;"	f	file:
+rs1_interrupt	serial.c	/^extern void rs1_interrupt(void);$/;"	p	file:
+rs2_interrupt	serial.c	/^extern void rs2_interrupt(void);$/;"	p	file:
+rs_init	serial.c	/^void rs_init(void)$/;"	f
+rs_write	serial.c	/^void rs_write(struct tty_struct * tty)$/;"	f
+rshift	keyboard.s	/^	.long do_self,minus,rshift,do_self	\/* 34-37 . - rshift * *\/$/;"	v
+rw_abs_hd	hd.c	/^static void rw_abs_hd(int rw,unsigned int nr,unsigned int sec,unsigned int head,$/;"	p	file:
+rw_abs_hd	hd.c	/^void rw_abs_hd(int rw,unsigned int nr,unsigned int sec,unsigned int head,$/;"	f
+rw_hd	hd.c	/^void rw_hd(int rw, struct buffer_head * bh)$/;"	f
+s	vsprintf.c	/^	char *s;$/;"	l
+save_cur	console.c	/^static void save_cur(void)$/;"	f	file:
+saved_x	console.c	/^static int saved_x=0;$/;"	v	file:
+saved_y	console.c	/^static int saved_y=0;$/;"	v	file:
+sched_init	sched.c	/^void sched_init(void)$/;"	f
+schedule	sched.c	/^void schedule(void)$/;"	f
+scr_end	console.c	/^static unsigned long scr_end=SCREEN_START+LINES*COLUMNS*2;$/;"	v	file:
+scrdown	console.c	/^static void scrdown(void)$/;"	f	file:
+scroll	keyboard.s	/^	.long func,num,scroll,cursor		\/* 44-47 f10 num scr home *\/$/;"	v
+scrup	console.c	/^static void scrup(void)$/;"	f	file:
+sec	hd.c	/^	unsigned int sec,head,cyl;$/;"	l
+sec	tags	/^rw_abs_hd	hd.c	\/^static void rw_abs_hd(int rw,unsigned int nr,unsigned int sec,unsigned int head,$\/;"	p	file:$/;"	m	struct:hd_struct	file:
+sect	hd.c	/^	int head,sect,cyl,wpcom,lzone,ctl;$/;"	m	struct:hd_i_struct	file:
+sector	hd.c	/^	int sector;$/;"	m	struct:hd_request	file:
+segment	system_call.s	/^	cmpw $0x17,OLDSS(%esp)		# was stack segment = 0x17 ?$/;"	v
+segment_not_present	traps.c	/^void segment_not_present(void);$/;"	p	file:
+send_sig	exit.c	/^static inline void send_sig(long sig,struct task_struct * p,int priv)$/;"	f	file:
+set_cursor	console.c	/^static inline void set_cursor(void)$/;"	f	file:
+set_origin	console.c	/^static inline void set_origin(void)$/;"	f	file:
+shift_map	keyboard.s	/^	lea shift_map,%ebx$/;"	v
+sign	vsprintf.c	/^	char c,sign,tmp[36];$/;"	l
+size	rs_io.s	/^size	= 1024				\/* must be power of two !$/;"	v
+skip_atoi	vsprintf.c	/^static int skip_atoi(const char **s)$/;"	f	file:
+sleep_if_empty	tty_io.c	/^static void sleep_if_empty(struct tty_queue * queue)$/;"	f	file:
+sleep_if_full	tty_io.c	/^static void sleep_if_full(struct tty_queue * queue)$/;"	f	file:
+sleep_on	sched.c	/^void sleep_on(struct task_struct **p)$/;"	f
+sorting	hd.c	/^static int sorting=0;$/;"	v	file:
+stack	sched.c	/^	char stack[PAGE_SIZE];$/;"	m	union:task_union	file:
+stack_segment	traps.c	/^void stack_segment(void);$/;"	p	file:
+stack_start	sched.c	/^	} stack_start = { & user_stack [PAGE_SIZE>>2] , 0x10 };$/;"	v	typeref:struct:__anon1
+start	fork.c	/^	unsigned long start;$/;"	l
+start_sect	hd.c	/^	long start_sect;$/;"	m	struct:hd_struct	file:
+startup_time	sched.c	/^long startup_time=0;$/;"	v
+state	console.c	/^static unsigned long state=0;$/;"	v	file:
+str	vsprintf.c	/^	char * str;$/;"	l
+sys_acct	sys.c	/^int sys_acct()$/;"	f
+sys_alarm	sched.c	/^int sys_alarm(long seconds)$/;"	f
+sys_break	sys.c	/^int sys_break()$/;"	f
+sys_brk	sys.c	/^int sys_brk(unsigned long end_data_seg)$/;"	f
+sys_close	exit.c	/^int sys_close(int fd);$/;"	p	file:
+sys_exit	exit.c	/^int sys_exit(int error_code)$/;"	f
+sys_ftime	sys.c	/^int sys_ftime()$/;"	f
+sys_getegid	sched.c	/^int sys_getegid(void)$/;"	f
+sys_geteuid	sched.c	/^int sys_geteuid(void)$/;"	f
+sys_getgid	sched.c	/^int sys_getgid(void)$/;"	f
+sys_getpgrp	sys.c	/^int sys_getpgrp(void)$/;"	f
+sys_getpid	sched.c	/^int sys_getpid(void)$/;"	f
+sys_getppid	sched.c	/^int sys_getppid(void)$/;"	f
+sys_getuid	sched.c	/^int sys_getuid(void)$/;"	f
+sys_gtty	sys.c	/^int sys_gtty()$/;"	f
+sys_kill	exit.c	/^int sys_kill(int pid,int sig)$/;"	f
+sys_lock	sys.c	/^int sys_lock()$/;"	f
+sys_mknod	sys.c	/^int sys_mknod()$/;"	f
+sys_mount	sys.c	/^int sys_mount()$/;"	f
+sys_mpx	sys.c	/^int sys_mpx()$/;"	f
+sys_nice	sched.c	/^int sys_nice(long increment)$/;"	f
+sys_pause	exit.c	/^int sys_pause(void);$/;"	p	file:
+sys_pause	sched.c	/^int sys_pause(void)$/;"	f
+sys_phys	sys.c	/^int sys_phys()$/;"	f
+sys_prof	sys.c	/^int sys_prof()$/;"	f
+sys_ptrace	sys.c	/^int sys_ptrace()$/;"	f
+sys_rename	sys.c	/^int sys_rename()$/;"	f
+sys_setgid	sys.c	/^int sys_setgid(int gid)$/;"	f
+sys_setpgid	sys.c	/^int sys_setpgid(int pid, int pgid)$/;"	f
+sys_setsid	sys.c	/^int sys_setsid(void)$/;"	f
+sys_setuid	sys.c	/^int sys_setuid(int uid)$/;"	f
+sys_setup	hd.c	/^int sys_setup(void)$/;"	f
+sys_signal	sched.c	/^int sys_signal(long signal,long addr,long restorer)$/;"	f
+sys_stime	sys.c	/^int sys_stime(long * tptr)$/;"	f
+sys_stty	sys.c	/^int sys_stty()$/;"	f
+sys_time	sys.c	/^int sys_time(long * tloc)$/;"	f
+sys_times	sys.c	/^int sys_times(struct tms * tbuf)$/;"	f
+sys_ulimit	sys.c	/^int sys_ulimit()$/;"	f
+sys_umask	sys.c	/^int sys_umask(int mask)$/;"	f
+sys_umount	sys.c	/^int sys_umount()$/;"	f
+sys_uname	sys.c	/^int sys_uname(struct utsname * name)$/;"	f
+sys_ustat	sys.c	/^int sys_ustat(int dev,struct ustat * ubuf)$/;"	f
+sys_waitpid	exit.c	/^int sys_waitpid(pid_t pid,int * stat_addr, int options)$/;"	f
+system_call	sched.c	/^extern int system_call(void);$/;"	p	file:
+table_list	tty_io.c	/^struct tty_queue * table_list[]={$/;"	v	typeref:struct:tty_queue
+task	sched.c	/^	struct task_struct task;$/;"	m	union:task_union	typeref:struct:task_union::task_struct	file:
+task	sched.c	/^struct task_struct * task[NR_TASKS] = {&(init_task.task), };$/;"	v	typeref:struct:task_struct
+task_union	sched.c	/^union task_union {$/;"	u	file:
+this_request	hd.c	/^static struct hd_request * this_request = NULL;$/;"	v	typeref:struct:hd_request	file:
+thisname	sys.c	/^	static struct utsname thisname = {$/;"	l	file:
+time	tty_io.c	/^	int minimum,time,flag=0;$/;"	l
+timer_interrupt	sched.c	/^extern int timer_interrupt(void);$/;"	p	file:
+tmp	console.c	/^	unsigned short tmp,old=0x0720;$/;"	l
+tmp	hd.c	/^	struct hd_request * tmp;$/;"	l
+tmp	sched.c	/^	struct task_struct *tmp;$/;"	l
+tmp	vsprintf.c	/^	char c,sign,tmp[36];$/;"	l
+top	console.c	/^static unsigned long top=0,bottom=LINES;$/;"	v	file:
+tr	traps.c	/^	int tr;$/;"	l
+trap_init	traps.c	/^void trap_init(void)$/;"	f
+tty	tty_io.c	/^	struct tty_struct * tty;$/;"	l
+tty_init	tty_io.c	/^void tty_init(void)$/;"	f
+tty_intr	tty_io.c	/^void tty_intr(struct tty_struct * tty, int signal)$/;"	f
+tty_read	tty_io.c	/^int tty_read(unsigned channel, char * buf, int nr)$/;"	f
+tty_table	tty_io.c	/^struct tty_struct tty_table[] = {$/;"	v	typeref:struct:tty_struct
+tty_write	tty_io.c	/^int tty_write(unsigned channel, char * buf, int nr)$/;"	f
+typeref	tags	/^hd	hd.c	\/^} hd[5*MAX_HD]={{0,0},};$\/;"	v	typeref:struct:hd_struct	file:$/;"	m	struct:hd_struct	file:
+typeref	tags	/^wait_for_request	hd.c	\/^static struct task_struct * wait_for_request=NULL;$\/;"	v	typeref:struct:task_struct	file:$/;"	m	struct:hd_struct	file:
+uncaps	keyboard.s	/^	.long unalt,none,uncaps,none		\/* B8-BB unalt br uncaps br *\/$/;"	v
+unctrl	keyboard.s	/^	.long none,unctrl,none,none		\/* 9C-9F br unctrl br br *\/$/;"	v
+unexpected_hd_interrupt	hd.c	/^void unexpected_hd_interrupt(void)$/;"	f
+unlock_buffer	hd.c	/^static inline void unlock_buffer(struct buffer_head * bh)$/;"	f	file:
+unlshift	keyboard.s	/^	.long none,none,unlshift,none		\/* A8-AB br br unlshift br *\/$/;"	v
+unrshift	keyboard.s	/^	.long none,none,unrshift,none		\/* B4-B7 br br unrshift br *\/$/;"	v
+user_stack	sched.c	/^long user_stack [ PAGE_SIZE>>2 ] ;$/;"	v
+verify_area	fork.c	/^void verify_area(void * addr,int size)$/;"	f
+vsprintf	vsprintf.c	/^int vsprintf(char *buf, const char *fmt, va_list args)$/;"	f
+wait_for_request	hd.c	/^static struct task_struct * wait_for_request=NULL;$/;"	v	typeref:struct:task_struct	file:
+wait_on_buffer	hd.c	/^static inline void wait_on_buffer(struct buffer_head * bh)$/;"	f	file:
+wake_up	sched.c	/^void wake_up(struct task_struct **p)$/;"	f
+win_result	hd.c	/^static int win_result(void)$/;"	f	file:
+wpcom	hd.c	/^	int head,sect,cyl,wpcom,lzone,ctl;$/;"	m	struct:hd_i_struct	file:
+write	tty_io.c	/^					tty->write(tty);$/;"	p	file:
+write	tty_io.c	/^			tty->write(tty);$/;"	p	file:
+write	tty_io.c	/^		tty->write(tty);$/;"	p	file:
+write_char	rs_io.s	/^	.long modem_status,write_char,read_char,line_status$/;"	v
+write_intr	hd.c	/^static void write_intr(void)$/;"	f	file:
+write_verify	fork.c	/^extern void write_verify(unsigned long address);$/;"	p	file:
+x	console.c	/^static unsigned long x,y;$/;"	v	file:
+x425b5b1b	keyboard.s	/^	.long 0x415b5b1b,0x425b5b1b,0x435b5b1b,0x445b5b1b$/;"	v
+x435b5b1b	keyboard.s	/^	.long 0x415b5b1b,0x425b5b1b,0x435b5b1b,0x445b5b1b$/;"	v
+x465b5b1b	keyboard.s	/^	.long 0x455b5b1b,0x465b5b1b,0x475b5b1b,0x485b5b1b$/;"	v
+x475b5b1b	keyboard.s	/^	.long 0x455b5b1b,0x465b5b1b,0x475b5b1b,0x485b5b1b$/;"	v
+x4a5b5b1b	keyboard.s	/^	.long 0x495b5b1b,0x4a5b5b1b,0x4b5b5b1b,0x4c5b5b1b$/;"	v
+x4b5b5b1b	keyboard.s	/^	.long 0x495b5b1b,0x4a5b5b1b,0x4b5b5b1b,0x4c5b5b1b$/;"	v
+y	console.c	/^static unsigned long x,y;$/;"	v	file:
+y	tags	/^y	console.c	\/^static unsigned long x,y;$\/;"	v	file:$/;"	m	struct:hd_struct	file:
+year	mktime.c	/^	int year;$/;"	l

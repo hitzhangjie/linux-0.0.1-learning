@@ -1,0 +1,1883 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABRT_ERR	include/linux/hdreg.h	81;"	d
+ACC_MODE	fs/namei.c	11;"	d	file:
+ALRMMASK	kernel/tty_io.c	10;"	d	file:
+AR	fs/Makefile	/^AR	=gar$/;"	m
+AR	kernel/Makefile	/^AR	=gar$/;"	m
+AR	lib/Makefile	/^AR	=gar$/;"	m
+AR	mm/Makefile	/^AR	=gar$/;"	m
+ARCHIVES	Makefile	/^ARCHIVES=kernel\/kernel.o mm\/mm.o fs\/fs.o$/;"	m
+AS	Makefile	/^AS	=gas$/;"	m
+AS	fs/Makefile	/^AS	=gas$/;"	m
+AS	kernel/Makefile	/^AS	=gas$/;"	m
+AS	lib/Makefile	/^AS	=gas$/;"	m
+AS	mm/Makefile	/^AS	=gas$/;"	m
+AS86	Makefile	/^AS86	=as -0 -a$/;"	m
+B0	include/termios.h	180;"	d
+B110	include/termios.h	183;"	d
+B1200	include/termios.h	189;"	d
+B134	include/termios.h	184;"	d
+B150	include/termios.h	185;"	d
+B1800	include/termios.h	190;"	d
+B19200	include/termios.h	194;"	d
+B200	include/termios.h	186;"	d
+B2400	include/termios.h	191;"	d
+B300	include/termios.h	187;"	d
+B38400	include/termios.h	195;"	d
+B4800	include/termios.h	192;"	d
+B50	include/termios.h	181;"	d
+B600	include/termios.h	188;"	d
+B75	include/termios.h	182;"	d
+B9600	include/termios.h	193;"	d
+BBD_ERR	include/linux/hdreg.h	84;"	d
+BCD_TO_BIN	init/main.c	101;"	d	file:
+BLOCK_SIZE	include/linux/fs.h	46;"	d
+BOOTSEG	boot/boot.s	/^BOOTSEG = 0x07c0$/;"	d
+BRKINT	include/termios.h	117;"	d
+BS0	include/termios.h	162;"	d
+BS1	include/termios.h	163;"	d
+BSDLY	include/termios.h	161;"	d
+BUFFER_END	include/const.h	4;"	d
+BUFFER_END	include/linux/config.h	22;"	d
+BUFFER_END	include/linux/config.h	24;"	d
+BUSY_STAT	include/linux/hdreg.h	65;"	d
+CBAUD	include/termios.h	179;"	d
+CC	Makefile	/^CC	=gcc$/;"	m
+CC	fs/Makefile	/^CC	=gcc$/;"	m
+CC	kernel/Makefile	/^CC	=gcc$/;"	m
+CC	lib/Makefile	/^CC	=gcc$/;"	m
+CC	mm/Makefile	/^CC	=gcc$/;"	m
+CC86	Makefile	/^CC86	=cc -0$/;"	m
+CFLAGS	Makefile	/^CFLAGS	=-Wall -O -fstrength-reduce -fomit-frame-pointer -fcombine-regs$/;"	m
+CFLAGS	fs/Makefile	/^CFLAGS	=-Wall -O -fstrength-reduce -fcombine-regs -fomit-frame-pointer \\$/;"	m
+CFLAGS	kernel/Makefile	/^CFLAGS	=-Wall -O -fstrength-reduce -fomit-frame-pointer -fcombine-regs \\$/;"	m
+CFLAGS	lib/Makefile	/^CFLAGS	=-Wall -O -fstrength-reduce -fomit-frame-pointer -fcombine-regs \\$/;"	m
+CFLAGS	mm/Makefile	/^CFLAGS	=-O -Wall -fstrength-reduce -fcombine-regs -fomit-frame-pointer \\$/;"	m
+CHARS	include/linux/tty.h	100;"	d
+CIBAUD	include/termios.h	207;"	d
+CLOCAL	include/termios.h	206;"	d
+CLOCKS_PER_SEC	include/time.h	14;"	d
+CMOS_READ	init/main.c	96;"	d	file:
+COLUMNS	kernel/console.c	26;"	d	file:
+CPARENB	include/termios.h	203;"	d
+CPARODD	include/termios.h	204;"	d
+CPP	Makefile	/^CPP	=gcc -E -nostdinc -Iinclude$/;"	m
+CPP	fs/Makefile	/^CPP	=gcc -E -nostdinc -I..\/include$/;"	m
+CPP	kernel/Makefile	/^CPP	=gcc -E -nostdinc -I..\/include$/;"	m
+CPP	lib/Makefile	/^CPP	=gcc -E -nostdinc -I..\/include$/;"	m
+CPP	mm/Makefile	/^CPP	=gcc -E -nostdinc -I..\/include$/;"	m
+CR0	include/termios.h	151;"	d
+CR1	include/termios.h	152;"	d
+CR2	include/termios.h	153;"	d
+CR3	include/termios.h	154;"	d
+CRDLY	include/termios.h	150;"	d
+CREAD	include/termios.h	202;"	d
+CRTSCTS	include/termios.h	208;"	d
+CS	kernel/system_call.s	/^CS		= 0x20$/;"	d
+CS5	include/termios.h	197;"	d
+CS6	include/termios.h	198;"	d
+CS7	include/termios.h	199;"	d
+CS8	include/termios.h	200;"	d
+CSIZE	include/termios.h	196;"	d
+CSTOPB	include/termios.h	201;"	d
+DAY	kernel/mktime.c	16;"	d	file:
+DEC	include/linux/tty.h	56;"	d
+DIR_ENTRIES_PER_BLOCK	include/linux/fs.h	52;"	d
+DRQ_STAT	include/linux/hdreg.h	61;"	d
+DS	kernel/system_call.s	/^DS		= 0x18$/;"	d
+E2BIG	include/errno.h	26;"	d
+EACCES	include/errno.h	32;"	d
+EAGAIN	include/errno.h	30;"	d
+EAX	kernel/system_call.s	/^EAX		= 0x00$/;"	d
+EBADF	include/errno.h	28;"	d
+EBUSY	include/errno.h	35;"	d
+EBX	kernel/system_call.s	/^EBX		= 0x04$/;"	d
+ECC_ERR	include/linux/hdreg.h	83;"	d
+ECC_STAT	include/linux/hdreg.h	60;"	d
+ECHILD	include/errno.h	29;"	d
+ECHO	include/termios.h	221;"	d
+ECHOCTL	include/termios.h	227;"	d
+ECHOE	include/termios.h	222;"	d
+ECHOK	include/termios.h	223;"	d
+ECHOKE	include/termios.h	229;"	d
+ECHONL	include/termios.h	224;"	d
+ECHOPRT	include/termios.h	228;"	d
+ECX	kernel/system_call.s	/^ECX		= 0x08$/;"	d
+EDEADLK	include/errno.h	54;"	d
+EDOM	include/errno.h	52;"	d
+EDX	kernel/system_call.s	/^EDX		= 0x0C$/;"	d
+EEXIST	include/errno.h	36;"	d
+EFAULT	include/errno.h	33;"	d
+EFBIG	include/errno.h	46;"	d
+EFLAGS	kernel/system_call.s	/^EFLAGS		= 0x24$/;"	d
+EINTR	include/errno.h	23;"	d
+EINVAL	include/errno.h	41;"	d
+EIO	include/errno.h	24;"	d
+EIP	kernel/system_call.s	/^EIP		= 0x1C$/;"	d
+EISDIR	include/errno.h	40;"	d
+EMFILE	include/errno.h	43;"	d
+EMLINK	include/errno.h	50;"	d
+EMPTY	include/linux/tty.h	96;"	d
+ENAMETOOLONG	include/errno.h	55;"	d
+ENDSEG	boot/boot.s	/^ENDSEG	= SYSSEG + SYSSIZE$/;"	d
+ENFILE	include/errno.h	42;"	d
+ENODEV	include/errno.h	38;"	d
+ENOENT	include/errno.h	21;"	d
+ENOEXEC	include/errno.h	27;"	d
+ENOLCK	include/errno.h	56;"	d
+ENOMEM	include/errno.h	31;"	d
+ENOSPC	include/errno.h	47;"	d
+ENOSYS	include/errno.h	57;"	d
+ENOTBLK	include/errno.h	34;"	d
+ENOTDIR	include/errno.h	39;"	d
+ENOTEMPTY	include/errno.h	58;"	d
+ENOTTY	include/errno.h	44;"	d
+ENXIO	include/errno.h	25;"	d
+EOF_CHAR	include/linux/tty.h	106;"	d
+EPERM	include/errno.h	20;"	d
+EPIPE	include/errno.h	51;"	d
+ERANGE	include/errno.h	53;"	d
+ERASE_CHAR	include/linux/tty.h	110;"	d
+EROFS	include/errno.h	49;"	d
+ERROR	include/errno.h	19;"	d
+ERR_STAT	include/linux/hdreg.h	58;"	d
+ES	kernel/system_call.s	/^ES		= 0x14$/;"	d
+ESPIPE	include/errno.h	48;"	d
+ESRCH	include/errno.h	22;"	d
+ETXTBSY	include/errno.h	45;"	d
+EXDEV	include/errno.h	37;"	d
+FD_CLOEXEC	include/fcntl.h	33;"	d
+FF0	include/termios.h	168;"	d
+FF1	include/termios.h	169;"	d
+FFDLY	include/termios.h	167;"	d
+FIRST_TASK	include/linux/sched.h	7;"	d
+FLUSHO	include/termios.h	230;"	d
+FS	kernel/system_call.s	/^FS		= 0x10$/;"	d
+FULL	include/linux/tty.h	99;"	d
+F_DUPFD	include/fcntl.h	23;"	d
+F_GETFD	include/fcntl.h	24;"	d
+F_GETFL	include/fcntl.h	26;"	d
+F_GETLK	include/fcntl.h	28;"	d
+F_OK	include/unistd.h	23;"	d
+F_RDLCK	include/fcntl.h	38;"	d
+F_SETFD	include/fcntl.h	25;"	d
+F_SETFL	include/fcntl.h	27;"	d
+F_SETLK	include/fcntl.h	29;"	d
+F_SETLKW	include/fcntl.h	30;"	d
+F_UNLCK	include/fcntl.h	40;"	d
+F_WRLCK	include/fcntl.h	39;"	d
+GCC_HEADER	tools/build.c	8;"	d	file:
+GDT_CODE	include/linux/head.h	134;"	d
+GDT_DATA	include/linux/head.h	135;"	d
+GDT_NUL	include/linux/head.h	133;"	d
+GDT_TMP	include/linux/head.h	136;"	d
+GETCH	include/linux/tty.h	101;"	d
+HARD_DISK_TYPE	include/linux/hdreg.h	10;"	d
+HD_CMD	include/linux/hdreg.h	55;"	d
+HD_COMMAND	include/linux/hdreg.h	53;"	d
+HD_CURRENT	include/linux/hdreg.h	50;"	d
+HD_DATA	include/linux/hdreg.h	44;"	d
+HD_ERROR	include/linux/hdreg.h	45;"	d
+HD_HCYL	include/linux/hdreg.h	49;"	d
+HD_LCYL	include/linux/hdreg.h	48;"	d
+HD_NSECTOR	include/linux/hdreg.h	46;"	d
+HD_PRECOMP	include/linux/hdreg.h	52;"	d
+HD_SECTOR	include/linux/hdreg.h	47;"	d
+HD_STATUS	include/linux/hdreg.h	51;"	d
+HD_TYPE	include/linux/config.h	46;"	d
+HD_TYPE	include/linux/config.h	48;"	d
+HIGH_MEMORY	include/linux/config.h	13;"	d
+HIGH_MEMORY	include/linux/config.h	15;"	d
+HOUR	kernel/mktime.c	15;"	d	file:
+HUPCL	include/termios.h	205;"	d
+HZ	include/linux/sched.h	5;"	d
+ICANON	include/termios.h	219;"	d
+ICRNL	include/termios.h	124;"	d
+ID_ERR	include/linux/hdreg.h	82;"	d
+IEXTEN	include/termios.h	232;"	d
+IGNBRK	include/termios.h	116;"	d
+IGNCR	include/termios.h	123;"	d
+IGNPAR	include/termios.h	118;"	d
+IMAXBEL	include/termios.h	129;"	d
+INC	include/linux/tty.h	55;"	d
+INC_PIPE	include/linux/fs.h	109;"	d
+INDEX_STAT	include/linux/hdreg.h	59;"	d
+INITSEG	boot/boot.s	/^INITSEG = 0x9000$/;"	d
+INIT_C_CC	include/linux/tty.h	159;"	d
+INIT_TASK	include/linux/sched.h	278;"	d
+INLCR	include/termios.h	122;"	d
+INODES_PER_BLOCK	include/linux/fs.h	51;"	d
+INPCK	include/termios.h	120;"	d
+INTR_CHAR	include/linux/tty.h	107;"	d
+IN_ORDER	kernel/hd.c	52;"	d	file:
+ISIG	include/termios.h	218;"	d
+ISTRIP	include/termios.h	121;"	d
+IS_BLOCKDEV	include/linux/fs.h	24;"	d
+IUCLC	include/termios.h	125;"	d
+IXANY	include/termios.h	127;"	d
+IXOFF	include/termios.h	128;"	d
+IXON	include/termios.h	126;"	d
+I_BLOCK_SPECIAL	include/const.h	9;"	d
+I_CHAR_SPECIAL	include/const.h	10;"	d
+I_CRNL	kernel/tty_io.c	31;"	d	file:
+I_DIRECTORY	include/const.h	7;"	d
+I_MAP_SLOTS	include/linux/fs.h	36;"	d
+I_NAMED_PIPE	include/const.h	11;"	d
+I_NLCR	kernel/tty_io.c	30;"	d	file:
+I_NOCR	kernel/tty_io.c	32;"	d	file:
+I_REGULAR	include/const.h	8;"	d
+I_SET_GID_BIT	include/const.h	13;"	d
+I_SET_UID_BIT	include/const.h	12;"	d
+I_TYPE	include/const.h	6;"	d
+I_UCLC	kernel/tty_io.c	29;"	d	file:
+JumpToLine	include/linux/sched.h.html	/^function JumpToLine()$/;"	f
+L6	boot/head.s	/^L6:$/;"	l
+LAST	include/linux/tty.h	98;"	d
+LAST_TASK	include/linux/sched.h	8;"	d
+LATCH	kernel/sched.c	15;"	d	file:
+LD	Makefile	/^LD	=gld$/;"	m
+LD	fs/Makefile	/^LD	=gld$/;"	m
+LD	kernel/Makefile	/^LD	=gld$/;"	m
+LD	lib/Makefile	/^LD	=gld$/;"	m
+LD	mm/Makefile	/^LD	=gld$/;"	m
+LD86	Makefile	/^LD86	=ld -0$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS	=-s -x -M$/;"	m
+LDFLAGS	kernel/Makefile	/^LDFLAGS	=-s -x$/;"	m
+LDFLAGS	lib/Makefile	/^LDFLAGS	=-s -x$/;"	m
+LDT_CODE	include/linux/head.h	139;"	d
+LDT_DATA	include/linux/head.h	140;"	d
+LDT_NUL	include/linux/head.h	138;"	d
+LEFT	include/linux/tty.h	97;"	d
+LEFT	kernel/vsprintf.c	32;"	d	file:
+LIBS	Makefile	/^LIBS	=lib\/lib.a$/;"	m
+LINES	kernel/console.c	25;"	d	file:
+LINUS_HD	include/linux/config.h	5;"	d
+LOW_MEM	mm/memory.c	14;"	d	file:
+LOW_MEM	mm/memory.c	16;"	d	file:
+L_CANON	kernel/tty_io.c	21;"	d	file:
+L_ECHO	kernel/tty_io.c	23;"	d	file:
+L_ECHOCTL	kernel/tty_io.c	26;"	d	file:
+L_ECHOE	kernel/tty_io.c	24;"	d	file:
+L_ECHOK	kernel/tty_io.c	25;"	d	file:
+L_ECHOKE	kernel/tty_io.c	27;"	d	file:
+L_ISIG	kernel/tty_io.c	22;"	d	file:
+MAJOR	include/linux/fs.h	31;"	d
+MAP_NR	mm/memory.c	22;"	d	file:
+MARK_ERR	include/linux/hdreg.h	79;"	d
+MAX	fs/file_dev.c	9;"	d	file:
+MAX_ARG_PAGES	fs/exec.c	19;"	d	file:
+MAX_ERRORS	kernel/hd.c	20;"	d	file:
+MAX_HD	kernel/hd.c	21;"	d	file:
+MAY_EXEC	fs/namei.c	19;"	d	file:
+MAY_READ	fs/namei.c	21;"	d	file:
+MAY_WRITE	fs/namei.c	20;"	d	file:
+MIN	fs/file_dev.c	8;"	d	file:
+MINIX_HEADER	tools/build.c	7;"	d	file:
+MINOR	include/linux/fs.h	32;"	d
+MINUTE	kernel/mktime.c	14;"	d	file:
+NAME_LEN	include/linux/fs.h	34;"	d
+NCC	include/termios.h	63;"	d
+NCCS	include/termios.h	73;"	d
+NL0	include/termios.h	148;"	d
+NL1	include/termios.h	149;"	d
+NLDLY	include/termios.h	147;"	d
+NMAGIC	include/a.out.h	25;"	d
+NOFLSH	include/termios.h	225;"	d
+NPAR	kernel/console.c	27;"	d	file:
+NRDEVS	fs/char_dev.c	14;"	d	file:
+NRDEVS	fs/ioctl.c	11;"	d	file:
+NR_BLK_DEV	fs/block_dev.c	7;"	d	file:
+NR_BUFFERS	fs/buffer.c	/^int NR_BUFFERS = 0;$/;"	v
+NR_BUFFERS	include/linux/fs.h	45;"	d
+NR_FILE	include/linux/fs.h	42;"	d
+NR_HASH	include/linux/fs.h	44;"	d
+NR_HD	kernel/hd.c	33;"	d	file:
+NR_INODE	include/linux/fs.h	41;"	d
+NR_OPEN	include/linux/fs.h	40;"	d
+NR_REQUEST	kernel/hd.c	22;"	d	file:
+NR_SUPER	include/linux/fs.h	43;"	d
+NR_TASKS	include/linux/sched.h	4;"	d
+NSIG	include/signal.h	10;"	d
+NULL	include/linux/fs.h	48;"	d
+NULL	include/linux/sched.h	52;"	d
+NULL	include/stddef.h	14;"	d
+NULL	include/stddef.h	15;"	d
+NULL	include/string.h	5;"	d
+NULL	include/sys/types.h	20;"	d
+NULL	include/unistd.h	19;"	d
+N_ABS	include/a.out.h	128;"	d
+N_BADMAG	include/a.out.h	31;"	d
+N_BSS	include/a.out.h	137;"	d
+N_BSSADDR	include/a.out.h	107;"	d
+N_COMM	include/a.out.h	140;"	d
+N_DATA	include/a.out.h	134;"	d
+N_DATADDR	include/a.out.h	100;"	d
+N_DATOFF	include/a.out.h	48;"	d
+N_DRELOFF	include/a.out.h	56;"	d
+N_EXT	include/a.out.h	147;"	d
+N_FN	include/a.out.h	143;"	d
+N_INDR	include/a.out.h	164;"	d
+N_MAGIC	include/a.out.h	18;"	d
+N_SETA	include/a.out.h	178;"	d
+N_SETB	include/a.out.h	181;"	d
+N_SETD	include/a.out.h	180;"	d
+N_SETT	include/a.out.h	179;"	d
+N_SETV	include/a.out.h	184;"	d
+N_STAB	include/a.out.h	153;"	d
+N_STROFF	include/a.out.h	64;"	d
+N_SYMOFF	include/a.out.h	60;"	d
+N_TEXT	include/a.out.h	131;"	d
+N_TRELOFF	include/a.out.h	52;"	d
+N_TXTADDR	include/a.out.h	69;"	d
+N_TXTOFF	include/a.out.h	43;"	d
+N_TYPE	include/a.out.h	150;"	d
+N_UNDF	include/a.out.h	125;"	d
+OBJS	fs/Makefile	/^OBJS=	open.o read_write.o inode.o file_table.o buffer.o super.o \\$/;"	m
+OBJS	kernel/Makefile	/^OBJS  = sched.o system_call.o traps.o asm.o fork.o \\$/;"	m
+OBJS	lib/Makefile	/^OBJS  = ctype.o _exit.o open.o close.o errno.o write.o dup.o setsid.o \\$/;"	m
+OBJS	mm/Makefile	/^OBJS	= memory.o page.o$/;"	m
+OCRNL	include/termios.h	142;"	d
+OFDEL	include/termios.h	146;"	d
+OFILL	include/termios.h	145;"	d
+OLCUC	include/termios.h	140;"	d
+OLDESP	kernel/system_call.s	/^OLDESP		= 0x28$/;"	d
+OLDSS	kernel/system_call.s	/^OLDSS		= 0x2C$/;"	d
+OMAGIC	include/a.out.h	23;"	d
+ONLCR	include/termios.h	141;"	d
+ONLRET	include/termios.h	144;"	d
+ONOCR	include/termios.h	143;"	d
+OPOST	include/termios.h	139;"	d
+O_ACCMODE	include/fcntl.h	7;"	d
+O_APPEND	include/fcntl.h	15;"	d
+O_CREAT	include/fcntl.h	11;"	d
+O_CRNL	kernel/tty_io.c	36;"	d	file:
+O_EXCL	include/fcntl.h	12;"	d
+O_LCUC	kernel/tty_io.c	38;"	d	file:
+O_NDELAY	include/fcntl.h	17;"	d
+O_NLCR	kernel/tty_io.c	35;"	d	file:
+O_NLRET	kernel/tty_io.c	37;"	d	file:
+O_NOCTTY	include/fcntl.h	13;"	d
+O_NONBLOCK	include/fcntl.h	16;"	d
+O_POST	kernel/tty_io.c	34;"	d	file:
+O_RDONLY	include/fcntl.h	8;"	d
+O_RDWR	include/fcntl.h	10;"	d
+O_TRUNC	include/fcntl.h	14;"	d
+O_WRONLY	include/fcntl.h	9;"	d
+PAGE_SIZE	include/a.out.h	79;"	d
+PAGE_SIZE	include/a.out.h	88;"	d
+PAGE_SIZE	include/a.out.h	92;"	d
+PAGE_SIZE	include/linux/mm.h	4;"	d
+PAGING_MEMORY	mm/memory.c	20;"	d	file:
+PAGING_PAGES	mm/memory.c	21;"	d	file:
+PARMRK	include/termios.h	119;"	d
+PENDIN	include/termios.h	231;"	d
+PIPE_EMPTY	include/linux/fs.h	107;"	d
+PIPE_FULL	include/linux/fs.h	108;"	d
+PIPE_HEAD	include/linux/fs.h	104;"	d
+PIPE_SIZE	include/linux/fs.h	106;"	d
+PIPE_TAIL	include/linux/fs.h	105;"	d
+PLUS	kernel/vsprintf.c	30;"	d	file:
+PUTCH	include/linux/tty.h	103;"	d
+READ	include/linux/fs.h	26;"	d
+READY_STAT	include/linux/hdreg.h	64;"	d
+RESPONSE	kernel/console.c	46;"	d	file:
+ROOT_DEV	include/linux/config.h	29;"	d
+ROOT_DEV	include/linux/config.h	31;"	d
+R_OK	include/unistd.h	26;"	d
+SA_NOCLDSTOP	include/signal.h	37;"	d
+SCREEN_END	kernel/console.c	24;"	d	file:
+SCREEN_START	kernel/console.c	23;"	d	file:
+SEEK_CUR	include/unistd.h	30;"	d
+SEEK_END	include/unistd.h	31;"	d
+SEEK_SET	include/unistd.h	29;"	d
+SEEK_STAT	include/linux/hdreg.h	62;"	d
+SEGMENT_SIZE	include/a.out.h	76;"	d
+SEGMENT_SIZE	include/a.out.h	82;"	d
+SEGMENT_SIZE	include/a.out.h	85;"	d
+SEGMENT_SIZE	include/a.out.h	89;"	d
+SEGMENT_SIZE	include/a.out.h	93;"	d
+SIGABRT	include/signal.h	17;"	d
+SIGALRM	include/signal.h	26;"	d
+SIGCHLD	include/signal.h	29;"	d
+SIGCONT	include/signal.h	30;"	d
+SIGFPE	include/signal.h	20;"	d
+SIGHUP	include/signal.h	12;"	d
+SIGILL	include/signal.h	15;"	d
+SIGINT	include/signal.h	13;"	d
+SIGIOT	include/signal.h	18;"	d
+SIGKILL	include/signal.h	21;"	d
+SIGN	kernel/vsprintf.c	29;"	d	file:
+SIGPIPE	include/signal.h	25;"	d
+SIGQUIT	include/signal.h	14;"	d
+SIGSEGV	include/signal.h	23;"	d
+SIGSTKFLT	include/signal.h	28;"	d
+SIGSTOP	include/signal.h	31;"	d
+SIGTERM	include/signal.h	27;"	d
+SIGTRAP	include/signal.h	16;"	d
+SIGTSTP	include/signal.h	32;"	d
+SIGTTIN	include/signal.h	33;"	d
+SIGTTOU	include/signal.h	34;"	d
+SIGUNUSED	include/signal.h	19;"	d
+SIGUSR1	include/signal.h	22;"	d
+SIGUSR2	include/signal.h	24;"	d
+SIG_BLOCK	include/signal.h	39;"	d
+SIG_CHLD	kernel/system_call.s	/^SIG_CHLD	= 17$/;"	d
+SIG_DFL	include/signal.h	43;"	d
+SIG_IGN	include/signal.h	44;"	d
+SIG_SETMASK	include/signal.h	41;"	d
+SIG_UNBLOCK	include/signal.h	40;"	d
+SMALL	kernel/vsprintf.c	34;"	d	file:
+SPACE	kernel/vsprintf.c	31;"	d	file:
+SPECIAL	kernel/vsprintf.c	33;"	d	file:
+START_CHAR	include/linux/tty.h	109;"	d
+STDERR_FILENO	include/unistd.h	16;"	d
+STDIN_FILENO	include/unistd.h	14;"	d
+STDOUT_FILENO	include/unistd.h	15;"	d
+STOP_CHAR	include/linux/tty.h	108;"	d
+SUPER_MAGIC	include/linux/fs.h	38;"	d
+SYSSEG	boot/boot.s	/^SYSSEG  = 0x1000			| system loaded at 0x10000 (65536).$/;"	d
+S_IFBLK	include/sys/stat.h	22;"	d
+S_IFCHR	include/sys/stat.h	24;"	d
+S_IFDIR	include/sys/stat.h	23;"	d
+S_IFIFO	include/sys/stat.h	25;"	d
+S_IFMT	include/sys/stat.h	20;"	d
+S_IFREG	include/sys/stat.h	21;"	d
+S_IRGRP	include/sys/stat.h	42;"	d
+S_IROTH	include/sys/stat.h	47;"	d
+S_IRUSR	include/sys/stat.h	37;"	d
+S_IRWXG	include/sys/stat.h	41;"	d
+S_IRWXO	include/sys/stat.h	46;"	d
+S_IRWXU	include/sys/stat.h	36;"	d
+S_ISBLK	include/sys/stat.h	33;"	d
+S_ISCHR	include/sys/stat.h	32;"	d
+S_ISDIR	include/sys/stat.h	31;"	d
+S_ISFIFO	include/sys/stat.h	34;"	d
+S_ISGID	include/sys/stat.h	27;"	d
+S_ISREG	include/sys/stat.h	30;"	d
+S_ISUID	include/sys/stat.h	26;"	d
+S_ISVTX	include/sys/stat.h	28;"	d
+S_IWGRP	include/sys/stat.h	43;"	d
+S_IWOTH	include/sys/stat.h	48;"	d
+S_IWUSR	include/sys/stat.h	38;"	d
+S_IXGRP	include/sys/stat.h	44;"	d
+S_IXOTH	include/sys/stat.h	49;"	d
+S_IXUSR	include/sys/stat.h	39;"	d
+TAB0	include/termios.h	156;"	d
+TAB1	include/termios.h	157;"	d
+TAB2	include/termios.h	158;"	d
+TAB3	include/termios.h	159;"	d
+TABDLY	include/termios.h	155;"	d
+TASK_INTERRUPTIBLE	include/linux/sched.h	39;"	d
+TASK_RUNNING	include/linux/sched.h	38;"	d
+TASK_STOPPED	include/linux/sched.h	42;"	d
+TASK_UNINTERRUPTIBLE	include/linux/sched.h	40;"	d
+TASK_ZOMBIE	include/linux/sched.h	41;"	d
+TCFLSH	include/termios.h	26;"	d
+TCGETA	include/termios.h	20;"	d
+TCGETS	include/termios.h	16;"	d
+TCIFLUSH	include/termios.h	263;"	d
+TCIOFF	include/termios.h	259;"	d
+TCIOFLUSH	include/termios.h	265;"	d
+TCION	include/termios.h	260;"	d
+TCOFLUSH	include/termios.h	264;"	d
+TCOOFF	include/termios.h	257;"	d
+TCOON	include/termios.h	258;"	d
+TCSADRAIN	include/termios.h	269;"	d
+TCSAFLUSH	include/termios.h	270;"	d
+TCSANOW	include/termios.h	268;"	d
+TCSBRK	include/termios.h	24;"	d
+TCSETA	include/termios.h	21;"	d
+TCSETAF	include/termios.h	23;"	d
+TCSETAW	include/termios.h	22;"	d
+TCSETS	include/termios.h	17;"	d
+TCSETSF	include/termios.h	19;"	d
+TCSETSW	include/termios.h	18;"	d
+TCXONC	include/termios.h	25;"	d
+TIOCEXCL	include/termios.h	27;"	d
+TIOCGPGRP	include/termios.h	30;"	d
+TIOCGSOFTCAR	include/termios.h	40;"	d
+TIOCGWINSZ	include/termios.h	34;"	d
+TIOCMBIC	include/termios.h	38;"	d
+TIOCMBIS	include/termios.h	37;"	d
+TIOCMGET	include/termios.h	36;"	d
+TIOCMSET	include/termios.h	39;"	d
+TIOCM_CAR	include/termios.h	250;"	d
+TIOCM_CD	include/termios.h	253;"	d
+TIOCM_CTS	include/termios.h	249;"	d
+TIOCM_DSR	include/termios.h	252;"	d
+TIOCM_DTR	include/termios.h	245;"	d
+TIOCM_LE	include/termios.h	244;"	d
+TIOCM_RI	include/termios.h	254;"	d
+TIOCM_RNG	include/termios.h	251;"	d
+TIOCM_RTS	include/termios.h	246;"	d
+TIOCM_SR	include/termios.h	248;"	d
+TIOCM_ST	include/termios.h	247;"	d
+TIOCNXCL	include/termios.h	28;"	d
+TIOCOUTQ	include/termios.h	32;"	d
+TIOCSCTTY	include/termios.h	29;"	d
+TIOCSPGRP	include/termios.h	31;"	d
+TIOCSSOFTCAR	include/termios.h	41;"	d
+TIOCSTI	include/termios.h	33;"	d
+TIOCSWINSZ	include/termios.h	35;"	d
+TOSTOP	include/termios.h	226;"	d
+TRK0_ERR	include/linux/hdreg.h	80;"	d
+TTY_BUF_SIZE	include/linux/tty.h	22;"	d
+TTY_BUF_SIZE	include/termios.h	4;"	d
+VDISCARD	include/termios.h	103;"	d
+VEOF	include/termios.h	94;"	d
+VEOL	include/termios.h	101;"	d
+VEOL2	include/termios.h	106;"	d
+VERASE	include/termios.h	92;"	d
+VINTR	include/termios.h	90;"	d
+VKILL	include/termios.h	93;"	d
+VLNEXT	include/termios.h	105;"	d
+VMIN	include/termios.h	96;"	d
+VQUIT	include/termios.h	91;"	d
+VREPRINT	include/termios.h	102;"	d
+VSTART	include/termios.h	98;"	d
+VSTOP	include/termios.h	99;"	d
+VSUSP	include/termios.h	100;"	d
+VSWTC	include/termios.h	97;"	d
+VT0	include/termios.h	165;"	d
+VT1	include/termios.h	166;"	d
+VTDLY	include/termios.h	164;"	d
+VTIME	include/termios.h	95;"	d
+VWERASE	include/termios.h	104;"	d
+WAKEUP_CHARS	kernel/serial.c	22;"	d	file:
+WEXITSTATUS	include/sys/wait.h	15;"	d
+WIFEXITED	include/sys/wait.h	13;"	d
+WIFSIGNALED	include/sys/wait.h	18;"	d
+WIFSTOPPED	include/sys/wait.h	14;"	d
+WIN_DIAGNOSE	include/linux/hdreg.h	75;"	d
+WIN_FORMAT	include/linux/hdreg.h	72;"	d
+WIN_INIT	include/linux/hdreg.h	73;"	d
+WIN_READ	include/linux/hdreg.h	69;"	d
+WIN_RESTORE	include/linux/hdreg.h	68;"	d
+WIN_SEEK	include/linux/hdreg.h	74;"	d
+WIN_SPECIFY	include/linux/hdreg.h	76;"	d
+WIN_VERIFY	include/linux/hdreg.h	71;"	d
+WIN_WRITE	include/linux/hdreg.h	70;"	d
+WNOHANG	include/sys/wait.h	10;"	d
+WRERR_STAT	include/linux/hdreg.h	63;"	d
+WRITE	include/linux/fs.h	27;"	d
+WSTOPSIG	include/sys/wait.h	17;"	d
+WTERMSIG	include/sys/wait.h	16;"	d
+WUNTRACED	include/sys/wait.h	11;"	d
+W_OK	include/unistd.h	25;"	d
+XCASE	include/termios.h	220;"	d
+XTABS	include/termios.h	160;"	d
+X_OK	include/unistd.h	24;"	d
+YEAR	kernel/mktime.c	17;"	d	file:
+ZEROPAD	kernel/vsprintf.c	28;"	d	file:
+ZMAGIC	include/a.out.h	27;"	d
+Z_MAP_SLOTS	include/linux/fs.h	37;"	d
+_A_OUT_H	include/a.out.h	2;"	d
+_C	include/ctype.h	7;"	d
+_CONFIG_H	include/linux/config.h	2;"	d
+_CONST_H	include/const.h	2;"	d
+_CTL	include/linux/hdreg.h	24;"	d
+_CTL	include/linux/hdreg.h	31;"	d
+_CTYPE_H	include/ctype.h	2;"	d
+_CYL	include/linux/hdreg.h	19;"	d
+_CYL	include/linux/hdreg.h	26;"	d
+_D	include/ctype.h	6;"	d
+_ERRNO_H	include/errno.h	2;"	d
+_FCNTL_H	include/fcntl.h	2;"	d
+_FS_H	include/linux/fs.h	7;"	d
+_HDREG_H	include/linux/hdreg.h	7;"	d
+_HEAD	include/linux/hdreg.h	20;"	d
+_HEAD	include/linux/hdreg.h	27;"	d
+_HEAD_H	include/linux/head.h	2;"	d
+_HIGH	include/sys/wait.h	7;"	d
+_I_FLAG	kernel/tty_io.c	18;"	d	file:
+_L	include/ctype.h	5;"	d
+_LOW	include/sys/wait.h	6;"	d
+_LZONE	include/linux/hdreg.h	22;"	d
+_LZONE	include/linux/hdreg.h	29;"	d
+_L_FLAG	kernel/tty_io.c	17;"	d	file:
+_MM_H	include/linux/mm.h	2;"	d
+_NSIG	include/signal.h	9;"	d
+_N_BADMAG	include/a.out.h	36;"	d
+_N_HDROFF	include/a.out.h	40;"	d
+_N_SEGMENT_ROUND	include/a.out.h	95;"	d
+_N_TXTENDADDR	include/a.out.h	97;"	d
+_O_FLAG	kernel/tty_io.c	19;"	d	file:
+_P	include/ctype.h	8;"	d
+_PC_CHOWN_RESTRICTED	include/unistd.h	52;"	d
+_PC_LINK_MAX	include/unistd.h	44;"	d
+_PC_MAX_CANON	include/unistd.h	45;"	d
+_PC_MAX_INPUT	include/unistd.h	46;"	d
+_PC_NAME_MAX	include/unistd.h	47;"	d
+_PC_NO_TRUNC	include/unistd.h	50;"	d
+_PC_PATH_MAX	include/unistd.h	48;"	d
+_PC_PIPE_BUF	include/unistd.h	49;"	d
+_PC_VDISABLE	include/unistd.h	51;"	d
+_POSIX_CHOWN_RESTRICTED	include/unistd.h	8;"	d
+_POSIX_VDISABLE	include/unistd.h	10;"	d
+_POSIX_VERSION	include/unistd.h	6;"	d
+_PTRDIFF_T	include/stddef.h	5;"	d
+_PTRDIFF_T	include/sys/types.h	15;"	d
+_S	include/ctype.h	9;"	d
+_SCHED_H	include/linux/sched.h	2;"	d
+_SC_ARG_MAX	include/unistd.h	34;"	d
+_SC_CHILD_MAX	include/unistd.h	35;"	d
+_SC_CLOCKS_PER_SEC	include/unistd.h	36;"	d
+_SC_JOB_CONTROL	include/unistd.h	39;"	d
+_SC_NGROUPS_MAX	include/unistd.h	37;"	d
+_SC_OPEN_MAX	include/unistd.h	38;"	d
+_SC_SAVED_IDS	include/unistd.h	40;"	d
+_SC_VERSION	include/unistd.h	41;"	d
+_SECT	include/linux/hdreg.h	23;"	d
+_SECT	include/linux/hdreg.h	30;"	d
+_SIGNAL_H	include/signal.h	2;"	d
+_SIZE_T	include/stddef.h	10;"	d
+_SIZE_T	include/string.h	9;"	d
+_SIZE_T	include/sys/types.h	5;"	d
+_SIZE_T	include/time.h	10;"	d
+_SP	include/ctype.h	11;"	d
+_STDARG_H	include/stdarg.h	2;"	d
+_STDDEF_H	include/stddef.h	2;"	d
+_STRING_H_	include/string.h	2;"	d
+_SYS_STAT_H	include/sys/stat.h	2;"	d
+_SYS_TYPES_H	include/sys/types.h	2;"	d
+_SYS_UTSNAME_H	include/sys/utsname.h	2;"	d
+_SYS_WAIT_H	include/sys/wait.h	2;"	d
+_TERMIOS_H	include/termios.h	2;"	d
+_TIMES_H	include/sys/times.h	2;"	d
+_TIME_H	include/time.h	2;"	d
+_TIME_T	include/sys/types.h	10;"	d
+_TIME_T	include/time.h	5;"	d
+_TTY_H	include/linux/tty.h	10;"	d
+_U	include/ctype.h	4;"	d
+_UNISTD_H	include/unistd.h	2;"	d
+_UTIME_H	include/utime.h	2;"	d
+_WPCOM	include/linux/hdreg.h	38;"	d
+_WPCOM	include/linux/hdreg.h	40;"	d
+_X	include/ctype.h	10;"	d
+__GNU_EXEC_MACROS__	include/a.out.h	4;"	d
+__LIBRARY__	init/main.c	1;"	d	file:
+__LIBRARY__	lib/_exit.c	1;"	d	file:
+__LIBRARY__	lib/close.c	1;"	d	file:
+__LIBRARY__	lib/dup.c	1;"	d	file:
+__LIBRARY__	lib/execve.c	1;"	d	file:
+__LIBRARY__	lib/open.c	1;"	d	file:
+__LIBRARY__	lib/setsid.c	1;"	d	file:
+__LIBRARY__	lib/string.c	7;"	d	file:
+__LIBRARY__	lib/wait.c	1;"	d	file:
+__LIBRARY__	lib/write.c	1;"	d	file:
+__NR_access	include/unistd.h	94;"	d
+__NR_acct	include/unistd.h	112;"	d
+__NR_alarm	include/unistd.h	88;"	d
+__NR_break	include/unistd.h	78;"	d
+__NR_brk	include/unistd.h	106;"	d
+__NR_chdir	include/unistd.h	73;"	d
+__NR_chmod	include/unistd.h	76;"	d
+__NR_chown	include/unistd.h	77;"	d
+__NR_chroot	include/unistd.h	122;"	d
+__NR_close	include/unistd.h	67;"	d
+__NR_creat	include/unistd.h	69;"	d
+__NR_dup	include/unistd.h	102;"	d
+__NR_dup2	include/unistd.h	124;"	d
+__NR_execve	include/unistd.h	72;"	d
+__NR_exit	include/unistd.h	62;"	d
+__NR_fcntl	include/unistd.h	116;"	d
+__NR_fork	include/unistd.h	63;"	d
+__NR_fstat	include/unistd.h	89;"	d
+__NR_ftime	include/unistd.h	96;"	d
+__NR_getegid	include/unistd.h	111;"	d
+__NR_geteuid	include/unistd.h	110;"	d
+__NR_getgid	include/unistd.h	108;"	d
+__NR_getpgrp	include/unistd.h	126;"	d
+__NR_getpid	include/unistd.h	81;"	d
+__NR_getppid	include/unistd.h	125;"	d
+__NR_getuid	include/unistd.h	85;"	d
+__NR_gtty	include/unistd.h	93;"	d
+__NR_ioctl	include/unistd.h	115;"	d
+__NR_kill	include/unistd.h	98;"	d
+__NR_link	include/unistd.h	70;"	d
+__NR_lock	include/unistd.h	114;"	d
+__NR_lseek	include/unistd.h	80;"	d
+__NR_mkdir	include/unistd.h	100;"	d
+__NR_mknod	include/unistd.h	75;"	d
+__NR_mount	include/unistd.h	82;"	d
+__NR_mpx	include/unistd.h	117;"	d
+__NR_nice	include/unistd.h	95;"	d
+__NR_open	include/unistd.h	66;"	d
+__NR_pause	include/unistd.h	90;"	d
+__NR_phys	include/unistd.h	113;"	d
+__NR_pipe	include/unistd.h	103;"	d
+__NR_prof	include/unistd.h	105;"	d
+__NR_ptrace	include/unistd.h	87;"	d
+__NR_read	include/unistd.h	64;"	d
+__NR_rename	include/unistd.h	99;"	d
+__NR_rmdir	include/unistd.h	101;"	d
+__NR_setgid	include/unistd.h	107;"	d
+__NR_setpgid	include/unistd.h	118;"	d
+__NR_setsid	include/unistd.h	127;"	d
+__NR_setuid	include/unistd.h	84;"	d
+__NR_setup	include/unistd.h	61;"	d
+__NR_signal	include/unistd.h	109;"	d
+__NR_stat	include/unistd.h	79;"	d
+__NR_stime	include/unistd.h	86;"	d
+__NR_stty	include/unistd.h	92;"	d
+__NR_sync	include/unistd.h	97;"	d
+__NR_time	include/unistd.h	74;"	d
+__NR_times	include/unistd.h	104;"	d
+__NR_ulimit	include/unistd.h	119;"	d
+__NR_umask	include/unistd.h	121;"	d
+__NR_umount	include/unistd.h	83;"	d
+__NR_uname	include/unistd.h	120;"	d
+__NR_unlink	include/unistd.h	71;"	d
+__NR_ustat	include/unistd.h	123;"	d
+__NR_utime	include/unistd.h	91;"	d
+__NR_waitpid	include/unistd.h	68;"	d
+__NR_write	include/unistd.h	65;"	d
+__WPCOM	include/linux/hdreg.h	21;"	d
+__WPCOM	include/linux/hdreg.h	28;"	d
+__va_rounded_size	include/stdarg.h	9;"	d
+_bmap	fs/inode.c	/^static int _bmap(struct m_inode * inode,int block,int create)$/;"	f	file:
+_bounds	kernel/asm.s	/^_bounds:$/;"	l
+_coprocessor_error	kernel/asm.s	/^_coprocessor_error:$/;"	l
+_coprocessor_segment_overrun	kernel/asm.s	/^_coprocessor_segment_overrun:$/;"	l
+_ctmp	lib/ctype.c	/^char _ctmp;$/;"	v
+_ctype	lib/ctype.c	/^unsigned char _ctype[] = {0x00,			\/* EOF *\/$/;"	v
+_debug	kernel/asm.s	/^_debug:$/;"	l
+_device_not_available	kernel/asm.s	/^_device_not_available:$/;"	l
+_divide_error	kernel/asm.s	/^_divide_error:$/;"	l
+_double_fault	kernel/asm.s	/^_double_fault:$/;"	l
+_exit	include/unistd.h	/^volatile void _exit(int status);$/;"	p
+_exit	lib/_exit.c	/^volatile void _exit(int exit_code)$/;"	f
+_fs	kernel/traps.c	27;"	d	file:
+_gdt	boot/head.s	/^_gdt:	.quad 0x0000000000000000	\/* NULL descriptor *\/$/;"	l
+_general_protection	kernel/asm.s	/^_general_protection:$/;"	l
+_hashfn	fs/buffer.c	68;"	d	file:
+_hd_interrupt	kernel/system_call.s	/^_hd_interrupt:$/;"	l
+_idt	boot/head.s	/^_idt:	.fill 256,8,0		# idt is uninitialized$/;"	l
+_int3	kernel/asm.s	/^_int3:$/;"	l
+_invalid_TSS	kernel/asm.s	/^_invalid_TSS:$/;"	l
+_invalid_op	kernel/asm.s	/^_invalid_op:$/;"	l
+_keyboard_interrupt	kernel/keyboard.s	/^_keyboard_interrupt:$/;"	l
+_nmi	kernel/asm.s	/^_nmi:$/;"	l
+_overflow	kernel/asm.s	/^_overflow:$/;"	l
+_page_fault	mm/page.s	/^_page_fault:$/;"	l
+_pg_dir	boot/head.s	/^_pg_dir:$/;"	l
+_reserved	kernel/asm.s	/^_reserved:$/;"	l
+_rs1_interrupt	kernel/rs_io.s	/^_rs1_interrupt:$/;"	l
+_rs2_interrupt	kernel/rs_io.s	/^_rs2_interrupt:$/;"	l
+_segment_not_present	kernel/asm.s	/^_segment_not_present:$/;"	l
+_set_gate	include/asm/system.h	22;"	d
+_set_seg_desc	include/asm/system.h	42;"	d
+_set_tssldt_desc	include/asm/system.h	52;"	d
+_stack_segment	kernel/asm.s	/^_stack_segment:$/;"	l
+_sys_execve	kernel/system_call.s	/^_sys_execve:$/;"	l
+_sys_fork	kernel/system_call.s	/^_sys_fork:$/;"	l
+_syscall0	include/unistd.h	146;"	d
+_syscall1	include/unistd.h	159;"	d
+_syscall2	include/unistd.h	172;"	d
+_syscall3	include/unistd.h	185;"	d
+_system_call	kernel/system_call.s	/^_system_call:$/;"	l
+_timer_interrupt	kernel/system_call.s	/^_timer_interrupt:$/;"	l
+a	include/linux/head.h	/^	unsigned long a,b;$/;"	m	struct:desc_struct
+a	kernel/sched.c	/^	long * a;$/;"	m	struct:__anon4	file:
+a_bss	include/a.out.h	/^  unsigned a_bss;		\/* length of uninitialized data area for file, in bytes *\/$/;"	m	struct:exec
+a_data	include/a.out.h	/^  unsigned a_data;		\/* length of data, in bytes *\/$/;"	m	struct:exec
+a_drsize	include/a.out.h	/^  unsigned a_drsize;		\/* length of relocation info for data, in bytes *\/$/;"	m	struct:exec
+a_entry	include/a.out.h	/^  unsigned a_entry;		\/* start address *\/$/;"	m	struct:exec
+a_magic	include/a.out.h	/^  unsigned long a_magic;	\/* Use macros N_MAGIC, etc for access *\/$/;"	m	struct:exec
+a_syms	include/a.out.h	/^  unsigned a_syms;		\/* length of symbol table data in file, in bytes *\/$/;"	m	struct:exec
+a_text	include/a.out.h	/^  unsigned a_text;		\/* length of text, in bytes *\/$/;"	m	struct:exec
+a_trsize	include/a.out.h	/^  unsigned a_trsize;		\/* length of relocation info for text, in bytes *\/$/;"	m	struct:exec
+access	include/unistd.h	/^int access(const char * filename, mode_t mode);$/;"	p
+acct	include/unistd.h	/^int acct(const char * filename);$/;"	p
+actime	include/utime.h	/^	time_t actime;$/;"	m	struct:utimbuf
+add_entry	fs/namei.c	/^static struct buffer_head * add_entry(struct m_inode * dir,$/;"	f	file:
+add_request	kernel/hd.c	/^static void add_request(struct hd_request * req)$/;"	f	file:
+after_page_tables	boot/head.s	/^after_page_tables:$/;"	l
+alarm	include/linux/sched.h	/^	long alarm;$/;"	m	struct:task_struct
+alarm	include/unistd.h	/^int alarm(int sec);$/;"	p
+alt	kernel/keyboard.s	/^alt:	movb $0x10,%al$/;"	l
+alt_map	kernel/keyboard.s	/^alt_map:$/;"	l
+argv	init/main.c	/^static char * argv[] = { "-",NULL };$/;"	v	file:
+asctime	include/time.h	/^char * asctime(const struct tm * tp);$/;"	p
+attr	kernel/console.c	/^static unsigned char attr=0x07;$/;"	v	file:
+b	include/linux/head.h	/^	unsigned long a,b;$/;"	m	struct:desc_struct
+b	kernel/sched.c	/^	short b;$/;"	m	struct:__anon4	file:
+b_blocknr	include/linux/fs.h	/^	unsigned short b_blocknr;	\/* block number *\/$/;"	m	struct:buffer_head
+b_count	include/linux/fs.h	/^	unsigned char b_count;		\/* users using this block *\/$/;"	m	struct:buffer_head
+b_data	include/linux/fs.h	/^	char * b_data;			\/* pointer to data block (1024 bytes) *\/$/;"	m	struct:buffer_head
+b_dev	include/linux/fs.h	/^	unsigned short b_dev;		\/* device (0 = free) *\/$/;"	m	struct:buffer_head
+b_dirt	include/linux/fs.h	/^	unsigned char b_dirt;		\/* 0-clean,1-dirty *\/$/;"	m	struct:buffer_head
+b_lock	include/linux/fs.h	/^	unsigned char b_lock;		\/* 0 - ok, 1 -locked *\/$/;"	m	struct:buffer_head
+b_next	include/linux/fs.h	/^	struct buffer_head * b_next;$/;"	m	struct:buffer_head	typeref:struct:buffer_head::buffer_head
+b_next_free	include/linux/fs.h	/^	struct buffer_head * b_next_free;$/;"	m	struct:buffer_head	typeref:struct:buffer_head::buffer_head
+b_prev	include/linux/fs.h	/^	struct buffer_head * b_prev;$/;"	m	struct:buffer_head	typeref:struct:buffer_head::buffer_head
+b_prev_free	include/linux/fs.h	/^	struct buffer_head * b_prev_free;$/;"	m	struct:buffer_head	typeref:struct:buffer_head::buffer_head
+b_uptodate	include/linux/fs.h	/^	unsigned char b_uptodate;$/;"	m	struct:buffer_head
+b_wait	include/linux/fs.h	/^	struct task_struct * b_wait;$/;"	m	struct:buffer_head	typeref:struct:buffer_head::task_struct
+back_link	include/linux/sched.h	/^	long	back_link;	\/* 16 high bits zero *\/$/;"	m	struct:tss_struct
+bad_rt	boot/boot.s	/^bad_rt:	mov ax,#0$/;"	l
+bad_rw_intr	kernel/hd.c	/^static void bad_rw_intr(void)$/;"	f	file:
+bad_sys_call	kernel/system_call.s	/^bad_sys_call:$/;"	l
+begbss	boot/boot.s	/^begbss:$/;"	l
+begdata	boot/boot.s	/^begdata:$/;"	l
+begtext	boot/boot.s	/^begtext:$/;"	l
+bh	kernel/hd.c	/^	struct buffer_head * bh;$/;"	m	struct:hd_request	typeref:struct:hd_request::buffer_head	file:
+blk_fn	fs/block_dev.c	/^typedef void (*blk_fn)(int rw, struct buffer_head * bh);$/;"	t	file:
+block_read	fs/block_dev.c	/^int block_read(int dev, unsigned long * pos, char * buf, int count)$/;"	f
+block_read	fs/read_write.c	/^extern int block_read(int dev, off_t * pos, char * buf, int count);$/;"	p	file:
+block_write	fs/block_dev.c	/^int block_write(int dev, long * pos, char * buf, int count)$/;"	f
+block_write	fs/read_write.c	/^extern int block_write(int dev, off_t * pos, char * buf, int count);$/;"	p	file:
+bmap	fs/inode.c	/^int bmap(struct m_inode * inode,int block)$/;"	f
+bmap	include/linux/fs.h	/^extern int bmap(struct m_inode * inode,int block);$/;"	p
+boot_ind	include/linux/hdreg.h	/^	unsigned char boot_ind;		\/* 0x80 - active (unused) *\/$/;"	m	struct:partition
+bottom	kernel/console.c	/^static unsigned long top=0,bottom=LINES;$/;"	v	file:
+bounds	kernel/traps.c	/^void bounds(void);$/;"	p	file:
+bread	fs/buffer.c	/^struct buffer_head * bread(int dev,int block)$/;"	f
+bread	include/linux/fs.h	/^extern struct buffer_head * bread(int dev,int block);$/;"	p
+brelse	fs/buffer.c	/^void brelse(struct buffer_head * buf)$/;"	f
+brelse	include/linux/fs.h	/^extern void brelse(struct buffer_head * buf);$/;"	p
+brk	include/linux/sched.h	/^	unsigned long brk;      \/* the current brk edge            *\/$/;"	m	struct:task_struct
+brk	include/unistd.h	/^int brk(void * end_data_segment);$/;"	p
+buf	include/linux/tty.h	/^	char buf[TTY_BUF_SIZE];$/;"	m	struct:tty_queue
+buf	kernel/keyboard.s	/^buf = 16$/;"	d
+buf	kernel/printk.c	/^static char buf[1024];$/;"	v	file:
+buf	kernel/rs_io.s	/^buf = 16$/;"	d
+buffer_block	include/linux/fs.h	/^typedef char buffer_block[BLOCK_SIZE];$/;"	t
+buffer_head	include/linux/fs.h	/^struct buffer_head {$/;"	s
+buffer_init	fs/buffer.c	/^void buffer_init(void)$/;"	f
+buffer_init	include/linux/fs.h	/^void buffer_init(void);$/;"	p
+buffer_wait	fs/buffer.c	/^static struct task_struct * buffer_wait = NULL;$/;"	v	typeref:struct:task_struct	file:
+c_cc	include/termios.h	/^	unsigned char c_cc[NCCS];	\/* control characters *\/$/;"	m	struct:termios
+c_cc	include/termios.h	/^	unsigned char c_cc[NCC];	\/* control characters *\/$/;"	m	struct:termio
+c_cflag	include/termios.h	/^	unsigned long c_cflag;		\/* control mode flags *\/$/;"	m	struct:termios
+c_cflag	include/termios.h	/^	unsigned short c_cflag;		\/* control mode flags *\/$/;"	m	struct:termio
+c_iflag	include/termios.h	/^	unsigned long c_iflag;		\/* input mode flags *\/$/;"	m	struct:termios
+c_iflag	include/termios.h	/^	unsigned short c_iflag;		\/* input mode flags *\/$/;"	m	struct:termio
+c_lflag	include/termios.h	/^	unsigned long c_lflag;		\/* local mode flags *\/$/;"	m	struct:termios
+c_lflag	include/termios.h	/^	unsigned short c_lflag;		\/* local mode flags *\/$/;"	m	struct:termio
+c_line	include/termios.h	/^	unsigned char c_line;		\/* line discipline *\/$/;"	m	struct:termio
+c_line	include/termios.h	/^	unsigned char c_line;		\/* line discipline *\/$/;"	m	struct:termios
+c_oflag	include/termios.h	/^	unsigned long c_oflag;		\/* output mode flags *\/$/;"	m	struct:termios
+c_oflag	include/termios.h	/^	unsigned short c_oflag;		\/* output mode flags *\/$/;"	m	struct:termio
+calc_mem	mm/memory.c	/^void calc_mem(void)$/;"	f
+caps	kernel/keyboard.s	/^caps:	testb $0x80,mode$/;"	l
+cfgetispeed	include/termios.h	/^extern speed_t cfgetispeed(struct termios *termios_p);$/;"	p
+cfgetospeed	include/termios.h	/^extern speed_t cfgetospeed(struct termios *termios_p);$/;"	p
+cfsetispeed	include/termios.h	/^extern int cfsetispeed(struct termios *termios_p, speed_t speed);$/;"	p
+cfsetospeed	include/termios.h	/^extern int cfsetospeed(struct termios *termios_p, speed_t speed);$/;"	p
+change_ldt	fs/exec.c	/^static unsigned long change_ldt(unsigned long text_size,unsigned long * page)$/;"	f	file:
+chdir	include/unistd.h	/^int chdir(const char * filename);$/;"	p
+chmod	include/sys/stat.h	/^extern int chmod(const char *_path, mode_t mode);$/;"	p
+chmod	include/unistd.h	/^int chmod(const char * filename, mode_t mode);$/;"	p
+chown	include/unistd.h	/^int chown(const char * filename, uid_t owner, gid_t group);$/;"	p
+chroot	include/unistd.h	/^int chroot(const char * filename);$/;"	p
+clear_bit	fs/bitmap.c	18;"	d	file:
+clear_block	fs/bitmap.c	7;"	d	file:
+cli	include/asm/system.h	17;"	d
+clock	include/time.h	/^clock_t clock(void);$/;"	p
+clock_t	include/time.h	/^typedef long clock_t;$/;"	t
+close	include/unistd.h	/^int close(int fildes);$/;"	p
+close_on_exec	include/linux/sched.h	/^	unsigned long close_on_exec;$/;"	m	struct:task_struct
+cmd	kernel/hd.c	/^	int cmd;$/;"	m	struct:hd_request	file:
+columns	kernel/console.c	/^static unsigned long lines=LINES,columns=COLUMNS;$/;"	v	file:
+con_init	include/linux/tty.h	/^void con_init(void);$/;"	p
+con_init	kernel/console.c	/^void con_init(void)$/;"	f
+con_write	include/linux/tty.h	/^void con_write(struct tty_struct * tty);$/;"	p
+con_write	kernel/console.c	/^void con_write(struct tty_struct * tty)$/;"	f
+controller_ready	kernel/hd.c	/^static int controller_ready(void)$/;"	f	file:
+coprocessor_error	kernel/traps.c	/^void coprocessor_error(void);$/;"	p	file:
+coprocessor_segment_overrun	kernel/traps.c	/^void coprocessor_segment_overrun(void);$/;"	p	file:
+copy_mem	kernel/fork.c	/^int copy_mem(int nr,struct task_struct * p)$/;"	f
+copy_page	mm/memory.c	28;"	d	file:
+copy_page_tables	include/linux/sched.h	/^extern int copy_page_tables(unsigned long from, unsigned long to, long size);$/;"	p
+copy_page_tables	mm/memory.c	/^int copy_page_tables(unsigned long from,unsigned long to,long size)$/;"	f
+copy_process	kernel/fork.c	/^int copy_process(int nr,long ebp,long edi,long esi,long gs,long none,$/;"	f
+copy_strings	fs/exec.c	/^static unsigned long copy_strings(int argc,char ** argv,unsigned long *page,$/;"	f	file:
+copy_to_cooked	include/linux/tty.h	/^void copy_to_cooked(struct tty_struct * tty);$/;"	p
+copy_to_cooked	kernel/tty_io.c	/^void copy_to_cooked(struct tty_struct * tty)$/;"	f
+count	fs/exec.c	/^static int count(char ** argv)$/;"	f	file:
+counter	include/linux/sched.h	/^	long counter;$/;"	m	struct:task_struct
+counter	kernel/system_call.s	/^counter	= 4$/;"	d
+cp_block	fs/exec.c	21;"	d	file:
+cp_stat	fs/stat.c	/^static int cp_stat(struct m_inode * inode, struct stat * statbuf)$/;"	f	file:
+cr	kernel/console.c	/^static void cr(void)$/;"	f	file:
+cr3	include/linux/sched.h	/^	long	cr3;		\/**$/;"	m	struct:tss_struct
+creat	include/fcntl.h	/^extern int creat(const char * filename,mode_t mode);$/;"	p
+creat	include/unistd.h	/^int creat(const char * filename, mode_t mode);$/;"	p
+create_block	fs/inode.c	/^int create_block(struct m_inode * inode, int block)$/;"	f
+create_block	include/linux/fs.h	/^extern int create_block(struct m_inode * inode,int block);$/;"	p
+create_tables	fs/exec.c	/^static unsigned long * create_tables(char * p,int argc,int envc)$/;"	f	file:
+crw_ptr	fs/char_dev.c	/^typedef (*crw_ptr)(int rw,unsigned minor,char * buf,int count);$/;"	t	file:
+crw_table	fs/char_dev.c	/^static crw_ptr crw_table[]={$/;"	v	file:
+cs	include/linux/sched.h	/^	long	cs;		\/* 16 high bits zero *\/$/;"	m	struct:tss_struct
+csi_J	kernel/console.c	/^static void csi_J(int par)$/;"	f	file:
+csi_K	kernel/console.c	/^static void csi_K(int par)$/;"	f	file:
+csi_L	kernel/console.c	/^static void csi_L(int nr)$/;"	f	file:
+csi_M	kernel/console.c	/^static void csi_M(int nr)$/;"	f	file:
+csi_P	kernel/console.c	/^static void csi_P(int nr)$/;"	f	file:
+csi_at	kernel/console.c	/^static void csi_at(int nr)$/;"	f	file:
+csi_m	kernel/console.c	/^void csi_m(void)$/;"	f
+cstime	include/linux/sched.h	/^	long utime,stime,cutime,cstime,start_time;$/;"	m	struct:task_struct
+ctime	include/time.h	/^char * ctime(const time_t * tp);$/;"	p
+ctl	kernel/hd.c	/^	int head,sect,cyl,wpcom,lzone,ctl;$/;"	m	struct:hd_i_struct	file:
+ctrl	kernel/keyboard.s	/^ctrl:	movb $0x04,%al$/;"	l
+cur	kernel/keyboard.s	/^cur:	movb cur_table(%eax),%al$/;"	l
+cur2	kernel/keyboard.s	/^cur2:	cmpb $0x01,e0		\/* e0 forces cursor movement *\/$/;"	l
+cur_table	kernel/keyboard.s	/^cur_table:$/;"	l
+current	kernel/sched.c	/^struct task_struct *current = &(init_task.task), *last_task_used_math = NULL;$/;"	v	typeref:struct:task_struct
+cursor	kernel/keyboard.s	/^cursor:$/;"	l
+cutime	include/linux/sched.h	/^	long utime,stime,cutime,cstime,start_time;$/;"	m	struct:task_struct
+cwd	include/linux/sched.h	/^	long	cwd;$/;"	m	struct:i387_struct
+cyl	include/linux/hdreg.h	/^	unsigned char cyl;		\/* ? *\/$/;"	m	struct:partition
+cyl	kernel/hd.c	/^	int cyl;$/;"	m	struct:hd_request	file:
+cyl	kernel/hd.c	/^	int head,sect,cyl,wpcom,lzone,ctl;$/;"	m	struct:hd_i_struct	file:
+d_inode	include/linux/fs.h	/^struct d_inode {$/;"	s
+daddr_t	include/sys/types.h	/^typedef int daddr_t;$/;"	t
+data	include/linux/tty.h	/^	unsigned long data;$/;"	m	struct:tty_queue
+debug	kernel/traps.c	/^void debug(void);$/;"	p	file:
+default_signal	kernel/system_call.s	/^default_signal:$/;"	l
+del	kernel/console.c	/^static void del(void)$/;"	f	file:
+delete_char	kernel/console.c	/^static void delete_char(void)$/;"	f	file:
+delete_line	kernel/console.c	/^static void delete_line(void)$/;"	f	file:
+desc_struct	include/linux/head.h	/^typedef struct desc_struct {$/;"	s
+desc_table	include/linux/head.h	/^} desc_table[256];$/;"	t	typeref:struct:desc_struct
+dev_t	include/sys/types.h	/^typedef unsigned short dev_t;$/;"	t
+device_not_available	kernel/traps.c	/^void device_not_available(void);$/;"	p	file:
+die	boot/boot.s	/^die:	jne die			| es must be at 64kB boundary$/;"	l
+die	kernel/keyboard.s	/^die:	jmp die$/;"	l
+die	kernel/traps.c	/^static void die(char * str,long esp_ptr,long nr)$/;"	f	file:
+die	tools/build.c	/^void die(char * str)$/;"	f
+difftime	include/time.h	/^double difftime(time_t time2, time_t time1);$/;"	p
+dir_entry	include/linux/fs.h	/^struct dir_entry {$/;"	s
+dir_namei	fs/namei.c	/^static struct m_inode * dir_namei(const char * pathname,$/;"	f	file:
+div_t	include/sys/types.h	/^typedef struct { int quot,rem; } div_t;$/;"	t	typeref:struct:__anon1
+divide_error	kernel/traps.c	/^void divide_error(void);$/;"	p	file:
+do_bounds	kernel/traps.c	/^void do_bounds(long esp, long error_code)$/;"	f
+do_coprocessor_error	kernel/traps.c	/^void do_coprocessor_error(long esp, long error_code)$/;"	f
+do_coprocessor_segment_overrun	kernel/traps.c	/^void do_coprocessor_segment_overrun(long esp, long error_code)$/;"	f
+do_debug	kernel/traps.c	/^void do_debug(long esp, long error_code)$/;"	f
+do_device_not_available	kernel/traps.c	/^void do_device_not_available(long esp, long error_code)$/;"	f
+do_div	kernel/vsprintf.c	36;"	d	file:
+do_divide_error	kernel/traps.c	/^void do_divide_error(long esp, long error_code)$/;"	f
+do_double_fault	kernel/traps.c	/^void do_double_fault(long esp, long error_code)$/;"	f
+do_execve	fs/exec.c	/^int do_execve(unsigned long * eip,long tmp,char * filename,$/;"	f
+do_exit	kernel/exit.c	/^int do_exit(long code)$/;"	f
+do_exit	kernel/traps.c	/^int do_exit(long code);$/;"	p	file:
+do_exit	mm/memory.c	/^int do_exit(long code);$/;"	p	file:
+do_general_protection	kernel/traps.c	/^void do_general_protection(long esp, long error_code)$/;"	f
+do_hd	kernel/hd.c	/^void (*do_hd)(void) = NULL;$/;"	v
+do_int3	kernel/traps.c	/^void do_int3(long * esp, long error_code,$/;"	f
+do_invalid_TSS	kernel/traps.c	/^void do_invalid_TSS(long esp,long error_code)$/;"	f
+do_invalid_op	kernel/traps.c	/^void do_invalid_op(long esp, long error_code)$/;"	f
+do_kill	kernel/exit.c	/^void do_kill(long pid,long sig,int priv)$/;"	f
+do_mount	fs/super.c	/^struct super_block * do_mount(int dev)$/;"	f
+do_move	boot/boot.s	/^do_move:$/;"	l
+do_nmi	kernel/traps.c	/^void do_nmi(long esp, long error_code)$/;"	f
+do_no_page	mm/memory.c	/^void do_no_page(unsigned long error_code,unsigned long address)$/;"	f
+do_overflow	kernel/traps.c	/^void do_overflow(long esp, long error_code)$/;"	f
+do_request	kernel/hd.c	/^static void do_request(void)$/;"	f	file:
+do_request	kernel/hd.c	/^static void do_request(void);$/;"	p	file:
+do_reserved	kernel/traps.c	/^void do_reserved(long esp, long error_code)$/;"	f
+do_segment_not_present	kernel/traps.c	/^void do_segment_not_present(long esp,long error_code)$/;"	f
+do_self	kernel/keyboard.s	/^do_self:$/;"	l
+do_stack_segment	kernel/traps.c	/^void do_stack_segment(long esp,long error_code)$/;"	f
+do_timer	kernel/sched.c	/^void do_timer(long cpl)$/;"	f
+do_tty_interrupt	kernel/tty_io.c	/^void do_tty_interrupt(int tty)$/;"	f
+do_wp_page	mm/memory.c	/^void do_wp_page(unsigned long error_code,unsigned long address)$/;"	f
+double_fault	kernel/traps.c	/^void double_fault(void);$/;"	p	file:
+drive_busy	kernel/hd.c	/^static int drive_busy(void)$/;"	f	file:
+ds	include/linux/sched.h	/^	long	ds;		\/* 16 high bits zero *\/$/;"	m	struct:tss_struct
+dup	include/unistd.h	/^int dup(int fildes);$/;"	p
+dup2	include/unistd.h	/^int dup2(int oldfd, int newfd);$/;"	p
+dupfd	fs/fcntl.c	/^static int dupfd(unsigned int fd, unsigned int arg)$/;"	f	file:
+e0	kernel/keyboard.s	/^e0:	.byte 0$/;"	l
+e0_e1	kernel/keyboard.s	/^e0_e1:	inb $0x61,%al$/;"	l
+eax	include/linux/sched.h	/^	long	eax,ecx,edx,ebx;$/;"	m	struct:tss_struct
+ebp	include/linux/sched.h	/^	long	ebp;$/;"	m	struct:tss_struct
+ebx	include/linux/sched.h	/^	long	eax,ecx,edx,ebx;$/;"	m	struct:tss_struct
+ecx	include/linux/sched.h	/^	long	eax,ecx,edx,ebx;$/;"	m	struct:tss_struct
+edi	include/linux/sched.h	/^	long	edi;$/;"	m	struct:tss_struct
+edx	include/linux/sched.h	/^	long	eax,ecx,edx,ebx;$/;"	m	struct:tss_struct
+eflags	include/linux/sched.h	/^	long	eflags;$/;"	m	struct:tss_struct
+egid	include/linux/sched.h	/^	unsigned short gid,egid,sgid;$/;"	m	struct:task_struct
+eip	include/linux/sched.h	/^	long	eip;$/;"	m	struct:tss_struct
+empty_8042	boot/boot.s	/^empty_8042:$/;"	l
+empty_dir	fs/namei.c	/^static int empty_dir(struct m_inode * inode)$/;"	f	file:
+end_code	include/linux/sched.h	/^	unsigned long end_code; \/* the end address of code segment *\/$/;"	m	struct:task_struct
+end_cyl	include/linux/hdreg.h	/^	unsigned char end_cyl;		\/* ? *\/$/;"	m	struct:partition
+end_data	include/linux/sched.h	/^	unsigned long end_data; \/* the end address of data segment *\/$/;"	m	struct:task_struct
+end_func	kernel/keyboard.s	/^end_func:$/;"	l
+end_head	include/linux/hdreg.h	/^	unsigned char end_head;		\/* ? *\/$/;"	m	struct:partition
+end_move	boot/boot.s	/^end_move:$/;"	l
+end_sector	include/linux/hdreg.h	/^	unsigned char end_sector;	\/* ? *\/$/;"	m	struct:partition
+endbss	boot/boot.s	/^endbss:$/;"	l
+enddata	boot/boot.s	/^enddata:$/;"	l
+endtext	boot/boot.s	/^endtext:$/;"	l
+entry	boot/boot.s	/^entry start$/;"	l
+envp	init/main.c	/^static char * envp[] = { "HOME=\/usr\/root", NULL };$/;"	v	file:
+errno	lib/errno.c	/^int errno;$/;"	v
+error_code	kernel/asm.s	/^error_code:$/;"	l
+errors	kernel/hd.c	/^	int errors;$/;"	m	struct:hd_request	file:
+es	include/linux/sched.h	/^	long	es;		\/* 16 high bits zero *\/$/;"	m	struct:tss_struct
+esi	include/linux/sched.h	/^	long	esi;$/;"	m	struct:tss_struct
+esp	include/linux/sched.h	/^	long	esp;$/;"	m	struct:tss_struct
+esp0	include/linux/sched.h	/^	long	esp0;$/;"	m	struct:tss_struct
+esp1	include/linux/sched.h	/^	long	esp1;$/;"	m	struct:tss_struct
+esp2	include/linux/sched.h	/^	long	esp2;$/;"	m	struct:tss_struct
+euid	include/linux/sched.h	/^	unsigned short uid,euid,suid;$/;"	m	struct:task_struct
+exec	include/a.out.h	/^struct exec {$/;"	s
+execl	include/unistd.h	/^int execl(const char * pathname, char * arg0, ...);$/;"	p
+execle	include/unistd.h	/^int execle(const char * pathname, char * arg0, ...);$/;"	p
+execlp	include/unistd.h	/^int execlp(const char * file, char * arg0, ...);$/;"	p
+execv	include/unistd.h	/^int execv(const char * pathname, char ** argv);$/;"	p
+execve	include/unistd.h	/^int execve(const char * filename, char ** argv, char ** envp);$/;"	p
+execvp	include/unistd.h	/^int execvp(const char * file, char ** argv);$/;"	p
+exit	include/unistd.h	/^volatile void exit(int status);$/;"	p
+exit_code	include/linux/sched.h	/^	int exit_code;$/;"	m	struct:task_struct
+extern	lib/string.c	5;"	d	file:
+f_count	include/linux/fs.h	/^	unsigned short f_count;$/;"	m	struct:file
+f_flags	include/linux/fs.h	/^	unsigned short f_flags;$/;"	m	struct:file
+f_fname	include/sys/types.h	/^	char f_fname[6];$/;"	m	struct:ustat
+f_fpack	include/sys/types.h	/^	char f_fpack[6];$/;"	m	struct:ustat
+f_inode	include/linux/fs.h	/^	struct m_inode * f_inode;$/;"	m	struct:file	typeref:struct:file::m_inode
+f_mode	include/linux/fs.h	/^	unsigned short f_mode;$/;"	m	struct:file
+f_pos	include/linux/fs.h	/^	off_t f_pos;$/;"	m	struct:file
+f_tfree	include/sys/types.h	/^	daddr_t f_tfree;$/;"	m	struct:ustat
+f_tinode	include/sys/types.h	/^	ino_t f_tinode;$/;"	m	struct:ustat
+father	include/linux/sched.h	/^	long pid,father,pgrp,session,leader;$/;"	m	struct:task_struct
+fcntl	include/fcntl.h	/^extern int fcntl(int fildes,int cmd, ...);$/;"	p
+fcntl	include/unistd.h	/^int fcntl(int fildes, int cmd, ...);$/;"	p
+fcs	include/linux/sched.h	/^	long	fcs;$/;"	m	struct:i387_struct
+file	include/linux/fs.h	/^struct file {$/;"	s
+file_read	fs/file_dev.c	/^int file_read(struct m_inode * inode, struct file * filp, char * buf, int count)$/;"	f
+file_read	fs/read_write.c	/^extern int file_read(struct m_inode * inode, struct file * filp,$/;"	p	file:
+file_table	fs/file_table.c	/^struct file file_table[NR_FILE];$/;"	v	typeref:struct:file
+file_write	fs/file_dev.c	/^int file_write(struct m_inode * inode, struct file * filp, char * buf, int count)$/;"	f
+file_write	fs/read_write.c	/^extern int file_write(struct m_inode * inode, struct file * filp,$/;"	p	file:
+filp	include/linux/sched.h	/^	struct file * filp[NR_OPEN];$/;"	m	struct:task_struct	typeref:struct:task_struct::file
+find_buffer	fs/buffer.c	/^static struct buffer_head * find_buffer(int dev, int block)$/;"	f	file:
+find_empty_process	kernel/fork.c	/^int find_empty_process(void)$/;"	f
+find_entry	fs/namei.c	/^static struct buffer_head * find_entry(struct m_inode * dir,$/;"	f	file:
+find_first_zero	fs/bitmap.c	23;"	d	file:
+fip	include/linux/sched.h	/^	long	fip;$/;"	m	struct:i387_struct
+flock	include/fcntl.h	/^struct flock {$/;"	s
+flush	fs/tty_ioctl.c	/^static void flush(struct tty_queue * queue)$/;"	f	file:
+fn_ptr	include/linux/sched.h	/^typedef int (*fn_ptr)();$/;"	t
+foo	include/linux/sched.h	/^	long	foo;$/;"	m	struct:i387_struct
+fork	include/unistd.h	/^int fork(void);$/;"	p
+fos	include/linux/sched.h	/^	long	fos;$/;"	m	struct:i387_struct
+free_block	fs/bitmap.c	/^void free_block(int dev, int block)$/;"	f
+free_block	include/linux/fs.h	/^extern void free_block(int dev, int block);$/;"	p
+free_dind	fs/truncate.c	/^static void free_dind(int dev,int block)$/;"	f	file:
+free_ind	fs/truncate.c	/^static void free_ind(int dev,int block)$/;"	f	file:
+free_inode	fs/bitmap.c	/^void free_inode(struct m_inode * inode)$/;"	f
+free_inode	include/linux/fs.h	/^extern void free_inode(struct m_inode * inode);$/;"	p
+free_list	fs/buffer.c	/^static struct buffer_head * free_list;$/;"	v	typeref:struct:buffer_head	file:
+free_page	include/linux/mm.h	/^extern void free_page(unsigned long addr);$/;"	p
+free_page	mm/memory.c	/^void free_page(unsigned long addr)$/;"	f
+free_page_tables	include/linux/sched.h	/^extern int free_page_tables(unsigned long from, long size);$/;"	p
+free_page_tables	mm/memory.c	/^int free_page_tables(unsigned long from,unsigned long size)$/;"	f
+fs	include/linux/sched.h	/^	long	fs;		\/* 16 high bits zero *\/$/;"	m	struct:tss_struct
+fstat	include/sys/stat.h	/^extern int fstat(int fildes, struct stat *stat_buf);$/;"	p
+fstat	include/unistd.h	/^int fstat(int fildes, struct stat * stat_buf);$/;"	p
+func	kernel/keyboard.s	/^func:$/;"	l
+func_table	kernel/keyboard.s	/^func_table:$/;"	l
+gdt	boot/boot.s	/^gdt:$/;"	l
+gdt_48	boot/boot.s	/^gdt_48:$/;"	l
+gdt_descr	boot/head.s	/^gdt_descr:$/;"	l
+general_protection	kernel/traps.c	/^void general_protection(void);$/;"	p	file:
+get_dir	fs/namei.c	/^static struct m_inode * get_dir(const char * pathname)$/;"	f	file:
+get_empty_inode	fs/inode.c	/^struct m_inode * get_empty_inode(void)$/;"	f
+get_empty_inode	include/linux/fs.h	/^extern struct m_inode * get_empty_inode(void);$/;"	p
+get_free_page	include/linux/mm.h	/^extern unsigned long get_free_page(void);$/;"	p
+get_free_page	mm/memory.c	/^unsigned long get_free_page(void)$/;"	f
+get_fs_byte	include/asm/segment.h	/^extern inline unsigned char get_fs_byte(const char * addr)$/;"	f
+get_fs_long	include/asm/segment.h	/^extern inline unsigned long get_fs_long(const unsigned long *addr)$/;"	f
+get_fs_word	include/asm/segment.h	/^extern inline unsigned short get_fs_word(const unsigned short *addr)$/;"	f
+get_hash_table	fs/buffer.c	/^struct buffer_head * get_hash_table(int dev, int block)$/;"	f
+get_hash_table	include/linux/fs.h	/^extern struct buffer_head * get_hash_table(int dev, int block);$/;"	p
+get_pipe_inode	fs/inode.c	/^struct m_inode * get_pipe_inode(void)$/;"	f
+get_pipe_inode	include/linux/fs.h	/^extern struct m_inode * get_pipe_inode(void);$/;"	p
+get_seg_byte	kernel/traps.c	15;"	d	file:
+get_seg_long	kernel/traps.c	21;"	d	file:
+get_super	include/linux/fs.h	/^extern inline struct super_block * get_super(int dev)$/;"	f
+get_termio	fs/tty_ioctl.c	/^static int get_termio(struct tty_struct * tty, struct termio * termio)$/;"	f	file:
+get_termios	fs/tty_ioctl.c	/^static int get_termios(struct tty_struct * tty, struct termios * termios)$/;"	f	file:
+getblk	fs/buffer.c	/^struct buffer_head * getblk(int dev,int block)$/;"	f
+getblk	include/linux/fs.h	/^extern struct buffer_head * getblk(int dev, int block);$/;"	p
+getegid	include/unistd.h	/^int getegid(void);$/;"	p
+geteuid	include/unistd.h	/^int geteuid(void);$/;"	p
+getgid	include/unistd.h	/^int getgid(void);$/;"	p
+getpgrp	include/unistd.h	/^pid_t getpgrp(void);$/;"	p
+getpid	include/unistd.h	/^int getpid(void);$/;"	p
+getppid	include/unistd.h	/^int getppid(void);$/;"	p
+getuid	include/unistd.h	/^int getuid(void);$/;"	p
+gid	include/linux/sched.h	/^	unsigned short gid,egid,sgid;$/;"	m	struct:task_struct
+gid_t	include/sys/types.h	/^typedef unsigned char gid_t;$/;"	t
+gmtime	include/time.h	/^struct tm * gmtime(const time_t *tp);$/;"	p
+go	boot/boot.s	/^go:	mov	ax,cs$/;"	l
+gotoxy	kernel/console.c	/^static inline void gotoxy(unsigned int new_x,unsigned int new_y)$/;"	f	file:
+gs	include/linux/sched.h	/^	long	gs;		\/* 16 high bits zero *\/$/;"	m	struct:tss_struct
+hash	fs/buffer.c	69;"	d	file:
+hash_table	fs/buffer.c	/^struct buffer_head * hash_table[NR_HASH];$/;"	v	typeref:struct:buffer_head
+hd	kernel/hd.c	/^	int hd;		\/* -1 if no request *\/$/;"	m	struct:hd_request	file:
+hd	kernel/hd.c	/^} hd[5*MAX_HD]={{0,0},};$/;"	v	typeref:struct:hd_struct	file:
+hd_i_struct	kernel/hd.c	/^static struct hd_i_struct{$/;"	s	file:
+hd_info	kernel/hd.c	/^	} hd_info[]= { HD_TYPE };$/;"	v	typeref:struct:hd_i_struct	file:
+hd_init	init/main.c	/^extern void hd_init(void);$/;"	p	file:
+hd_init	kernel/hd.c	/^void hd_init(void)$/;"	f
+hd_init	kernel/hd.c	/^void hd_init(void);$/;"	p	file:
+hd_interrupt	kernel/hd.c	/^extern void hd_interrupt(void);$/;"	p	file:
+hd_out	kernel/hd.c	/^static void hd_out(unsigned int drive,unsigned int nsect,unsigned int sect,$/;"	f	file:
+hd_request	kernel/hd.c	/^static struct hd_request {$/;"	s	file:
+hd_struct	kernel/hd.c	/^static struct hd_struct {$/;"	s	file:
+head	boot/boot.s	/^head:	.word 0			| current head$/;"	l
+head	include/linux/hdreg.h	/^	unsigned char head;		\/* ? *\/$/;"	m	struct:partition
+head	include/linux/tty.h	/^	unsigned long head;$/;"	m	struct:tty_queue
+head	kernel/hd.c	/^	int head,sect,cyl,wpcom,lzone,ctl;$/;"	m	struct:hd_i_struct	file:
+head	kernel/hd.c	/^	int head;$/;"	m	struct:hd_request	file:
+head	kernel/keyboard.s	/^head = 4$/;"	d
+head	kernel/rs_io.s	/^head = 4$/;"	d
+i387	include/linux/sched.h	/^	struct i387_struct i387;$/;"	m	struct:tss_struct	typeref:struct:tss_struct::i387_struct
+i387_struct	include/linux/sched.h	/^struct i387_struct {$/;"	s
+i_atime	include/linux/fs.h	/^	unsigned long i_atime;$/;"	m	struct:m_inode
+i_count	include/linux/fs.h	/^	unsigned short i_count;$/;"	m	struct:m_inode
+i_ctime	include/linux/fs.h	/^	unsigned long i_ctime;$/;"	m	struct:m_inode
+i_dev	include/linux/fs.h	/^	unsigned short i_dev;$/;"	m	struct:m_inode
+i_dirt	include/linux/fs.h	/^	unsigned char i_dirt;$/;"	m	struct:m_inode
+i_gid	include/linux/fs.h	/^	unsigned char i_gid;$/;"	m	struct:d_inode
+i_gid	include/linux/fs.h	/^	unsigned char i_gid;$/;"	m	struct:m_inode
+i_lock	include/linux/fs.h	/^	unsigned char i_lock;$/;"	m	struct:m_inode
+i_mode	include/linux/fs.h	/^	unsigned short i_mode;$/;"	m	struct:d_inode
+i_mode	include/linux/fs.h	/^	unsigned short i_mode;$/;"	m	struct:m_inode
+i_mount	include/linux/fs.h	/^	unsigned char i_mount;$/;"	m	struct:m_inode
+i_mtime	include/linux/fs.h	/^	unsigned long i_mtime;$/;"	m	struct:m_inode
+i_nlinks	include/linux/fs.h	/^	unsigned char i_nlinks;$/;"	m	struct:d_inode
+i_nlinks	include/linux/fs.h	/^	unsigned char i_nlinks;$/;"	m	struct:m_inode
+i_num	include/linux/fs.h	/^	unsigned short i_num;$/;"	m	struct:m_inode
+i_pipe	include/linux/fs.h	/^	unsigned char i_pipe;$/;"	m	struct:m_inode
+i_seek	include/linux/fs.h	/^	unsigned char i_seek;$/;"	m	struct:m_inode
+i_size	include/linux/fs.h	/^	unsigned long i_size;$/;"	m	struct:d_inode
+i_size	include/linux/fs.h	/^	unsigned long i_size;$/;"	m	struct:m_inode
+i_time	include/linux/fs.h	/^	unsigned long i_time;$/;"	m	struct:d_inode
+i_uid	include/linux/fs.h	/^	unsigned short i_uid;$/;"	m	struct:d_inode
+i_uid	include/linux/fs.h	/^	unsigned short i_uid;$/;"	m	struct:m_inode
+i_update	include/linux/fs.h	/^	unsigned char i_update;$/;"	m	struct:m_inode
+i_wait	include/linux/fs.h	/^	struct task_struct * i_wait;$/;"	m	struct:m_inode	typeref:struct:m_inode::task_struct
+i_zone	include/linux/fs.h	/^	unsigned short i_zone[9];$/;"	m	struct:d_inode
+i_zone	include/linux/fs.h	/^	unsigned short i_zone[9];$/;"	m	struct:m_inode
+idt_48	boot/boot.s	/^idt_48:$/;"	l
+idt_descr	boot/head.s	/^idt_descr:$/;"	l
+iget	fs/inode.c	/^struct m_inode * iget(int dev,int nr)$/;"	f
+iget	include/linux/fs.h	/^extern struct m_inode * iget(int dev,int nr);$/;"	p
+ignore_int	boot/head.s	/^ignore_int:$/;"	l
+inb	include/asm/io.h	5;"	d
+inb_p	include/asm/io.h	17;"	d
+init	init/main.c	/^extern void init(void);$/;"	p	file:
+init	init/main.c	/^void init(void)$/;"	f
+init	kernel/serial.c	/^static void init(int port)$/;"	f	file:
+init_task	kernel/sched.c	/^static union task_union init_task = {INIT_TASK,};$/;"	v	typeref:union:task_union	file:
+inline	lib/string.c	6;"	d	file:
+ino_t	include/sys/types.h	/^typedef unsigned short ino_t;$/;"	t
+inode	include/linux/fs.h	/^	unsigned short inode;$/;"	m	struct:dir_entry
+inode_table	fs/inode.c	/^struct m_inode inode_table[NR_INODE]={{0,},};$/;"	v	typeref:struct:m_inode
+insert_char	kernel/console.c	/^static void insert_char(void)$/;"	f	file:
+insert_into_queues	fs/buffer.c	/^static inline void insert_into_queues(struct buffer_head * bh)$/;"	f	file:
+insert_line	kernel/console.c	/^static void insert_line(void)$/;"	f	file:
+int3	kernel/traps.c	/^void int3(void);$/;"	p	file:
+interruptible_sleep_on	kernel/sched.c	/^void interruptible_sleep_on(struct task_struct **p)$/;"	f
+invalid_TSS	kernel/traps.c	/^void invalid_TSS(void);$/;"	p	file:
+invalid_op	kernel/traps.c	/^void invalid_op(void);$/;"	p	file:
+invalidate	mm/memory.c	10;"	d	file:
+ioctl	include/unistd.h	/^int ioctl(int fildes, int cmd, ...);$/;"	p
+ioctl_ptr	fs/ioctl.c	/^typedef int (*ioctl_ptr)(int dev,int cmd,int arg);$/;"	t	file:
+ioctl_table	fs/ioctl.c	/^static ioctl_ptr ioctl_table[]={$/;"	v	file:
+iput	fs/inode.c	/^void iput(struct m_inode * inode)$/;"	f
+iput	include/linux/fs.h	/^extern void iput(struct m_inode * inode);$/;"	p
+iret	include/asm/system.h	20;"	d
+is_digit	kernel/vsprintf.c	10;"	d	file:
+isalnum	include/ctype.h	16;"	d
+isalpha	include/ctype.h	17;"	d
+isascii	include/ctype.h	28;"	d
+iscntrl	include/ctype.h	18;"	d
+isdigit	include/ctype.h	19;"	d
+isgraph	include/ctype.h	20;"	d
+islower	include/ctype.h	21;"	d
+isprint	include/ctype.h	22;"	d
+ispunct	include/ctype.h	23;"	d
+isspace	include/ctype.h	24;"	d
+isupper	include/ctype.h	25;"	d
+isxdigit	include/ctype.h	26;"	d
+jiffies	kernel/sched.c	/^long volatile jiffies=0;$/;"	v
+jmp_table	kernel/rs_io.s	/^jmp_table:$/;"	l
+kb_wait	kernel/keyboard.s	/^kb_wait:$/;"	l
+kernel_mktime	init/main.c	/^extern long kernel_mktime(struct tm * tm);$/;"	p	file:
+kernel_mktime	kernel/mktime.c	/^long kernel_mktime(struct tm * tm)$/;"	f
+key_map	kernel/keyboard.s	/^key_map:$/;"	l
+key_table	kernel/keyboard.s	/^key_table:$/;"	l
+keyboard_interrupt	kernel/console.c	/^extern void keyboard_interrupt(void);$/;"	p	file:
+kill	include/signal.h	/^int kill(pid_t pid, int sig);$/;"	p
+kill	include/unistd.h	/^int kill(pid_t pid, int signal);$/;"	p
+kill_motor	boot/boot.s	/^kill_motor:$/;"	l
+l_len	include/fcntl.h	/^	off_t l_len;$/;"	m	struct:flock
+l_pid	include/fcntl.h	/^	pid_t l_pid;$/;"	m	struct:flock
+l_start	include/fcntl.h	/^	off_t l_start;$/;"	m	struct:flock
+l_type	include/fcntl.h	/^	short l_type;$/;"	m	struct:flock
+l_whence	include/fcntl.h	/^	short l_whence;$/;"	m	struct:flock
+last_allocated_inode	fs/inode.c	/^static volatile int last_allocated_inode = 0;$/;"	v	file:
+last_pid	kernel/fork.c	/^long last_pid=0;$/;"	v
+last_task_used_math	kernel/sched.c	/^struct task_struct *current = &(init_task.task), *last_task_used_math = NULL;$/;"	v	typeref:struct:
+ldiv_t	include/sys/types.h	/^typedef struct { long quot,rem; } ldiv_t;$/;"	t	typeref:struct:__anon2
+ldt	include/linux/sched.h	/^	long	ldt;	\/* 16 high bits zero *\/$/;"	m	struct:tss_struct
+ldt	include/linux/sched.h	/^	struct desc_struct ldt[3];$/;"	m	struct:task_struct	typeref:struct:task_struct::desc_struct
+leader	include/linux/sched.h	/^	long pid,father,pgrp,session,leader;$/;"	m	struct:task_struct
+leds	kernel/keyboard.s	/^leds:	.byte 2		\/* num-lock, caps, scroll-lock mode (nom-lock on) *\/$/;"	l
+lf	kernel/console.c	/^static void lf(void)$/;"	f	file:
+line_status	kernel/rs_io.s	/^line_status:$/;"	l
+lines	kernel/console.c	/^static unsigned long lines=LINES,columns=COLUMNS;$/;"	v	file:
+link	include/unistd.h	/^int link(const char * filename1, const char * filename2);$/;"	p
+ll_rw_block	fs/block_dev.c	/^void ll_rw_block(int rw, struct buffer_head * bh)$/;"	f
+ll_rw_block	include/linux/fs.h	/^extern void ll_rw_block(int rw, struct buffer_head * bh);$/;"	p
+localtime	include/time.h	/^struct tm *localtime(const time_t * tp);$/;"	p
+lock_buffer	kernel/hd.c	/^static inline void lock_buffer(struct buffer_head * bh)$/;"	f	file:
+lock_inode	fs/inode.c	/^static inline void lock_inode(struct m_inode * inode)$/;"	f	file:
+lseek	include/unistd.h	/^int lseek(int fildes, off_t offset, int origin);$/;"	p
+lshift	kernel/keyboard.s	/^lshift:$/;"	l
+lzone	kernel/hd.c	/^	int head,sect,cyl,wpcom,lzone,ctl;$/;"	m	struct:hd_i_struct	file:
+m_inode	include/linux/fs.h	/^struct m_inode {$/;"	s
+machine	include/sys/utsname.h	/^	char machine[9];$/;"	m	struct:utsname
+main	init/main.c	/^void main(void)		\/* This really IS void, no error here. *\/$/;"	f
+main	tools/build.c	/^int main(int argc, char ** argv)$/;"	f
+match	fs/namei.c	/^static int match(int len,const char * name,struct dir_entry * de)$/;"	f	file:
+math_emulate	kernel/asm.s	/^math_emulate:$/;"	l
+math_state_restore	kernel/sched.c	/^void math_state_restore()$/;"	f
+mem_map	mm/memory.c	/^static unsigned short mem_map [ PAGING_PAGES ] = {0,};$/;"	v	file:
+mem_use	kernel/sched.c	/^extern void mem_use(void);$/;"	p	file:
+memchr	include/string.h	/^extern inline void * memchr(const void * cs,char c,int count)$/;"	f
+memcmp	include/string.h	/^extern inline int memcmp(const void * cs,const void * ct,int count)$/;"	f
+memcpy	include/asm/memory.h	8;"	d
+memcpy	include/string.h	/^extern inline void * memcpy(void * dest,const void * src, int n)$/;"	f
+memmove	include/string.h	/^extern inline void * memmove(void * dest,const void * src, int n)$/;"	f
+memset	include/string.h	/^extern inline void * memset(void * s,char c,int count)$/;"	f
+minus	kernel/keyboard.s	/^minus:	cmpb $1,e0$/;"	l
+mkdir	include/sys/stat.h	/^extern int mkdir(const char *_path, mode_t mode);$/;"	p
+mkfifo	include/sys/stat.h	/^extern int mkfifo(const char *_path, mode_t mode);$/;"	p
+mknod	include/unistd.h	/^int mknod(const char * filename, mode_t mode, dev_t dev);$/;"	p
+mktime	include/time.h	/^time_t mktime(struct tm * tp);$/;"	p
+mode	kernel/keyboard.s	/^mode:	.byte 0		\/* caps, alt, ctrl and shift mode *\/$/;"	l
+mode_t	include/sys/types.h	/^typedef unsigned short mode_t;$/;"	t
+modem_status	kernel/rs_io.s	/^modem_status:$/;"	l
+modtime	include/utime.h	/^	time_t modtime;$/;"	m	struct:utimbuf
+month	kernel/mktime.c	/^static int month[12] = {$/;"	v	file:
+mount	include/unistd.h	/^int mount(const char * specialfile, const char * dir, int rwflag);$/;"	p
+mount_root	fs/super.c	/^void mount_root(void)$/;"	f
+mount_root	include/linux/fs.h	/^extern void mount_root(void);$/;"	p
+move_to_user_mode	include/asm/system.h	1;"	d
+msg1	boot/boot.s	/^msg1:$/;"	l
+n_desc	include/a.out.h	/^  short n_desc;$/;"	m	struct:nlist
+n_name	include/a.out.h	/^    char *n_name;$/;"	m	union:nlist::__anon3
+n_next	include/a.out.h	/^    struct nlist *n_next;$/;"	m	union:nlist::__anon3	typeref:struct:nlist::__anon3::nlist
+n_other	include/a.out.h	/^  char n_other;$/;"	m	struct:nlist
+n_strx	include/a.out.h	/^    long n_strx;$/;"	m	union:nlist::__anon3
+n_type	include/a.out.h	/^  unsigned char n_type;$/;"	m	struct:nlist
+n_un	include/a.out.h	/^  } n_un;$/;"	m	struct:nlist	typeref:union:nlist::__anon3
+n_value	include/a.out.h	/^  unsigned long n_value;$/;"	m	struct:nlist
+name	include/linux/fs.h	/^	char name[NAME_LEN];$/;"	m	struct:dir_entry
+namei	fs/namei.c	/^struct m_inode * namei(const char * pathname)$/;"	f
+namei	include/linux/fs.h	/^extern struct m_inode * namei(const char * pathname);$/;"	p
+new_block	fs/bitmap.c	/^int new_block(int dev)$/;"	f
+new_block	include/linux/fs.h	/^extern int new_block(int dev);$/;"	p
+new_inode	fs/bitmap.c	/^struct m_inode * new_inode(int dev)$/;"	f
+new_inode	include/linux/fs.h	/^extern struct m_inode * new_inode(int dev);$/;"	p
+next	kernel/hd.c	/^	struct hd_request * next;$/;"	m	struct:hd_request	typeref:struct:hd_request::hd_request	file:
+nice	include/unistd.h	/^int nice(int val);$/;"	p
+nlink_t	include/sys/types.h	/^typedef unsigned char nlink_t;$/;"	t
+nlist	include/a.out.h	/^struct nlist {$/;"	s
+nmi	kernel/traps.c	/^void nmi(void);$/;"	p	file:
+no_error_code	kernel/asm.s	/^no_error_code:$/;"	l
+nodename	include/sys/utsname.h	/^	char nodename[9];$/;"	m	struct:utsname
+none	kernel/keyboard.s	/^none:	ret$/;"	l
+nop	include/asm/system.h	18;"	d
+npar	kernel/console.c	/^static unsigned long npar,par[NPAR];$/;"	v	file:
+nr_sects	include/linux/hdreg.h	/^	unsigned int nr_sects;		\/* nr of sectors in partition *\/$/;"	m	struct:partition
+nr_sects	kernel/hd.c	/^	long nr_sects;$/;"	m	struct:hd_struct	file:
+nr_system_calls	kernel/system_call.s	/^nr_system_calls = 67$/;"	d
+nsector	kernel/hd.c	/^	int nsector;$/;"	m	struct:hd_request	file:
+num	kernel/keyboard.s	/^num:	xorb $2,leds$/;"	l
+num_table	kernel/keyboard.s	/^num_table:$/;"	l
+number	kernel/vsprintf.c	/^static char * number(char * str, int num, int base, int size, int precision$/;"	f	file:
+off_t	include/sys/types.h	/^typedef long off_t;$/;"	t
+offsetof	include/stddef.h	17;"	d
+ok1_read	boot/boot.s	/^ok1_read:$/;"	l
+ok2_read	boot/boot.s	/^ok2_read:$/;"	l
+ok3_read	boot/boot.s	/^ok3_read:$/;"	l
+ok4_read	boot/boot.s	/^ok4_read:$/;"	l
+ok_cur	kernel/keyboard.s	/^ok_cur:	shll $16,%eax$/;"	l
+ok_func	kernel/keyboard.s	/^ok_func:$/;"	l
+open	include/fcntl.h	/^extern int open(const char * filename, int flags, ...);$/;"	p
+open	include/unistd.h	/^int open(const char * filename, int flag, ...);$/;"	p
+open	lib/open.c	/^int open(const char * filename, int flag, ...)$/;"	f
+open_namei	fs/namei.c	/^int open_namei(const char * pathname, int flag, int mode,$/;"	f
+open_namei	include/linux/fs.h	/^extern int open_namei(const char * pathname, int flag, int mode,$/;"	p
+origin	kernel/console.c	/^static unsigned long origin=SCREEN_START;$/;"	v	file:
+outb	include/asm/io.h	1;"	d
+outb_p	include/asm/io.h	11;"	d
+overflow	kernel/traps.c	/^void overflow(void);$/;"	p	file:
+page_exception	kernel/traps.c	/^void page_exception(void);$/;"	p	file:
+page_fault	kernel/traps.c	/^void page_fault(void);$/;"	p	file:
+panic	include/linux/kernel.h	/^volatile void panic(const char * str);$/;"	p
+panic	include/linux/sched.h	/^extern void panic(const char * str);$/;"	p
+panic	kernel/panic.c	/^volatile void panic(const char * s)$/;"	f
+par	kernel/console.c	/^static unsigned long npar,par[NPAR];$/;"	v	file:
+partition	include/linux/hdreg.h	/^struct partition {$/;"	s
+pause	include/unistd.h	/^int pause(void);$/;"	p
+permission	fs/namei.c	/^static int permission(struct m_inode * inode,int mask)$/;"	f	file:
+pg0	boot/head.s	/^pg0:$/;"	l
+pg1	boot/head.s	/^pg1:$/;"	l
+pg2	boot/head.s	/^pg2:		# This is not used yet, but if you$/;"	l
+pgrp	include/linux/sched.h	/^	long pid,father,pgrp,session,leader;$/;"	m	struct:task_struct
+pgrp	include/linux/tty.h	/^	int pgrp;$/;"	m	struct:tty_struct
+pid	include/linux/sched.h	/^	long pid,father,pgrp,session,leader;$/;"	m	struct:task_struct
+pid_t	include/sys/types.h	/^typedef int pid_t;$/;"	t
+pipe	include/unistd.h	/^int pipe(int * fildes);$/;"	p
+pop	boot/boot.s	/^	pop dx$/;"	d
+port_read	kernel/hd.c	68;"	d	file:
+port_write	kernel/hd.c	71;"	d	file:
+pos	kernel/console.c	/^static unsigned long pos;$/;"	v	file:
+printbuf	init/main.c	/^static char printbuf[1024];$/;"	v	file:
+printf	include/linux/kernel.h	/^int printf(const char * fmt, ...);$/;"	p
+printf	init/main.c	/^static int printf(const char *fmt, ...)$/;"	f	file:
+printk	include/linux/kernel.h	/^int printk(const char * fmt, ...);$/;"	p
+printk	kernel/printk.c	/^int printk(const char *fmt, ...)$/;"	f
+priority	include/linux/sched.h	/^	long priority;$/;"	m	struct:task_struct
+priority	kernel/system_call.s	/^priority = 8$/;"	d
+proc_list	include/linux/tty.h	/^	struct task_struct * proc_list;$/;"	m	struct:tty_queue	typeref:struct:tty_queue::task_struct
+proc_list	kernel/keyboard.s	/^proc_list = 12$/;"	d
+proc_list	kernel/rs_io.s	/^proc_list = 12$/;"	d
+ptrdiff_t	include/stddef.h	/^typedef long ptrdiff_t;$/;"	t
+ptrdiff_t	include/sys/types.h	/^typedef long ptrdiff_t;$/;"	t
+push	boot/boot.s	/^	push dx$/;"	d
+put_fs_byte	include/asm/segment.h	/^extern inline void put_fs_byte(char val,char *addr)$/;"	f
+put_fs_long	include/asm/segment.h	/^extern inline void put_fs_long(unsigned long val,unsigned long * addr)$/;"	f
+put_fs_word	include/asm/segment.h	/^extern inline void put_fs_word(short val,short * addr)$/;"	f
+put_page	include/linux/mm.h	/^extern unsigned long put_page(unsigned long page,unsigned long address);$/;"	p
+put_page	mm/memory.c	/^unsigned long put_page(unsigned long page,unsigned long address)$/;"	f
+put_queue	kernel/keyboard.s	/^put_queue:$/;"	l
+pwd	include/linux/sched.h	/^	struct m_inode * pwd;$/;"	m	struct:task_struct	typeref:struct:task_struct::m_inode
+ques	kernel/console.c	/^static unsigned long ques=0;$/;"	v	file:
+quot	include/sys/types.h	/^typedef struct { int quot,rem; } div_t;$/;"	m	struct:__anon1
+quot	include/sys/types.h	/^typedef struct { long quot,rem; } ldiv_t;$/;"	m	struct:__anon2
+r_address	include/a.out.h	/^  int r_address;$/;"	m	struct:relocation_info
+r_extern	include/a.out.h	/^  unsigned int r_extern:1;$/;"	m	struct:relocation_info
+r_length	include/a.out.h	/^  unsigned int r_length:2;$/;"	m	struct:relocation_info
+r_pad	include/a.out.h	/^  unsigned int r_pad:4;$/;"	m	struct:relocation_info
+r_pcrel	include/a.out.h	/^  unsigned int r_pcrel:1;$/;"	m	struct:relocation_info
+r_symbolnum	include/a.out.h	/^  unsigned int r_symbolnum:24;$/;"	m	struct:relocation_info
+raise	include/signal.h	/^int raise(int sig);$/;"	p
+rd_blk	fs/block_dev.c	/^static blk_fn rd_blk[]={$/;"	v	file:
+read	include/unistd.h	/^int read(int fildes, char * buf, off_t count);$/;"	p
+read_area	fs/exec.c	/^int read_area(struct m_inode * inode,long size)$/;"	f
+read_char	kernel/rs_io.s	/^read_char:$/;"	l
+read_head	fs/exec.c	/^int read_head(struct m_inode * inode,int blocks)$/;"	f
+read_ind	fs/exec.c	/^int read_ind(int dev,int ind,long size,unsigned long offset)$/;"	f
+read_inode	fs/inode.c	/^static void read_inode(struct m_inode * inode)$/;"	f	file:
+read_inode	fs/inode.c	/^static void read_inode(struct m_inode * inode);$/;"	p	file:
+read_intr	kernel/hd.c	/^static void read_intr(void)$/;"	f	file:
+read_it	boot/boot.s	/^read_it:$/;"	l
+read_pipe	fs/pipe.c	/^int read_pipe(struct m_inode * inode, char * buf, int count)$/;"	f
+read_pipe	fs/read_write.c	/^extern int read_pipe(struct m_inode * inode, char * buf, int count);$/;"	p	file:
+read_q	include/linux/tty.h	/^	struct tty_queue read_q;$/;"	m	struct:tty_struct	typeref:struct:tty_struct::tty_queue
+read_track	boot/boot.s	/^read_track:$/;"	l
+reboot	kernel/keyboard.s	/^reboot:$/;"	l
+release	include/sys/utsname.h	/^	char release[9];$/;"	m	struct:utsname
+release	kernel/exit.c	/^void release(struct task_struct * p)$/;"	f
+relocation_info	include/a.out.h	/^struct relocation_info$/;"	s
+rem	include/sys/types.h	/^typedef struct { int quot,rem; } div_t;$/;"	m	struct:__anon1
+rem	include/sys/types.h	/^typedef struct { long quot,rem; } ldiv_t;$/;"	m	struct:__anon2
+remove_from_queues	fs/buffer.c	/^static inline void remove_from_queues(struct buffer_head * bh)$/;"	f	file:
+rep_int	kernel/rs_io.s	/^rep_int:$/;"	l
+request	kernel/hd.c	/^} request[NR_REQUEST];$/;"	v	typeref:struct:hd_request	file:
+reschedule	kernel/system_call.s	/^reschedule:$/;"	l
+reserved	kernel/traps.c	/^void reserved(void);$/;"	p	file:
+reset_controller	kernel/hd.c	/^static void reset_controller(void)$/;"	f	file:
+reset_controller	kernel/hd.c	/^static void reset_controller(void);$/;"	p	file:
+reset_hd	kernel/hd.c	/^static void reset_hd(int nr)$/;"	f	file:
+respond	kernel/console.c	/^static void respond(struct tty_struct * tty)$/;"	f	file:
+restore_cur	kernel/console.c	/^static void restore_cur(void)$/;"	f	file:
+restorer	kernel/system_call.s	/^restorer = 16		# address of info-restorer$/;"	d
+ret_from_sys_call	kernel/system_call.s	/^ret_from_sys_call:$/;"	l
+ri	kernel/console.c	/^static void ri(void)$/;"	f	file:
+root	include/linux/sched.h	/^	struct m_inode * root;$/;"	m	struct:task_struct	typeref:struct:task_struct::m_inode
+rp_read	boot/boot.s	/^rp_read:$/;"	l
+rp_sidt	boot/head.s	/^rp_sidt:$/;"	l
+rs1_interrupt	kernel/serial.c	/^extern void rs1_interrupt(void);$/;"	p	file:
+rs2_interrupt	kernel/serial.c	/^extern void rs2_interrupt(void);$/;"	p	file:
+rs_addr	kernel/rs_io.s	/^rs_addr = 0$/;"	d
+rs_init	include/linux/tty.h	/^void rs_init(void);$/;"	p
+rs_init	kernel/serial.c	/^void rs_init(void)$/;"	f
+rs_int	kernel/rs_io.s	/^rs_int:$/;"	l
+rs_write	include/linux/tty.h	/^void rs_write(struct tty_struct * tty);$/;"	p
+rs_write	kernel/serial.c	/^void rs_write(struct tty_struct * tty)$/;"	f
+rshift	kernel/keyboard.s	/^rshift:$/;"	l
+rw_abs_hd	kernel/hd.c	/^static void rw_abs_hd(int rw,unsigned int nr,unsigned int sec,unsigned int head,$/;"	p	file:
+rw_abs_hd	kernel/hd.c	/^void rw_abs_hd(int rw,unsigned int nr,unsigned int sec,unsigned int head,$/;"	f
+rw_char	fs/char_dev.c	/^int rw_char(int rw,int dev, char * buf, int count)$/;"	f
+rw_char	fs/read_write.c	/^extern int rw_char(int rw,int dev, char * buf, int count);$/;"	p	file:
+rw_hd	fs/block_dev.c	/^extern void rw_hd(int rw, struct buffer_head * bh);$/;"	p	file:
+rw_hd	kernel/hd.c	/^void rw_hd(int rw, struct buffer_head * bh)$/;"	f
+rw_tty	fs/char_dev.c	/^static int rw_tty(int rw,unsigned minor,char * buf,int count)$/;"	f	file:
+rw_tty	fs/char_dev.c	/^static int rw_tty(int rw,unsigned minor,char * buf,int count);$/;"	p	file:
+rw_ttyx	fs/char_dev.c	/^static int rw_ttyx(int rw,unsigned minor,char * buf,int count)$/;"	f	file:
+rw_ttyx	fs/char_dev.c	/^static int rw_ttyx(int rw,unsigned minor,char * buf,int count);$/;"	p	file:
+s_dev	include/linux/fs.h	/^	unsigned short s_dev;$/;"	m	struct:super_block
+s_dirt	include/linux/fs.h	/^	unsigned char s_dirt;$/;"	m	struct:super_block
+s_firstdatazone	include/linux/fs.h	/^	unsigned short s_firstdatazone;$/;"	m	struct:super_block
+s_imap	include/linux/fs.h	/^	struct buffer_head * s_imap[8];$/;"	m	struct:super_block	typeref:struct:super_block::buffer_head
+s_imap_blocks	include/linux/fs.h	/^	unsigned short s_imap_blocks;$/;"	m	struct:super_block
+s_imount	include/linux/fs.h	/^	struct m_inode * s_imount;$/;"	m	struct:super_block	typeref:struct:super_block::m_inode
+s_isup	include/linux/fs.h	/^	struct m_inode * s_isup;$/;"	m	struct:super_block	typeref:struct:super_block::m_inode
+s_log_zone_size	include/linux/fs.h	/^	unsigned short s_log_zone_size;$/;"	m	struct:super_block
+s_magic	include/linux/fs.h	/^	unsigned short s_magic;$/;"	m	struct:super_block
+s_max_size	include/linux/fs.h	/^	unsigned long s_max_size;$/;"	m	struct:super_block
+s_ninodes	include/linux/fs.h	/^	unsigned short s_ninodes;$/;"	m	struct:super_block
+s_nzones	include/linux/fs.h	/^	unsigned short s_nzones;$/;"	m	struct:super_block
+s_rd_only	include/linux/fs.h	/^	unsigned char s_rd_only;$/;"	m	struct:super_block
+s_time	include/linux/fs.h	/^	unsigned long s_time;$/;"	m	struct:super_block
+s_zmap	include/linux/fs.h	/^	struct buffer_head * s_zmap[8];$/;"	m	struct:super_block	typeref:struct:super_block::buffer_head
+s_zmap_blocks	include/linux/fs.h	/^	unsigned short s_zmap_blocks;$/;"	m	struct:super_block
+sa_flags	include/signal.h	/^	int sa_flags;$/;"	m	struct:sigaction
+sa_handler	include/signal.h	/^	void (*sa_handler)(int);$/;"	m	struct:sigaction
+sa_mask	include/signal.h	/^	sigset_t sa_mask;$/;"	m	struct:sigaction
+save_cur	kernel/console.c	/^static void save_cur(void)$/;"	f	file:
+saved_x	kernel/console.c	/^static int saved_x=0;$/;"	v	file:
+saved_y	kernel/console.c	/^static int saved_y=0;$/;"	v	file:
+sbrk	include/unistd.h	/^void * sbrk(ptrdiff_t increment);$/;"	p
+sched_init	include/linux/sched.h	/^extern void sched_init(void);$/;"	p
+sched_init	kernel/sched.c	/^void sched_init(void)$/;"	f
+schedule	include/linux/sched.h	/^extern void schedule(void);$/;"	p
+schedule	kernel/sched.c	/^void schedule(void)$/;"	f
+scr_end	kernel/console.c	/^static unsigned long scr_end=SCREEN_START+LINES*COLUMNS*2;$/;"	v	file:
+scrdown	kernel/console.c	/^static void scrdown(void)$/;"	f	file:
+scroll	kernel/keyboard.s	/^scroll:$/;"	l
+scrup	kernel/console.c	/^static void scrup(void)$/;"	f	file:
+secondary	include/linux/tty.h	/^	struct tty_queue secondary;$/;"	m	struct:tty_struct	typeref:struct:tty_struct::tty_queue
+sect	kernel/hd.c	/^	int head,sect,cyl,wpcom,lzone,ctl;$/;"	m	struct:hd_i_struct	file:
+sector	include/linux/hdreg.h	/^	unsigned char sector;		\/* ? *\/$/;"	m	struct:partition
+sector	kernel/hd.c	/^	int sector;$/;"	m	struct:hd_request	file:
+sectors	boot/boot.s	/^sectors = 18$/;"	d
+segment_not_present	kernel/traps.c	/^void segment_not_present(void);$/;"	p	file:
+send_break	fs/tty_ioctl.c	/^static void send_break(struct tty_struct * tty)$/;"	f	file:
+send_sig	kernel/exit.c	/^static inline void send_sig(long sig,struct task_struct * p,int priv)$/;"	f	file:
+session	include/linux/sched.h	/^	long pid,father,pgrp,session,leader;$/;"	m	struct:task_struct
+set_bit	fs/bitmap.c	13;"	d	file:
+set_bit	fs/super.c	9;"	d	file:
+set_cursor	kernel/console.c	/^static inline void set_cursor(void)$/;"	f	file:
+set_e0	kernel/keyboard.s	/^set_e0:	movb $1,e0$/;"	l
+set_e1	kernel/keyboard.s	/^set_e1:	movb $2,e0$/;"	l
+set_intr_gate	include/asm/system.h	33;"	d
+set_ldt_desc	include/asm/system.h	66;"	d
+set_leds	kernel/keyboard.s	/^set_leds:$/;"	l
+set_origin	kernel/console.c	/^static inline void set_origin(void)$/;"	f	file:
+set_system_gate	include/asm/system.h	39;"	d
+set_termio	fs/tty_ioctl.c	/^static int set_termio(struct tty_struct * tty, struct termio * termio)$/;"	f	file:
+set_termios	fs/tty_ioctl.c	/^static int set_termios(struct tty_struct * tty, struct termios * termios)$/;"	f	file:
+set_trap_gate	include/asm/system.h	36;"	d
+set_tss_desc	include/asm/system.h	65;"	d
+setgid	include/unistd.h	/^int setgid(gid_t gid);$/;"	p
+setpgid	include/unistd.h	/^int setpgid(pid_t pid,pid_t pgid);$/;"	p
+setpgrp	include/unistd.h	/^int setpgrp(void);$/;"	p
+setsid	include/unistd.h	/^pid_t setsid(void);$/;"	p
+setuid	include/unistd.h	/^int setuid(uid_t uid);$/;"	p
+setup_gdt	boot/head.s	/^setup_gdt:$/;"	l
+setup_idt	boot/head.s	/^setup_idt:$/;"	l
+setup_paging	boot/head.s	/^setup_paging:$/;"	l
+sgid	include/linux/sched.h	/^	unsigned short gid,egid,sgid;$/;"	m	struct:task_struct
+shift_map	kernel/keyboard.s	/^shift_map:$/;"	l
+sig_atomic_t	include/signal.h	/^typedef int sig_atomic_t;$/;"	t
+sig_fn	include/linux/sched.h	/^	fn_ptr sig_fn[32];		\/**$/;"	m	struct:task_struct
+sig_fn	kernel/system_call.s	/^sig_fn	= 20		# table of 32 signal addresses$/;"	d
+sig_restorer	include/linux/sched.h	/^	fn_ptr sig_restorer;$/;"	m	struct:task_struct
+sigaction	include/signal.h	/^int sigaction(int sig, struct sigaction *act, struct sigaction *oldact);$/;"	p
+sigaction	include/signal.h	/^struct sigaction {$/;"	s
+sigaddset	include/signal.h	/^int sigaddset(sigset_t *mask, int signo);$/;"	p
+sigdelset	include/signal.h	/^int sigdelset(sigset_t *mask, int signo);$/;"	p
+sigemptyset	include/signal.h	/^int sigemptyset(sigset_t *mask);$/;"	p
+sigfillset	include/signal.h	/^int sigfillset(sigset_t *mask);$/;"	p
+sigismember	include/signal.h	/^int sigismember(sigset_t *mask, int signo); \/* 1 - is, 0 - not, -1 error *\/$/;"	p
+signal	include/linux/sched.h	/^	long signal;$/;"	m	struct:task_struct
+signal	include/signal.h	/^void (*signal(int _sig, void (*_func)(int)))(int);$/;"	p
+signal	include/unistd.h	/^void (*signal(int sig, void (*fn)(int)))(int);$/;"	p
+signal	kernel/system_call.s	/^signal	= 12$/;"	d
+sigpending	include/signal.h	/^int sigpending(sigset_t *set);$/;"	p
+sigprocmask	include/signal.h	/^int sigprocmask(int how, sigset_t *set, sigset_t *oldset);$/;"	p
+sigset_t	include/signal.h	/^typedef unsigned int sigset_t;		\/* 32 bits *\/$/;"	t
+sigsuspend	include/signal.h	/^int sigsuspend(sigset_t *sigmask);$/;"	p
+size	kernel/keyboard.s	/^size	= 1024		\/* must be a power of two ! And MUST be the same$/;"	d
+size	kernel/rs_io.s	/^size	= 1024				\/* must be power of two !$/;"	d
+size_t	include/stddef.h	/^typedef unsigned long size_t;$/;"	t
+size_t	include/string.h	/^typedef unsigned int size_t;$/;"	t
+size_t	include/sys/types.h	/^typedef unsigned int size_t;$/;"	t
+size_t	include/time.h	/^typedef unsigned int size_t;$/;"	t
+skip_atoi	kernel/vsprintf.c	/^static int skip_atoi(const char **s)$/;"	f	file:
+sleep_if_empty	kernel/tty_io.c	/^static void sleep_if_empty(struct tty_queue * queue)$/;"	f	file:
+sleep_if_full	kernel/tty_io.c	/^static void sleep_if_full(struct tty_queue * queue)$/;"	f	file:
+sleep_on	kernel/sched.c	/^void sleep_on(struct task_struct **p)$/;"	f
+sorting	kernel/hd.c	/^static int sorting=0;$/;"	v	file:
+speed_t	include/termios.h	/^typedef int speed_t;$/;"	t
+sread	boot/boot.s	/^sread:	.word 1			| sectors read of current track$/;"	l
+ss	include/linux/sched.h	/^	long	ss;		\/* 16 high bits zero *\/$/;"	m	struct:tss_struct
+ss0	include/linux/sched.h	/^	long	ss0;		\/* 16 high bits zero *\/$/;"	m	struct:tss_struct
+ss1	include/linux/sched.h	/^	long	ss1;		\/* 16 high bits zero *\/$/;"	m	struct:tss_struct
+ss2	include/linux/sched.h	/^	long	ss2;		\/* 16 high bits zero *\/$/;"	m	struct:tss_struct
+st_atime	include/sys/stat.h	/^	time_t	st_atime;$/;"	m	struct:stat
+st_ctime	include/sys/stat.h	/^	time_t	st_ctime;$/;"	m	struct:stat
+st_dev	include/sys/stat.h	/^	dev_t	st_dev;$/;"	m	struct:stat
+st_gid	include/sys/stat.h	/^	gid_t	st_gid;$/;"	m	struct:stat
+st_ino	include/sys/stat.h	/^	ino_t	st_ino;$/;"	m	struct:stat
+st_mode	include/sys/stat.h	/^	umode_t	st_mode;$/;"	m	struct:stat
+st_mtime	include/sys/stat.h	/^	time_t	st_mtime;$/;"	m	struct:stat
+st_nlink	include/sys/stat.h	/^	nlink_t	st_nlink;$/;"	m	struct:stat
+st_rdev	include/sys/stat.h	/^	dev_t	st_rdev;$/;"	m	struct:stat
+st_size	include/sys/stat.h	/^	off_t	st_size;$/;"	m	struct:stat
+st_space	include/linux/sched.h	/^	long	st_space[20];	\/* 8*10 bytes for each FP-reg = 80 bytes *\/$/;"	m	struct:i387_struct
+st_uid	include/sys/stat.h	/^	uid_t	st_uid;$/;"	m	struct:stat
+stack	kernel/sched.c	/^	char stack[PAGE_SIZE];$/;"	m	union:task_union	file:
+stack_segment	kernel/traps.c	/^void stack_segment(void);$/;"	p	file:
+stack_start	kernel/sched.c	/^	} stack_start = { & user_stack [PAGE_SIZE>>2] , 0x10 };$/;"	v	typeref:struct:__anon4
+start	boot/boot.s	/^start:$/;"	l
+start_buffer	fs/buffer.c	/^struct buffer_head * start_buffer = (struct buffer_head *) &end;$/;"	v	typeref:struct:buffer_head
+start_sect	include/linux/hdreg.h	/^	unsigned int start_sect;	\/* starting sector counting from 0 *\/$/;"	m	struct:partition
+start_sect	kernel/hd.c	/^	long start_sect;$/;"	m	struct:hd_struct	file:
+start_stack	include/linux/sched.h	/^	unsigned long start_stack;  \/* the start address of stack  *\/$/;"	m	struct:task_struct
+start_time	include/linux/sched.h	/^	long utime,stime,cutime,cstime,start_time;$/;"	m	struct:task_struct
+startup	kernel/rs_io.s	/^startup	= 256		\/* chars left in write queue when we restart it *\/$/;"	d
+startup_32	boot/head.s	/^startup_32:$/;"	l
+startup_time	kernel/sched.c	/^long startup_time=0;$/;"	v
+stat	include/sys/stat.h	/^extern int stat(const char *filename, struct stat *stat_buf);$/;"	p
+stat	include/sys/stat.h	/^struct stat {$/;"	s
+stat	include/unistd.h	/^int stat(const char * filename, struct stat * stat_buf);$/;"	p
+state	include/linux/sched.h	/^	long state;				\/* -1 unrunnable, 0 runnable, >0 stopped *\/$/;"	m	struct:task_struct
+state	kernel/console.c	/^static unsigned long state=0;$/;"	v	file:
+state	kernel/system_call.s	/^state	= 0		# these are offsets into the task-struct.$/;"	d
+sti	include/asm/system.h	16;"	d
+stime	include/linux/sched.h	/^	long utime,stime,cutime,cstime,start_time;$/;"	m	struct:task_struct
+stime	include/unistd.h	/^int stime(time_t * tptr);$/;"	p
+stopped	include/linux/tty.h	/^	int stopped;$/;"	m	struct:tty_struct
+strcat	include/string.h	/^extern inline char * strcat(char * dest,const char * src)$/;"	f
+strchr	include/string.h	/^extern inline char * strchr(const char * s,char c)$/;"	f
+strcmp	include/string.h	/^extern inline int strcmp(const char * cs,const char * ct)$/;"	f
+strcpy	include/string.h	/^extern inline char * strcpy(char * dest,const char *src)$/;"	f
+strcspn	include/string.h	/^extern inline int strcspn(const char * cs, const char * ct)$/;"	f
+strerror	include/string.h	/^extern char * strerror(int errno);$/;"	p
+strftime	include/time.h	/^size_t strftime(char * s, size_t smax, const char * fmt, const struct tm * tp);$/;"	p
+strlen	include/string.h	/^extern inline int strlen(const char * s)$/;"	f
+strncat	include/string.h	/^extern inline char * strncat(char * dest,const char * src,int count)$/;"	f
+strncmp	include/string.h	/^extern inline int strncmp(const char * cs,const char * ct,int count)$/;"	f
+strncpy	include/string.h	/^extern inline char * strncpy(char * dest,const char *src,int count)$/;"	f
+strpbrk	include/string.h	/^extern inline char * strpbrk(const char * cs,const char * ct)$/;"	f
+strrchr	include/string.h	/^extern inline char * strrchr(const char * s,char c)$/;"	f
+strspn	include/string.h	/^extern inline int strspn(const char * cs, const char * ct)$/;"	f
+strstr	include/string.h	/^extern inline char * strstr(const char * cs,const char * ct)$/;"	f
+strtok	include/string.h	/^extern inline char * strtok(char * s,const char * ct)$/;"	f
+suid	include/linux/sched.h	/^	unsigned short uid,euid,suid;$/;"	m	struct:task_struct
+super_block	fs/super.c	/^struct super_block super_block[NR_SUPER];$/;"	v	typeref:struct:super_block
+super_block	include/linux/fs.h	/^struct super_block {$/;"	s
+swd	include/linux/sched.h	/^	long	swd;$/;"	m	struct:i387_struct
+sync	include/unistd.h	/^int sync(void);$/;"	p
+sync_dev	fs/buffer.c	/^static int sync_dev(int dev)$/;"	f	file:
+sync_inodes	fs/inode.c	/^void sync_inodes(void)$/;"	f
+sync_inodes	include/linux/fs.h	/^extern void sync_inodes(void);$/;"	p
+sys_access	fs/open.c	/^int sys_access(const char * filename,int mode)$/;"	f
+sys_access	include/linux/sys.h	/^extern int sys_access();$/;"	p
+sys_acct	include/linux/sys.h	/^extern int sys_acct();$/;"	p
+sys_acct	kernel/sys.c	/^int sys_acct()$/;"	f
+sys_alarm	include/linux/sys.h	/^extern int sys_alarm();$/;"	p
+sys_alarm	kernel/sched.c	/^int sys_alarm(long seconds)$/;"	f
+sys_break	include/linux/sys.h	/^extern int sys_break();$/;"	p
+sys_break	kernel/sys.c	/^int sys_break()$/;"	f
+sys_brk	include/linux/sys.h	/^extern int sys_brk();$/;"	p
+sys_brk	kernel/sys.c	/^int sys_brk(unsigned long end_data_seg)$/;"	f
+sys_call_table	include/linux/sys.h	/^fn_ptr sys_call_table[] = { sys_setup, sys_exit, sys_fork, sys_read,$/;"	v
+sys_chdir	fs/open.c	/^int sys_chdir(const char * filename)$/;"	f
+sys_chdir	include/linux/sys.h	/^extern int sys_chdir();$/;"	p
+sys_chmod	fs/open.c	/^int sys_chmod(const char * filename,int mode)$/;"	f
+sys_chmod	include/linux/sys.h	/^extern int sys_chmod();$/;"	p
+sys_chown	fs/open.c	/^int sys_chown(const char * filename,int uid,int gid)$/;"	f
+sys_chown	include/linux/sys.h	/^extern int sys_chown();$/;"	p
+sys_chroot	fs/open.c	/^int sys_chroot(const char * filename)$/;"	f
+sys_chroot	include/linux/sys.h	/^extern int sys_chroot();$/;"	p
+sys_close	fs/exec.c	/^extern int sys_close(int fd);$/;"	p	file:
+sys_close	fs/fcntl.c	/^extern int sys_close(int fd);$/;"	p	file:
+sys_close	fs/open.c	/^int sys_close(unsigned int fd)$/;"	f
+sys_close	include/linux/sys.h	/^extern int sys_close();$/;"	p
+sys_close	kernel/exit.c	/^int sys_close(int fd);$/;"	p	file:
+sys_creat	fs/open.c	/^int sys_creat(const char * pathname, int mode)$/;"	f
+sys_creat	include/linux/sys.h	/^extern int sys_creat();$/;"	p
+sys_dup	fs/fcntl.c	/^int sys_dup(unsigned int fildes)$/;"	f
+sys_dup	include/linux/sys.h	/^extern int sys_dup();$/;"	p
+sys_dup2	fs/fcntl.c	/^int sys_dup2(unsigned int oldfd, unsigned int newfd)$/;"	f
+sys_dup2	include/linux/sys.h	/^extern int sys_dup2();$/;"	p
+sys_execve	include/linux/sys.h	/^extern int sys_execve();$/;"	p
+sys_exit	fs/exec.c	/^extern int sys_exit(int exit_code);$/;"	p	file:
+sys_exit	include/linux/sys.h	/^extern int sys_exit();$/;"	p
+sys_exit	kernel/exit.c	/^int sys_exit(int error_code)$/;"	f
+sys_fcntl	fs/fcntl.c	/^int sys_fcntl(unsigned int fd, unsigned int cmd, unsigned long arg)$/;"	f
+sys_fcntl	include/linux/sys.h	/^extern int sys_fcntl();$/;"	p
+sys_fork	include/linux/sys.h	/^extern int sys_fork();$/;"	p
+sys_fstat	fs/stat.c	/^int sys_fstat(unsigned int fd, struct stat * statbuf)$/;"	f
+sys_fstat	include/linux/sys.h	/^extern int sys_fstat();$/;"	p
+sys_ftime	include/linux/sys.h	/^extern int sys_ftime();$/;"	p
+sys_ftime	kernel/sys.c	/^int sys_ftime()$/;"	f
+sys_getegid	include/linux/sys.h	/^extern int sys_getegid();$/;"	p
+sys_getegid	kernel/sched.c	/^int sys_getegid(void)$/;"	f
+sys_geteuid	include/linux/sys.h	/^extern int sys_geteuid();$/;"	p
+sys_geteuid	kernel/sched.c	/^int sys_geteuid(void)$/;"	f
+sys_getgid	include/linux/sys.h	/^extern int sys_getgid();$/;"	p
+sys_getgid	kernel/sched.c	/^int sys_getgid(void)$/;"	f
+sys_getpgrp	include/linux/sys.h	/^extern int sys_getpgrp();$/;"	p
+sys_getpgrp	kernel/sys.c	/^int sys_getpgrp(void)$/;"	f
+sys_getpid	include/linux/sys.h	/^extern int sys_getpid();$/;"	p
+sys_getpid	kernel/sched.c	/^int sys_getpid(void)$/;"	f
+sys_getppid	include/linux/sys.h	/^extern int sys_getppid();$/;"	p
+sys_getppid	kernel/sched.c	/^int sys_getppid(void)$/;"	f
+sys_getuid	include/linux/sys.h	/^extern int sys_getuid();$/;"	p
+sys_getuid	kernel/sched.c	/^int sys_getuid(void)$/;"	f
+sys_gtty	include/linux/sys.h	/^extern int sys_gtty();$/;"	p
+sys_gtty	kernel/sys.c	/^int sys_gtty()$/;"	f
+sys_ind	include/linux/hdreg.h	/^	unsigned char sys_ind;		\/* ? *\/$/;"	m	struct:partition
+sys_ioctl	fs/ioctl.c	/^int sys_ioctl(unsigned int fd, unsigned int cmd, unsigned long arg)$/;"	f
+sys_ioctl	include/linux/sys.h	/^extern int sys_ioctl();$/;"	p
+sys_kill	include/linux/sys.h	/^extern int sys_kill();$/;"	p
+sys_kill	kernel/exit.c	/^int sys_kill(int pid,int sig)$/;"	f
+sys_link	fs/namei.c	/^int sys_link(const char * oldname, const char * newname)$/;"	f
+sys_link	include/linux/sys.h	/^extern int sys_link();$/;"	p
+sys_lock	include/linux/sys.h	/^extern int sys_lock();$/;"	p
+sys_lock	kernel/sys.c	/^int sys_lock()$/;"	f
+sys_lseek	fs/read_write.c	/^int sys_lseek(unsigned int fd,off_t offset, int origin)$/;"	f
+sys_lseek	include/linux/sys.h	/^extern int sys_lseek();$/;"	p
+sys_mkdir	fs/namei.c	/^int sys_mkdir(const char * pathname, int mode)$/;"	f
+sys_mkdir	include/linux/sys.h	/^extern int sys_mkdir();$/;"	p
+sys_mknod	include/linux/sys.h	/^extern int sys_mknod();$/;"	p
+sys_mknod	kernel/sys.c	/^int sys_mknod()$/;"	f
+sys_mount	include/linux/sys.h	/^extern int sys_mount();$/;"	p
+sys_mount	kernel/sys.c	/^int sys_mount()$/;"	f
+sys_mpx	include/linux/sys.h	/^extern int sys_mpx();$/;"	p
+sys_mpx	kernel/sys.c	/^int sys_mpx()$/;"	f
+sys_nice	include/linux/sys.h	/^extern int sys_nice();$/;"	p
+sys_nice	kernel/sched.c	/^int sys_nice(long increment)$/;"	f
+sys_open	fs/open.c	/^int sys_open(const char * filename,int flag,int mode)$/;"	f
+sys_open	include/linux/sys.h	/^extern int sys_open();$/;"	p
+sys_pause	include/linux/sys.h	/^extern int sys_pause();$/;"	p
+sys_pause	kernel/exit.c	/^int sys_pause(void);$/;"	p	file:
+sys_pause	kernel/sched.c	/^int sys_pause(void)$/;"	f
+sys_phys	include/linux/sys.h	/^extern int sys_phys();$/;"	p
+sys_phys	kernel/sys.c	/^int sys_phys()$/;"	f
+sys_pipe	fs/pipe.c	/^int sys_pipe(unsigned long * fildes)$/;"	f
+sys_pipe	include/linux/sys.h	/^extern int sys_pipe();$/;"	p
+sys_prof	include/linux/sys.h	/^extern int sys_prof();$/;"	p
+sys_prof	kernel/sys.c	/^int sys_prof()$/;"	f
+sys_ptrace	include/linux/sys.h	/^extern int sys_ptrace();$/;"	p
+sys_ptrace	kernel/sys.c	/^int sys_ptrace()$/;"	f
+sys_read	fs/read_write.c	/^int sys_read(unsigned int fd,char * buf,int count)$/;"	f
+sys_read	include/linux/sys.h	/^extern int sys_read();$/;"	p
+sys_rename	include/linux/sys.h	/^extern int sys_rename();$/;"	p
+sys_rename	kernel/sys.c	/^int sys_rename()$/;"	f
+sys_rmdir	fs/namei.c	/^int sys_rmdir(const char * name)$/;"	f
+sys_rmdir	include/linux/sys.h	/^extern int sys_rmdir();$/;"	p
+sys_setgid	include/linux/sys.h	/^extern int sys_setgid();$/;"	p
+sys_setgid	kernel/sys.c	/^int sys_setgid(int gid)$/;"	f
+sys_setpgid	include/linux/sys.h	/^extern int sys_setpgid();$/;"	p
+sys_setpgid	kernel/sys.c	/^int sys_setpgid(int pid, int pgid)$/;"	f
+sys_setsid	include/linux/sys.h	/^extern int sys_setsid();$/;"	p
+sys_setsid	kernel/sys.c	/^int sys_setsid(void)$/;"	f
+sys_setuid	include/linux/sys.h	/^extern int sys_setuid();$/;"	p
+sys_setuid	kernel/sys.c	/^int sys_setuid(int uid)$/;"	f
+sys_setup	include/linux/sys.h	/^extern int sys_setup();$/;"	p
+sys_setup	kernel/hd.c	/^int sys_setup(void)$/;"	f
+sys_signal	include/linux/sys.h	/^extern int sys_signal();$/;"	p
+sys_signal	kernel/sched.c	/^int sys_signal(long signal,long addr,long restorer)$/;"	f
+sys_stat	fs/stat.c	/^int sys_stat(char * filename, struct stat * statbuf)$/;"	f
+sys_stat	include/linux/sys.h	/^extern int sys_stat();$/;"	p
+sys_stime	include/linux/sys.h	/^extern int sys_stime();$/;"	p
+sys_stime	kernel/sys.c	/^int sys_stime(long * tptr)$/;"	f
+sys_stty	include/linux/sys.h	/^extern int sys_stty();$/;"	p
+sys_stty	kernel/sys.c	/^int sys_stty()$/;"	f
+sys_sync	fs/buffer.c	/^int sys_sync(void)$/;"	f
+sys_sync	include/linux/sys.h	/^extern int sys_sync();$/;"	p
+sys_time	include/linux/sys.h	/^extern int sys_time();$/;"	p
+sys_time	kernel/sys.c	/^int sys_time(long * tloc)$/;"	f
+sys_times	include/linux/sys.h	/^extern int sys_times();$/;"	p
+sys_times	kernel/sys.c	/^int sys_times(struct tms * tbuf)$/;"	f
+sys_ulimit	include/linux/sys.h	/^extern int sys_ulimit();$/;"	p
+sys_ulimit	kernel/sys.c	/^int sys_ulimit()$/;"	f
+sys_umask	include/linux/sys.h	/^extern int sys_umask();$/;"	p
+sys_umask	kernel/sys.c	/^int sys_umask(int mask)$/;"	f
+sys_umount	include/linux/sys.h	/^extern int sys_umount();$/;"	p
+sys_umount	kernel/sys.c	/^int sys_umount()$/;"	f
+sys_uname	include/linux/sys.h	/^extern int sys_uname();$/;"	p
+sys_uname	kernel/sys.c	/^int sys_uname(struct utsname * name)$/;"	f
+sys_unlink	fs/namei.c	/^int sys_unlink(const char * name)$/;"	f
+sys_unlink	include/linux/sys.h	/^extern int sys_unlink();$/;"	p
+sys_ustat	include/linux/sys.h	/^extern int sys_ustat();$/;"	p
+sys_ustat	kernel/sys.c	/^int sys_ustat(int dev,struct ustat * ubuf)$/;"	f
+sys_utime	fs/open.c	/^int sys_utime(char * filename, struct utimbuf * times)$/;"	f
+sys_utime	include/linux/sys.h	/^extern int sys_utime();$/;"	p
+sys_waitpid	include/linux/sys.h	/^extern int sys_waitpid();$/;"	p
+sys_waitpid	kernel/exit.c	/^int sys_waitpid(pid_t pid,int * stat_addr, int options)$/;"	f
+sys_write	fs/read_write.c	/^int sys_write(unsigned int fd,char * buf,int count)$/;"	f
+sys_write	include/linux/sys.h	/^extern int sys_write();$/;"	p
+sysname	include/sys/utsname.h	/^	char sysname[9];$/;"	m	struct:utsname
+system_call	kernel/sched.c	/^extern int system_call(void);$/;"	p	file:
+table_list	kernel/tty_io.c	/^struct tty_queue * table_list[]={$/;"	v	typeref:struct:tty_queue
+tail	include/linux/tty.h	/^	unsigned long tail;$/;"	m	struct:tty_queue
+tail	kernel/keyboard.s	/^tail = 8$/;"	d
+tail	kernel/rs_io.s	/^tail = 8$/;"	d
+task	kernel/sched.c	/^	struct task_struct task;$/;"	m	union:task_union	typeref:struct:task_union::task_struct	file:
+task	kernel/sched.c	/^struct task_struct * task[NR_TASKS] = {&(init_task.task), };$/;"	v	typeref:struct:task_struct
+task_struct	include/linux/sched.h	/^struct task_struct {$/;"	s
+task_union	kernel/sched.c	/^union task_union {$/;"	u	file:
+tcdrain	include/termios.h	/^extern int tcdrain(int fildes);$/;"	p
+tcflow	include/termios.h	/^extern int tcflow(int fildes, int action);$/;"	p
+tcflush	include/termios.h	/^extern int tcflush(int fildes, int queue_selector);$/;"	p
+tcgetattr	include/termios.h	/^extern int tcgetattr(int fildes, struct termios *termios_p);$/;"	p
+tcsendbreak	include/termios.h	/^extern int tcsendbreak(int fildes, int duration);$/;"	p
+tcsetattr	include/termios.h	/^extern int tcsetattr(int fildes, int optional_actions,$/;"	p
+termio	include/termios.h	/^struct termio {$/;"	s
+termios	include/linux/tty.h	/^	struct termios termios;$/;"	m	struct:tty_struct	typeref:struct:tty_struct::termios
+termios	include/termios.h	/^struct termios {$/;"	s
+this_request	kernel/hd.c	/^static struct hd_request * this_request = NULL;$/;"	v	typeref:struct:hd_request	file:
+time	include/time.h	/^time_t time(time_t * tp);$/;"	p
+time	include/unistd.h	/^time_t time(time_t * tloc);$/;"	p
+time_init	init/main.c	/^static void time_init(void)$/;"	f	file:
+time_t	include/sys/types.h	/^typedef long time_t;$/;"	t
+time_t	include/time.h	/^typedef long time_t;$/;"	t
+timer_interrupt	kernel/sched.c	/^extern int timer_interrupt(void);$/;"	p	file:
+times	include/sys/times.h	/^extern time_t times(struct tms * tp);$/;"	p
+times	include/unistd.h	/^time_t times(struct tms * tbuf);$/;"	p
+tm	include/time.h	/^struct tm {$/;"	s
+tm_hour	include/time.h	/^	int tm_hour;$/;"	m	struct:tm
+tm_isdst	include/time.h	/^	int tm_isdst;$/;"	m	struct:tm
+tm_mday	include/time.h	/^	int tm_mday;$/;"	m	struct:tm
+tm_min	include/time.h	/^	int tm_min;$/;"	m	struct:tm
+tm_mon	include/time.h	/^	int tm_mon;$/;"	m	struct:tm
+tm_sec	include/time.h	/^	int tm_sec;$/;"	m	struct:tm
+tm_wday	include/time.h	/^	int tm_wday;$/;"	m	struct:tm
+tm_yday	include/time.h	/^	int tm_yday;$/;"	m	struct:tm
+tm_year	include/time.h	/^	int tm_year;$/;"	m	struct:tm
+tms	include/sys/times.h	/^struct tms {$/;"	s
+tms_cstime	include/sys/times.h	/^	time_t tms_cstime;$/;"	m	struct:tms
+tms_cutime	include/sys/times.h	/^	time_t tms_cutime;$/;"	m	struct:tms
+tms_stime	include/sys/times.h	/^	time_t tms_stime;$/;"	m	struct:tms
+tms_utime	include/sys/times.h	/^	time_t tms_utime;$/;"	m	struct:tms
+toascii	include/ctype.h	29;"	d
+tolower	include/ctype.h	31;"	d
+top	kernel/console.c	/^static unsigned long top=0,bottom=LINES;$/;"	v	file:
+toupper	include/ctype.h	32;"	d
+trace_bitmap	include/linux/sched.h	/^	long	trace_bitmap;	\/* bits: trace 0, bitmap 16-31 *\/$/;"	m	struct:tss_struct
+track	boot/boot.s	/^track:	.word 0			| current track$/;"	l
+trap_init	include/linux/sched.h	/^extern void trap_init(void);$/;"	p
+trap_init	kernel/traps.c	/^void trap_init(void)$/;"	f
+truncate	fs/truncate.c	/^void truncate(struct m_inode * inode)$/;"	f
+truncate	include/linux/fs.h	/^extern void truncate(struct m_inode * inode);$/;"	p
+tss	include/linux/sched.h	/^	struct tss_struct tss;$/;"	m	struct:task_struct	typeref:struct:task_struct::tss_struct
+tss_struct	include/linux/sched.h	/^struct tss_struct {$/;"	s
+tty	include/linux/sched.h	/^	int tty;		\/* -1 if no tty, so it must be signed *\/$/;"	m	struct:task_struct
+tty_init	include/linux/tty.h	/^void tty_init(void);$/;"	p
+tty_init	kernel/tty_io.c	/^void tty_init(void)$/;"	f
+tty_intr	kernel/tty_io.c	/^void tty_intr(struct tty_struct * tty, int signal)$/;"	f
+tty_ioctl	fs/ioctl.c	/^extern int tty_ioctl(int dev, int cmd, int arg);$/;"	p	file:
+tty_ioctl	fs/tty_ioctl.c	/^int tty_ioctl(int dev, int cmd, int arg)$/;"	f
+tty_queue	include/linux/tty.h	/^struct tty_queue {$/;"	s
+tty_read	fs/char_dev.c	/^extern int tty_read(unsigned minor,char * buf,int count);$/;"	p	file:
+tty_read	include/linux/tty.h	/^int tty_read(unsigned c, char * buf, int n);$/;"	p
+tty_read	kernel/tty_io.c	/^int tty_read(unsigned channel, char * buf, int nr)$/;"	f
+tty_struct	include/linux/tty.h	/^struct tty_struct {$/;"	s
+tty_table	kernel/tty_io.c	/^struct tty_struct tty_table[] = {$/;"	v	typeref:struct:tty_struct
+tty_write	fs/char_dev.c	/^extern int tty_write(unsigned minor,char * buf,int count);$/;"	p	file:
+tty_write	include/linux/kernel.h	/^int tty_write(unsigned ch,char * buf,int count);$/;"	p
+tty_write	include/linux/sched.h	/^extern int tty_write(unsigned minor,char * buf,int count);$/;"	p
+tty_write	include/linux/tty.h	/^int tty_write(unsigned c, char * buf, int n);$/;"	p
+tty_write	kernel/tty_io.c	/^int tty_write(unsigned channel, char * buf, int nr)$/;"	f
+twd	include/linux/sched.h	/^	long	twd;$/;"	m	struct:i387_struct
+tzset	include/time.h	/^void tzset(void);$/;"	p
+u_char	include/sys/types.h	/^typedef unsigned char u_char;$/;"	t
+uid	include/linux/sched.h	/^	unsigned short uid,euid,suid;$/;"	m	struct:task_struct
+uid_t	include/sys/types.h	/^typedef unsigned short uid_t;$/;"	t
+ulimit	include/unistd.h	/^int ulimit(int cmd, long limit);$/;"	p
+umask	include/linux/sched.h	/^	unsigned short umask;$/;"	m	struct:task_struct
+umask	include/sys/stat.h	/^extern mode_t umask(mode_t mask);$/;"	p
+umask	include/unistd.h	/^mode_t umask(mode_t mask);$/;"	p
+umode_t	include/sys/types.h	/^typedef unsigned short umode_t;$/;"	t
+umount	include/unistd.h	/^int umount(const char * specialfile);$/;"	p
+un_wp_page	mm/memory.c	/^void un_wp_page(unsigned long * table_entry)$/;"	f
+unalt	kernel/keyboard.s	/^unalt:	movb $0x10,%al$/;"	l
+uname	include/sys/utsname.h	/^extern int uname(struct utsname * utsbuf);$/;"	p
+uname	include/unistd.h	/^int uname(struct utsname * name);$/;"	p
+uncaps	kernel/keyboard.s	/^uncaps:	andb $0x7f,mode$/;"	l
+unctrl	kernel/keyboard.s	/^unctrl:	movb $0x04,%al$/;"	l
+unexpected_hd_interrupt	kernel/hd.c	/^void unexpected_hd_interrupt(void)$/;"	f
+unlink	include/unistd.h	/^int unlink(const char * filename);$/;"	p
+unlock_buffer	kernel/hd.c	/^static inline void unlock_buffer(struct buffer_head * bh)$/;"	f	file:
+unlock_inode	fs/inode.c	/^static inline void unlock_inode(struct m_inode * inode)$/;"	f	file:
+unlshift	kernel/keyboard.s	/^unlshift:$/;"	l
+unrshift	kernel/keyboard.s	/^unrshift:$/;"	l
+usage	tools/build.c	/^void usage(void)$/;"	f
+used_math	include/linux/sched.h	/^	unsigned short used_math;$/;"	m	struct:task_struct
+user_stack	kernel/sched.c	/^long user_stack [ PAGE_SIZE>>2 ] ;$/;"	v
+ushort	include/sys/types.h	/^typedef unsigned short ushort;$/;"	t
+ustat	include/sys/types.h	/^struct ustat {$/;"	s
+ustat	include/unistd.h	/^int ustat(dev_t dev, struct ustat * ubuf);$/;"	p
+utimbuf	include/utime.h	/^struct utimbuf {$/;"	s
+utime	include/linux/sched.h	/^	long utime,stime,cutime,cstime,start_time;$/;"	m	struct:task_struct
+utime	include/unistd.h	/^int utime(const char * filename, struct utimbuf * times);$/;"	p
+utime	include/utime.h	/^extern int utime(const char *filename, struct utimbuf *times);$/;"	p
+utsname	include/sys/utsname.h	/^struct utsname {$/;"	s
+va_arg	include/stdarg.h	24;"	d
+va_end	include/stdarg.h	/^void va_end (va_list);		\/* Defined in gnulib *\/$/;"	p
+va_end	include/stdarg.h	22;"	d
+va_list	include/stdarg.h	/^typedef char *va_list;$/;"	t
+va_start	include/stdarg.h	13;"	d
+va_start	include/stdarg.h	16;"	d
+verify_area	include/linux/kernel.h	/^void verify_area(void * addr,int count);$/;"	p
+verify_area	kernel/fork.c	/^void verify_area(void * addr,int size)$/;"	f
+version	include/sys/utsname.h	/^	char version[9];$/;"	m	struct:utsname
+vsprintf	init/main.c	/^extern int vsprintf();$/;"	p	file:
+vsprintf	kernel/vsprintf.c	/^int vsprintf(char *buf, const char *fmt, va_list args)$/;"	f
+wait	include/sys/wait.h	/^pid_t wait(int *stat_loc);$/;"	p
+wait	include/unistd.h	/^pid_t wait(int * wait_stat);$/;"	p
+wait	lib/wait.c	/^pid_t wait(int * wait_stat)$/;"	f
+wait_for_request	kernel/hd.c	/^static struct task_struct * wait_for_request=NULL;$/;"	v	typeref:struct:task_struct	file:
+wait_on	include/linux/fs.h	/^extern void wait_on(struct m_inode * inode);$/;"	p
+wait_on_buffer	fs/buffer.c	/^static inline void wait_on_buffer(struct buffer_head * bh)$/;"	f	file:
+wait_on_buffer	kernel/hd.c	/^static inline void wait_on_buffer(struct buffer_head * bh)$/;"	f	file:
+wait_on_inode	fs/inode.c	/^static inline void wait_on_inode(struct m_inode * inode)$/;"	f	file:
+wait_until_sent	fs/tty_ioctl.c	/^static void wait_until_sent(struct tty_struct * tty)$/;"	f	file:
+waitpid	include/sys/wait.h	/^pid_t waitpid(pid_t pid, int *stat_loc, int options);$/;"	p
+waitpid	include/unistd.h	/^pid_t waitpid(pid_t pid,int * wait_stat,int options);$/;"	p
+wake_up	kernel/sched.c	/^void wake_up(struct task_struct **p)$/;"	f
+win_result	kernel/hd.c	/^static int win_result(void)$/;"	f	file:
+winsize	include/termios.h	/^struct winsize {$/;"	s
+wpcom	kernel/hd.c	/^	int head,sect,cyl,wpcom,lzone,ctl;$/;"	m	struct:hd_i_struct	file:
+write	include/linux/tty.h	/^	void (*write)(struct tty_struct * tty);$/;"	m	struct:tty_struct
+write	include/unistd.h	/^int write(int fildes, const char * buf, off_t count);$/;"	p
+write_buffer_empty	kernel/rs_io.s	/^write_buffer_empty:$/;"	l
+write_char	kernel/rs_io.s	/^write_char:$/;"	l
+write_inode	fs/inode.c	/^static void write_inode(struct m_inode * inode)$/;"	f	file:
+write_inode	fs/inode.c	/^static void write_inode(struct m_inode * inode);$/;"	p	file:
+write_intr	kernel/hd.c	/^static void write_intr(void)$/;"	f	file:
+write_pipe	fs/pipe.c	/^int write_pipe(struct m_inode * inode, char * buf, int count)$/;"	f
+write_pipe	fs/read_write.c	/^extern int write_pipe(struct m_inode * inode, char * buf, int count);$/;"	p	file:
+write_q	include/linux/tty.h	/^	struct tty_queue write_q;$/;"	m	struct:tty_struct	typeref:struct:tty_struct::tty_queue
+write_verify	kernel/fork.c	/^extern void write_verify(unsigned long address);$/;"	p	file:
+write_verify	mm/memory.c	/^void write_verify(unsigned long address)$/;"	f
+ws_col	include/termios.h	/^	unsigned short ws_col;$/;"	m	struct:winsize
+ws_row	include/termios.h	/^	unsigned short ws_row;$/;"	m	struct:winsize
+ws_xpixel	include/termios.h	/^	unsigned short ws_xpixel;$/;"	m	struct:winsize
+ws_ypixel	include/termios.h	/^	unsigned short ws_ypixel;$/;"	m	struct:winsize
+x	kernel/console.c	/^static unsigned long x,y;$/;"	v	file:
+y	kernel/console.c	/^static unsigned long x,y;$/;"	v	file:

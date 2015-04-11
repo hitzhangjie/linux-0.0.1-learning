@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BCD_TO_BIN	main.c	101;"	d	file:
+CMOS_READ	main.c	96;"	d	file:
+__LIBRARY__	main.c	1;"	d	file:
+args	main.c	/^	va_list args;$/;"	l
+argv	main.c	/^static char * argv[] = { "-",NULL };$/;"	v	file:
+envp	main.c	/^static char * envp[] = { "HOME=\/usr\/root", NULL };$/;"	v	file:
+hd_init	main.c	/^extern void hd_init(void);$/;"	p	file:
+i	main.c	/^	int i,j;$/;"	l
+i	main.c	/^	int i;$/;"	l
+init	main.c	/^extern void init(void);$/;"	p	file:
+init	main.c	/^void init(void)$/;"	f
+j	main.c	/^	int i,j;$/;"	l
+kernel_mktime	main.c	/^extern long kernel_mktime(struct tm * tm);$/;"	p	file:
+main	main.c	/^void main(void)		\/* This really IS void, no error here. *\/$/;"	f
+printbuf	main.c	/^static char printbuf[1024];$/;"	v	file:
+printf	main.c	/^static int printf(const char *fmt, ...)$/;"	f	file:
+time	main.c	/^	struct tm time;$/;"	l
+time_init	main.c	/^static void time_init(void)$/;"	f	file:
+vsprintf	main.c	/^extern int vsprintf();$/;"	p	file:
