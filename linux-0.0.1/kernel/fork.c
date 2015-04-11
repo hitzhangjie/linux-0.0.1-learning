@@ -4,6 +4,13 @@
  * Fork is rather simple, once you get the hang of it, but the memory
  * management can be a bitch. See 'mm/mm.c': 'copy_page_tables()'
  */
+
+/**
+ * hit.zhangjie@gmail.com 
+ * 2015-04-12 02:08:37 AM
+ * 
+ * memory management can be a bitch ? hahahah!!!
+ */
 #include <errno.h>
 
 #include <linux/sched.h>
