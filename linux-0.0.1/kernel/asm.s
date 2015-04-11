@@ -5,6 +5,17 @@
  * the fpu must be properly saved/resored. This hasn't been tested.
  */
 
+/**
+ * hit.zhangjie@gmail.com 
+ * 2015-04-12 12:56:10 AM
+ * 
+ * in this file, most hardware faults are defined, for example, .globl xxx,
+ * then in the following part, the associated fault routines are defined.
+ * 
+ * these fault routines will be explained later when we encounter relevant
+ * cases. 
+ */
+
 .globl _divide_error,_debug,_nmi,_int3,_overflow,_bounds,_invalid_op
 .globl _device_not_available,_double_fault,_coprocessor_segment_overrun
 .globl _invalid_TSS,_segment_not_present,_stack_segment

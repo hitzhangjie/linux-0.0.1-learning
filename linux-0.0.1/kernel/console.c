@@ -20,10 +20,31 @@
 #include <asm/io.h>
 #include <asm/system.h>
 
+/**
+ * hit.zhangjie@gmail.com 
+ * 2015-04-12 01:11:58 AM
+ * 
+ * define terminal video mem address space, writing data to this range, the
+ * data will be immediately displayed on the screen. of course, the terminal
+ * mode will be set properly, for example, the terminal should has 25 lines\80
+ * columns, etc.
+ */
 #define SCREEN_START 0xb8000
 #define SCREEN_END   0xc0000
+/**
+ * hit.zhangjie@gmail.com 
+ * 2015-04-12 01:10:55 AM
+ * 
+ * terminal's lines' quantity and columns' quantity is defined here.
+ */
 #define LINES 25
 #define COLUMNS 80
+/**
+ * hit.zhangjie@gmail.com 
+ * 2015-04-12 01:11:43 AM
+ * 
+ * what does NPAR mean? fixme.
+ */
 #define NPAR 16
 
 extern void keyboard_interrupt(void);
@@ -51,19 +72,34 @@ static inline void gotoxy(unsigned int new_x,unsigned int new_y)
 		return;
 	x=new_x;
 	y=new_y;
+	/**
+	 * hit.zhangjie@gmail.com 
+	 * 2015-04-12 01:33:31 AM
+	 * 
+	 * value of (y*columns+x) is the offset to ${origin}.
+	 * (y*columns+x)<<1, why <<1? because 2 bytes is needed to print one
+	 * character, one is the ascii character, one is the printing attribute.
+	 * so <<1 is appended.
+	 */
 	pos=origin+((y*columns+x)<<1);
 }
 
 static inline void set_origin(void)
 {
-	cli();
+	cli();    /* clear interrupt flag, it means disable interrupt */
 	outb_p(12,0x3d4);
 	outb_p(0xff&((origin-SCREEN_START)>>9),0x3d5);
 	outb_p(13,0x3d4);
 	outb_p(0xff&((origin-SCREEN_START)>>1),0x3d5);
-	sti();
+	sti();    /* set interrupt flag, it means enable interrupt */
 }
 
+/**
+ * hit.zhangjie@gmail.com 
+ * 2015-04-12 01:47:50 AM
+ * 
+ * some other functions' definition that'll be explained later.
+ */
 static void scrup(void)
 {
 	if (!top && bottom==lines) {
