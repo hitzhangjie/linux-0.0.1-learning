@@ -28,8 +28,21 @@ void release(struct task_struct * p)
 
 static inline void send_sig(long sig,struct task_struct * p,int priv)
 {
+	/**
+	 * hit.zhangjie@gmail.com 
+	 * 2015-04-12 02:03:27 AM
+	 * 
+	 * from here, we know, signal numbers are [1,32]
+	 */
 	if (!p || sig<1 || sig>32)
 		return;
+	/**
+	 * hit.zhangjie@gmail.com 
+	 * 2015-04-12 02:05:10 AM
+	 * 
+	 * process A can send signals to process B when A\B has the same uid\euid,
+	 * euid means effective uid.
+	 */
 	if (priv ||
 		current->uid==p->uid ||
 		current->euid==p->uid ||
@@ -38,6 +51,12 @@ static inline void send_sig(long sig,struct task_struct * p,int priv)
 		p->signal |= (1<<(sig-1));
 }
 
+/**
+ * hit.zhangjie@gmail.com 
+ * 2015-04-12 02:07:18 AM
+ * 
+ * next, read from here.
+ */
 void do_kill(long pid,long sig,int priv)
 {
 	struct task_struct **p = NR_TASKS + task;

@@ -120,7 +120,21 @@ void schedule(void)
 
 int sys_pause(void)
 {
+	/**
+	 * hit.zhangjie@gmail.com 
+	 * 2015-04-12 01:56:24 AM
+	 * 
+	 * TASK_INTERRUPTIBLE, means when process is running, it can be
+	 * interrupted, while TASK_UNINTERRUPTIBLE means process can't be
+	 * interrupted.
+	 */
 	current->state = TASK_INTERRUPTIBLE;
+	/**
+	 * hit.zhangjie@gmail.com 
+	 * 2015-04-12 01:57:49 AM
+	 * 
+	 * schedule next interruptible running process.
+	 */
 	schedule();
 	return 0;
 }
