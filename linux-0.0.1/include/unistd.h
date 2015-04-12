@@ -58,6 +58,28 @@
 
 #ifdef __LIBRARY__
 
+/**
+ * hit.zhangjie@gmail.com 
+ * 2015-04-12 09:19:32 PM
+ * 
+ * are the following macro to define the system call numbers ?
+ * yes!!! exactly!
+ *
+ * here, i want to list 3 interrupt types:
+ * 1) hard interrupt, external devices send interrupt signal to cpu, it's a
+ *    hardware interrupt.
+ * 2) soft interrupt, userspace program request kernel operation by invoking
+ *    system call API. in these system call API, the code first put the system
+ *    call number into %eax, then it exec 'int 0x80' to exec the proper
+ *    interrupt procedure. after process, the interrupt procedure put the
+ *    result into the %eax and return to the API, then the API return the
+ *    [%eax] as return value.
+ *    here, this type interrupt is known as the software interrupt, too.
+ * 3) signal, signal can be treated as a special soft interrupt that is sent
+ *    from kernel to specific process.
+ *
+ * ok, now we can browse the system call number list, now.
+ */
 #define __NR_setup	0	/* used only by init, to get system going */
 #define __NR_exit	1
 #define __NR_fork	2
@@ -156,6 +178,12 @@ errno = -__res; \
 return -1; \
 }
 
+/**
+ * hit.zhangjie@gmail.com 
+ * 2015-04-12 09:08:01 PM
+ * 
+ * if you understand _syscall0, then you understand _syscall1 easily.
+ */
 #define _syscall1(type,name,atype,a) \
 type name(atype a) \
 { \

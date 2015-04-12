@@ -267,7 +267,7 @@ L_ECHOK	kernel/tty_io.c	25;"	d	file:
 L_ECHOKE	kernel/tty_io.c	27;"	d	file:
 L_ISIG	kernel/tty_io.c	22;"	d	file:
 MAJOR	include/linux/fs.h	31;"	d
-MAP_NR	mm/memory.c	22;"	d	file:
+MAP_NR	mm/memory.c	23;"	d	file:
 MARK_ERR	include/linux/hdreg.h	79;"	d
 MAX	fs/file_dev.c	9;"	d	file:
 MAX_ARG_PAGES	fs/exec.c	19;"	d	file:
@@ -373,7 +373,7 @@ PAGE_SIZE	include/a.out.h	88;"	d
 PAGE_SIZE	include/a.out.h	92;"	d
 PAGE_SIZE	include/linux/mm.h	4;"	d
 PAGING_MEMORY	mm/memory.c	20;"	d	file:
-PAGING_PAGES	mm/memory.c	21;"	d	file:
+PAGING_PAGES	mm/memory.c	22;"	d	file:
 PARMRK	include/termios.h	119;"	d
 PENDIN	include/termios.h	231;"	d
 PIPE_EMPTY	include/linux/fs.h	107;"	d
@@ -893,7 +893,7 @@ controller_ready	kernel/hd.c	/^static int controller_ready(void)$/;"	f	file:
 coprocessor_error	kernel/traps.c	/^void coprocessor_error(void);$/;"	p	file:
 coprocessor_segment_overrun	kernel/traps.c	/^void coprocessor_segment_overrun(void);$/;"	p	file:
 copy_mem	kernel/fork.c	/^int copy_mem(int nr,struct task_struct * p)$/;"	f
-copy_page	mm/memory.c	28;"	d	file:
+copy_page	mm/memory.c	37;"	d	file:
 copy_page_tables	include/linux/sched.h	/^extern int copy_page_tables(unsigned long from, unsigned long to, long size);$/;"	p
 copy_page_tables	mm/memory.c	/^int copy_page_tables(unsigned long from,unsigned long to,long size)$/;"	f
 copy_process	kernel/fork.c	/^int copy_process(int nr,long ebp,long edi,long esi,long gs,long none,$/;"	f
