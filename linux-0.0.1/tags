@@ -63,7 +63,7 @@ CIBAUD	include/termios.h	207;"	d
 CLOCAL	include/termios.h	206;"	d
 CLOCKS_PER_SEC	include/time.h	14;"	d
 CMOS_READ	init/main.c	96;"	d	file:
-COLUMNS	kernel/console.c	26;"	d	file:
+COLUMNS	kernel/console.c	41;"	d	file:
 CPARENB	include/termios.h	203;"	d
 CPARODD	include/termios.h	204;"	d
 CPP	Makefile	/^CPP	=gcc -E -nostdinc -Iinclude$/;"	m
@@ -171,7 +171,7 @@ F_SETLK	include/fcntl.h	29;"	d
 F_SETLKW	include/fcntl.h	30;"	d
 F_UNLCK	include/fcntl.h	40;"	d
 F_WRLCK	include/fcntl.h	39;"	d
-GCC_HEADER	tools/build.c	8;"	d	file:
+GCC_HEADER	tools/build.c	36;"	d	file:
 GDT_CODE	include/linux/head.h	134;"	d
 GDT_DATA	include/linux/head.h	135;"	d
 GDT_NUL	include/linux/head.h	133;"	d
@@ -214,7 +214,7 @@ INLCR	include/termios.h	122;"	d
 INODES_PER_BLOCK	include/linux/fs.h	51;"	d
 INPCK	include/termios.h	120;"	d
 INTR_CHAR	include/linux/tty.h	107;"	d
-IN_ORDER	kernel/hd.c	52;"	d	file:
+IN_ORDER	kernel/hd.c	65;"	d	file:
 ISIG	include/termios.h	218;"	d
 ISTRIP	include/termios.h	121;"	d
 IS_BLOCKDEV	include/linux/fs.h	24;"	d
@@ -255,7 +255,7 @@ LDT_NUL	include/linux/head.h	138;"	d
 LEFT	include/linux/tty.h	97;"	d
 LEFT	kernel/vsprintf.c	32;"	d	file:
 LIBS	Makefile	/^LIBS	=lib\/lib.a$/;"	m
-LINES	kernel/console.c	25;"	d	file:
+LINES	kernel/console.c	40;"	d	file:
 LINUS_HD	include/linux/config.h	5;"	d
 LOW_MEM	mm/memory.c	14;"	d	file:
 LOW_MEM	mm/memory.c	16;"	d	file:
@@ -271,13 +271,13 @@ MAP_NR	mm/memory.c	22;"	d	file:
 MARK_ERR	include/linux/hdreg.h	79;"	d
 MAX	fs/file_dev.c	9;"	d	file:
 MAX_ARG_PAGES	fs/exec.c	19;"	d	file:
-MAX_ERRORS	kernel/hd.c	20;"	d	file:
-MAX_HD	kernel/hd.c	21;"	d	file:
+MAX_ERRORS	kernel/hd.c	33;"	d	file:
+MAX_HD	kernel/hd.c	34;"	d	file:
 MAY_EXEC	fs/namei.c	19;"	d	file:
 MAY_READ	fs/namei.c	21;"	d	file:
 MAY_WRITE	fs/namei.c	20;"	d	file:
 MIN	fs/file_dev.c	8;"	d	file:
-MINIX_HEADER	tools/build.c	7;"	d	file:
+MINIX_HEADER	tools/build.c	28;"	d	file:
 MINOR	include/linux/fs.h	32;"	d
 MINUTE	kernel/mktime.c	14;"	d	file:
 NAME_LEN	include/linux/fs.h	34;"	d
@@ -288,7 +288,7 @@ NL1	include/termios.h	149;"	d
 NLDLY	include/termios.h	147;"	d
 NMAGIC	include/a.out.h	25;"	d
 NOFLSH	include/termios.h	225;"	d
-NPAR	kernel/console.c	27;"	d	file:
+NPAR	kernel/console.c	48;"	d	file:
 NRDEVS	fs/char_dev.c	14;"	d	file:
 NRDEVS	fs/ioctl.c	11;"	d	file:
 NR_BLK_DEV	fs/block_dev.c	7;"	d	file:
@@ -296,10 +296,10 @@ NR_BUFFERS	fs/buffer.c	/^int NR_BUFFERS = 0;$/;"	v
 NR_BUFFERS	include/linux/fs.h	45;"	d
 NR_FILE	include/linux/fs.h	42;"	d
 NR_HASH	include/linux/fs.h	44;"	d
-NR_HD	kernel/hd.c	33;"	d	file:
+NR_HD	kernel/hd.c	46;"	d	file:
 NR_INODE	include/linux/fs.h	41;"	d
 NR_OPEN	include/linux/fs.h	40;"	d
-NR_REQUEST	kernel/hd.c	22;"	d	file:
+NR_REQUEST	kernel/hd.c	35;"	d	file:
 NR_SUPER	include/linux/fs.h	43;"	d
 NR_TASKS	include/linux/sched.h	4;"	d
 NSIG	include/signal.h	10;"	d
@@ -385,13 +385,13 @@ PLUS	kernel/vsprintf.c	30;"	d	file:
 PUTCH	include/linux/tty.h	103;"	d
 READ	include/linux/fs.h	26;"	d
 READY_STAT	include/linux/hdreg.h	64;"	d
-RESPONSE	kernel/console.c	46;"	d	file:
+RESPONSE	kernel/console.c	67;"	d	file:
 ROOT_DEV	include/linux/config.h	29;"	d
 ROOT_DEV	include/linux/config.h	31;"	d
 R_OK	include/unistd.h	26;"	d
 SA_NOCLDSTOP	include/signal.h	37;"	d
-SCREEN_END	kernel/console.c	24;"	d	file:
-SCREEN_START	kernel/console.c	23;"	d	file:
+SCREEN_END	kernel/console.c	33;"	d	file:
+SCREEN_START	kernel/console.c	32;"	d	file:
 SEEK_CUR	include/unistd.h	30;"	d
 SEEK_END	include/unistd.h	31;"	d
 SEEK_SET	include/unistd.h	29;"	d
@@ -770,9 +770,9 @@ _reserved	kernel/asm.s	/^_reserved:$/;"	l
 _rs1_interrupt	kernel/rs_io.s	/^_rs1_interrupt:$/;"	l
 _rs2_interrupt	kernel/rs_io.s	/^_rs2_interrupt:$/;"	l
 _segment_not_present	kernel/asm.s	/^_segment_not_present:$/;"	l
-_set_gate	include/asm/system.h	22;"	d
-_set_seg_desc	include/asm/system.h	42;"	d
-_set_tssldt_desc	include/asm/system.h	52;"	d
+_set_gate	include/asm/system.h	29;"	d
+_set_seg_desc	include/asm/system.h	49;"	d
+_set_tssldt_desc	include/asm/system.h	59;"	d
 _stack_segment	kernel/asm.s	/^_stack_segment:$/;"	l
 _sys_execve	kernel/system_call.s	/^_sys_execve:$/;"	l
 _sys_fork	kernel/system_call.s	/^_sys_fork:$/;"	l
@@ -878,7 +878,7 @@ chown	include/unistd.h	/^int chown(const char * filename, uid_t owner, gid_t gro
 chroot	include/unistd.h	/^int chroot(const char * filename);$/;"	p
 clear_bit	fs/bitmap.c	18;"	d	file:
 clear_block	fs/bitmap.c	7;"	d	file:
-cli	include/asm/system.h	17;"	d
+cli	include/asm/system.h	24;"	d
 clock	include/time.h	/^clock_t clock(void);$/;"	p
 clock_t	include/time.h	/^typedef long clock_t;$/;"	t
 close	include/unistd.h	/^int close(int fildes);$/;"	p
@@ -1199,7 +1199,7 @@ ioctl_ptr	fs/ioctl.c	/^typedef int (*ioctl_ptr)(int dev,int cmd,int arg);$/;"	t	
 ioctl_table	fs/ioctl.c	/^static ioctl_ptr ioctl_table[]={$/;"	v	file:
 iput	fs/inode.c	/^void iput(struct m_inode * inode)$/;"	f
 iput	include/linux/fs.h	/^extern void iput(struct m_inode * inode);$/;"	p
-iret	include/asm/system.h	20;"	d
+iret	include/asm/system.h	27;"	d
 is_digit	kernel/vsprintf.c	10;"	d	file:
 isalnum	include/ctype.h	16;"	d
 isalpha	include/ctype.h	17;"	d
@@ -1302,7 +1302,7 @@ nmi	kernel/traps.c	/^void nmi(void);$/;"	p	file:
 no_error_code	kernel/asm.s	/^no_error_code:$/;"	l
 nodename	include/sys/utsname.h	/^	char nodename[9];$/;"	m	struct:utsname
 none	kernel/keyboard.s	/^none:	ret$/;"	l
-nop	include/asm/system.h	18;"	d
+nop	include/asm/system.h	25;"	d
 npar	kernel/console.c	/^static unsigned long npar,par[NPAR];$/;"	v	file:
 nr_sects	include/linux/hdreg.h	/^	unsigned int nr_sects;		\/* nr of sectors in partition *\/$/;"	m	struct:partition
 nr_sects	kernel/hd.c	/^	long nr_sects;$/;"	m	struct:hd_struct	file:
@@ -1346,8 +1346,8 @@ pid	include/linux/sched.h	/^	long pid,father,pgrp,session,leader;$/;"	m	struct:t
 pid_t	include/sys/types.h	/^typedef int pid_t;$/;"	t
 pipe	include/unistd.h	/^int pipe(int * fildes);$/;"	p
 pop	boot/boot.s	/^	pop dx$/;"	d
-port_read	kernel/hd.c	68;"	d	file:
-port_write	kernel/hd.c	71;"	d	file:
+port_read	kernel/hd.c	81;"	d	file:
+port_write	kernel/hd.c	84;"	d	file:
 pos	kernel/console.c	/^static unsigned long pos;$/;"	v	file:
 printbuf	init/main.c	/^static char printbuf[1024];$/;"	v	file:
 printf	include/linux/kernel.h	/^int printf(const char * fmt, ...);$/;"	p
@@ -1479,15 +1479,15 @@ set_bit	fs/super.c	9;"	d	file:
 set_cursor	kernel/console.c	/^static inline void set_cursor(void)$/;"	f	file:
 set_e0	kernel/keyboard.s	/^set_e0:	movb $1,e0$/;"	l
 set_e1	kernel/keyboard.s	/^set_e1:	movb $2,e0$/;"	l
-set_intr_gate	include/asm/system.h	33;"	d
-set_ldt_desc	include/asm/system.h	66;"	d
+set_intr_gate	include/asm/system.h	40;"	d
+set_ldt_desc	include/asm/system.h	73;"	d
 set_leds	kernel/keyboard.s	/^set_leds:$/;"	l
 set_origin	kernel/console.c	/^static inline void set_origin(void)$/;"	f	file:
-set_system_gate	include/asm/system.h	39;"	d
+set_system_gate	include/asm/system.h	46;"	d
 set_termio	fs/tty_ioctl.c	/^static int set_termio(struct tty_struct * tty, struct termio * termio)$/;"	f	file:
 set_termios	fs/tty_ioctl.c	/^static int set_termios(struct tty_struct * tty, struct termios * termios)$/;"	f	file:
-set_trap_gate	include/asm/system.h	36;"	d
-set_tss_desc	include/asm/system.h	65;"	d
+set_trap_gate	include/asm/system.h	43;"	d
+set_tss_desc	include/asm/system.h	72;"	d
 setgid	include/unistd.h	/^int setgid(gid_t gid);$/;"	p
 setpgid	include/unistd.h	/^int setpgid(pid_t pid,pid_t pgid);$/;"	p
 setpgrp	include/unistd.h	/^int setpgrp(void);$/;"	p
@@ -1564,7 +1564,7 @@ stat	include/unistd.h	/^int stat(const char * filename, struct stat * stat_buf);
 state	include/linux/sched.h	/^	long state;				\/* -1 unrunnable, 0 runnable, >0 stopped *\/$/;"	m	struct:task_struct
 state	kernel/console.c	/^static unsigned long state=0;$/;"	v	file:
 state	kernel/system_call.s	/^state	= 0		# these are offsets into the task-struct.$/;"	d
-sti	include/asm/system.h	16;"	d
+sti	include/asm/system.h	23;"	d
 stime	include/linux/sched.h	/^	long utime,stime,cutime,cstime,start_time;$/;"	m	struct:task_struct
 stime	include/unistd.h	/^int stime(time_t * tptr);$/;"	p
 stopped	include/linux/tty.h	/^	int stopped;$/;"	m	struct:tty_struct

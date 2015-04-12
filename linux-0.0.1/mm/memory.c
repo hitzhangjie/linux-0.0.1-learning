@@ -18,16 +18,31 @@ __asm__("movl %%eax,%%cr3"::"a" (0))
 
 /* these are not to be changed - thay are calculated from the above */
 #define PAGING_MEMORY (HIGH_MEMORY - LOW_MEM)
+/* 4k page */
 #define PAGING_PAGES (PAGING_MEMORY/4096)
 #define MAP_NR(addr) (((addr)-LOW_MEM)>>12)
 
+/* at least 10 pages, or it won't work */
 #if (PAGING_PAGES < 10)
 #error "Won't work"
 #endif
 
+/**
+ * hit.zhangjie@gmail.com
+ * 2015-04-12 04:54:20 PM
+ *
+ * repeat 1024 times, copy long string from %esi to %edi, i.e, copy 4k bytes
+ * from ${from} to ${to} 
+ */
 #define copy_page(from,to) \
 __asm__("cld ; rep ; movsl"::"S" (from),"D" (to),"c" (1024):"cx","di","si")
 
+/**
+ * hit.zhangjie@gmail.com 
+ * 2015-04-12 07:57:08 PM
+ * 
+ * each element in mem_map, takes 2 bytes.
+ */
 static unsigned short mem_map [ PAGING_PAGES ] = {0,};
 
 /*
@@ -38,15 +53,67 @@ unsigned long get_free_page(void)
 {
 register unsigned long __res asm("ax");
 
+/**
+ * hit.zhangjie@gmail.com 
+ * 2015-04-12 07:46:33 PM
+ * 
+ * std, set direction flag.
+ * repne, repeat while not equal.
+ * scasw, scan word string.
+ *
+ * scasw, is a string operation instruction, it does as following:
+ * calculate %ax-[%es:%edi], if result is zero, then repne will not continue.
+ * if not, then scasw will according the direction flag's value to determine
+ * decrement or increment the %edi, here we used std to set the direction
+ * flag, so %edi's value was decremented. then continue searching from the
+ * last element to the first element, until we found one element whose
+ * value(short data type) was zero.
+ * this element indicates one physical page that is free.
+ */
 __asm__("std ; repne ; scasw\n\t"
+	/**
+	 * if we scan all, but still can't find one element whose value is 0, then
+	 * we know there's no free physical pages left. just quit.
+	 */
 	"jne 1f\n\t"
-	"movw $1,2(%%edi)\n\t"
+	/**
+	 * now we find one free physical page, process it.
+	 */
+	/**
+	 * %edi contains value of element of mem_map, here we traverse the mem_map
+	 * from the last element to the first element... so, you may notice that,
+	 * torvards said, actually the first free physical page we got was the
+	 * last one.
+	 * to set value to 1 is to mark the page as used. remember that.
+	 */
+	"movw $1,2(%%edi)\n\t"  /* */
+	/**
+	 * sall, shift arithmetic left, to get the last page's base address,
+	 * because every page has 4k bytes, so shift arithmetic left 12 bits.
+	 */ 
 	"sall $12,%%ecx\n\t"
+	/**
+	 * now store the base address of last page to %edx
+	 */
 	"movl %%ecx,%%edx\n\t"
+	/**
+	 * add LOW_MEM whose value is 0x100000 to %edx, torvards wanted to use
+	 * this this added LOW_MEM to transform a virtual address to a physical
+	 * address.
+	 */
 	"addl %2,%%edx\n\t"
 	"movl $1024,%%ecx\n\t"
+	/**
+	 * lea, to load effective address
+	 */
 	"leal 4092(%%edx),%%edi\n\t"
+	/**
+	 * store double word string
+	 */
 	"rep ; stosl\n\t"
+	/**
+	 * move the free physical page' base address we just get to %eax
+	 */
 	"movl %%edx,%%eax\n"
 	"1:"
 	:"=a" (__res)
@@ -62,15 +129,37 @@ return __res;
  */
 void free_page(unsigned long addr)
 {
+	/**
+	 * valid page's physical address is [LOW_MEM, HIGH_MEMORY]
+	 */
 	if (addr<LOW_MEM) return;
 	if (addr>HIGH_MEMORY)
 		panic("trying to free nonexistent page");
+	/**
+	 * yes, linus torvards use ${virtual address}+${LOW_MEM} to transform to a
+	 * valid physical address.
+	 * here, we should first minus the LOW_MEM now.
+	 */
 	addr -= LOW_MEM;
+	/**
+	 * here, we shift right 12 bits to get the page's number, actually, this
+	 * page's number is the index in array mem_map.
+	 */
 	addr >>= 12;
+	/**
+	 * if physical page's reference count is not zero, then decrement by 1 and
+	 * return. after this, this physical page is freed.
+	 */
 	if (mem_map[addr]--) return;
+	/**
+	 * double free current physical page. it's not illegal. so set the
+	 * reference count from -1 to 0, and panic.
+	 */
 	mem_map[addr]=0;
 	panic("trying to free free page");
 }
+
+// continue reading the source from here ... 2015-04-12 08:57:57 PM
 
 /*
  * This function frees a continuos block of page tables, as needed

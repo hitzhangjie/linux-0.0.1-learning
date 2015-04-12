@@ -175,6 +175,13 @@ int sys_close(unsigned int fd)
 
 	if (fd >= NR_OPEN)
 		return -EINVAL;
+	/**
+	 * hit.zhangjie@gmail.com 
+	 * 2015-04-12 02:00:42 AM
+	 * 
+	 * set close_on_exec flag for fd, when current process or its child
+	 * process exits, fd relevant opened file will be closed automatically.
+	 */
 	current->close_on_exec &= ~(1<<fd);
 	if (!(filp = current->filp[fd]))
 		return -EINVAL;

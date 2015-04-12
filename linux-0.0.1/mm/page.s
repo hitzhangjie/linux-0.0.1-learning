@@ -15,6 +15,7 @@ _page_fault:
 	movl $0x10,%edx
 	mov %dx,%ds
 	mov %dx,%es
+	; %fs register pointing to current active thread's TEB struct info
 	mov %dx,%fs
 	movl %cr2,%edx
 	pushl %edx
